@@ -1,0 +1,122 @@
+<!-- (Helpful) Shopify Cheat Sheet = https://www.shopify.com/uk/partners/shopify-cheat-sheet -->
+<link rel="stylesheet" href="{{ 'product-sections.css' | asset_url }}">
+<!-- Global -->
+<h3>
+  How to display: Page Title
+</h3>
+{{ page_title }}
+<h3>
+  How to display: Page Description
+</h3>
+{{ page_description }}
+<h3>
+  How to display: All Products and use a handle[]
+</h3>
+<!-- Will contain a list of all products in your store, anymore than 20 products, should be in a collection instead -->
+<!-- Square bracets for the handles, in this scenario, you have selected the products - Luxury Watch handle -->
+{{ all_products['luxury-watch'].title }}
+
+<!-- Returns the URL of the page -->
+<h3>
+  How to return URL of that current page (Canonical)
+</h3>
+{{ canonical_url }}
+
+<!-- 'Collections' is plural, so in order to use this, it would need to be in a loop -->
+<!-- 'Collection' is a single object, therefore in the loop, you are asking for the object within the full collection -->
+  <h3>
+Using: Collections in a for loop
+</h3>
+<!-- for loop -->
+  {% for collection in collections %}
+  {{ collection.title }}
+  ,  ID:
+{{ collection.id }}
+
+{% endfor %}
+
+<!-- Product objects-->
+  <h3>
+Output:Product Related
+</h3>
+{{ product.available }}
+<br>
+<!-- Compare at price min is aimed for the lowest cost of a variant, and compare at price max is the highest cost -->
+  <h3>
+compare at price
+</h3>
+{{ product.compare_at_price_min }}
+
+<!-- Variant(s) are a nested object -->
+<!-- To access the variants, it will more than likely have to be in a loop -->
+  <h3>
+Output: Variants (usually within product)
+</h3>
+<!-- Example -->
+<!-- asking for variant.title within the loop, will generate all titles, so best to put in a list -->
+  <ul>
+    {% for variant in product.variants %}
+      <li>
+    {{ variant.title }}
+  </li>
+{% endfor %}
+</ul>
+  <h3>
+Outputting Product Images
+</h3>
+  <div class="image-container"> {% for image in product.images %}
+    <div class="product-image">
+      <img id="product-image-main" src="{{ product.images[0] | product_img_url: 'medium' }}">
+      <img id="product-image-hover" src="{{ product.images[1] | product_img_url: 'medium' }}">
+    </div>
+  {% endfor %}
+</div>
+
+<!-- Adding to cart -->
+<!-- This output will obtain the domain name, plus adding the cart information required -->
+<h3>How to add to cart using a href</h3>
+<!-- Because you are not looping, you would call product then variant -->
+
+<a href="https://{{ shop.domain }}/cart/add?id={{ product.selected_or_first_available_variant.id }}">
+  <button>
+    Add
+  </button>
+</a>
+
+<h3>How to add to cart using a form</h3>
+
+
+<form action="/cart/add?id={{ product.selected_or_first_available_variant.id }}" method="POST">
+  <fieldset>
+    <legend>Adding to cart form</legend>
+    <input
+      type="hidden"
+      name="id"
+      value="luxury-watch">
+    <input type="submit" value="Add to cart">
+  </fieldset>
+</form>
+
+
+
+<!-- Presets needed to have Products appear in the customiser -->
+<!-- Schemas are used to create sections -->
+
+{% schema %}
+  {
+    "name": "New Products",
+    "settings": [
+      {
+        "type": "text",
+        "id": "product-sections",
+        "label": "New Products"
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Products",
+        "category": "New-Products"
+      }
+    ]
+  }
+{% endschema %}

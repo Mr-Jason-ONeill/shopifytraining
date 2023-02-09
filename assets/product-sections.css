@@ -1,0 +1,41 @@
+
+  .image-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  #product-image-main {
+    display: block;
+    cursor: pointer;
+  }
+
+  #product-image-hover {
+    display: none;
+    cursor: pointer;
+  }
+
+  .product-image:hover #product-image-main {
+    display: none;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+  }
+
+  .product-image:hover #product-image-hover {
+    display: block;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+  }
+
+  #MainContent {
+    padding-left: 20%;
+  }
+
+  button, input {
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+  }

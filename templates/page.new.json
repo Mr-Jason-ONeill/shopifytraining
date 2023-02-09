@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "product-sections": {
+      "type": "product-sections",
+      "settings": {
+        
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-sections"
+  ]
+}
