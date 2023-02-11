@@ -102,18 +102,34 @@ Outputting Product Images
   <fieldset>
     <legend>Adding to cart using form inputs</legend>
     <input
-      type="hidden"
+    type="hidden"
       name="id"
       value="{{ product.id }}">
+    <!-- select to create a drop down list, option for the different options, put in a for loop -->
+    <label for="variant">Variant:</label>
+    <select id="variant" name="id">
+      {% for variant in product.variants %}
+        <option value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money }}</option>
+      {% endfor %}
+    </select>
+    <br>
+
+    <!-- Create a gift note section -->
+    <label>Gift note:</label>
+    <textarea name="note" placeholder="Write your message here"></textarea>
+    <br>
+
     <label for="quantity">Quantity:</label>
     <input
       type="number"
       id="quantity"
       name="quantity"
       value="1">
+
     <input type="submit" value="Add to Cart">
-  </fieldset>
-</form>
+  </form>
+
+</fieldset>
 
 
 
