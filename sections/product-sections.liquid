@@ -83,7 +83,7 @@ Outputting Product Images
   </button>
 </a>
 
-<h3>How to add to cart using a form</h3>
+<h3>(Don't do it this way) How to add to cart using a form</h3>
 
 
 <form action="/cart/add?id={{ product.selected_or_first_available_variant.id }}" method="POST">
@@ -94,6 +94,24 @@ Outputting Product Images
       name="id"
       value="luxury-watch">
     <input type="submit" value="Add to cart">
+  </fieldset>
+</form>
+
+<h3>(Do it this way) How to add to cart using a form</h3>
+<form action="/cart/add" method="POST">
+  <fieldset>
+    <legend>Adding to cart using form inputs</legend>
+    <input
+      type="hidden"
+      name="id"
+      value="{{ product.id }}">
+    <label for="quantity">Quantity:</label>
+    <input
+      type="number"
+      id="quantity"
+      name="quantity"
+      value="1">
+    <input type="submit" value="Add to Cart">
   </fieldset>
 </form>
 
