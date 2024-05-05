@@ -1,3 +1,20 @@
 [
-
+  {
+    "name": "shopifytraining",
+    "theme_name": "amazonStyle",
+    "theme_version": "1.0.1",
+    "theme_author": "Jason",
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
+  },
+  {
+    "name": "header",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo for Header"
+      }
+    ]
+  }
 ]
