@@ -9,6 +9,7 @@
     "hero-carousel": {
       "type": "hero-carousel",
       "settings": {
+        "hero": "shopify:\/\/shop_images\/gaming.jpg"
       }
     }
   },
