@@ -5,9 +5,15 @@
       "settings": {
         "header": "shopify:\/\/shop_images\/amazon-logo-white.png"
       }
+    },
+    "hero-carousel": {
+      "type": "hero-carousel",
+      "settings": {
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "hero-carousel"
   ]
 }
