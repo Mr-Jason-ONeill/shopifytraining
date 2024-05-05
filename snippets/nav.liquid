@@ -14,7 +14,7 @@
 
 <!-- For Navigation Links -->
 <ul class="main-nav">
-  {% for link in linklists.main-menu.links -%}
+  {% for link in linklists['main-menu'].links -%}
     <li class="nav-link">{{ link.title | upcase | link_to: link.url }}</li>
   {%- endfor %}
 </ul>
