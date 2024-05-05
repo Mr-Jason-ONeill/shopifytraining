@@ -1,5 +1,19 @@
+{% style %}
+  .main-nav {
+    gap: 2rem;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+{% endstyle %}
+
 <!-- For Navigation Links -->
-<ul class="mb-0 text-center">
+<ul class="main-nav">
   {% for link in linklists.main-menu.links -%}
     <li class="nav-link">{{ link.title | upcase | link_to: link.url }}</li>
   {%- endfor %}

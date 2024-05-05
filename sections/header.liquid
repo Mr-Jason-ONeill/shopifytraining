@@ -11,8 +11,7 @@
         <input
           class="amazon-search-bar"
           type="text"
-          placeholder="Search"
-        >
+          placeholder="Search">
 
         <button class="search-button">
           {% render 'icon-search' %}
@@ -20,35 +19,28 @@
       </div>
 
       <div class="amazon-header-right">
-        <a class="orders-link header-link" href="#">
-          <span class="returns-text">Returns</span>
-          <span class="orders-text">& Orders</span>
-        </a>
-
-        <a class="cart-link" href="#">
-          {% render 'icon-cart' %}
-          <div class="cart-quantity">0</div>
-        </a>
+        {% render 'icon-cart' %}
+        <button class="login-button">Sign In</button>
       </div>
     </div>
   </div>
 </div>
 
 {% schema %}
-{
-  "name": "header",
-  "presets": [
-    {
-      "name": "header"
-    }
-  ],
-  "settings": [
-    {
-      "type": "image_picker",
-      "label": "Logo for the Header",
-      "id": "header"
-    }
+  {
+    "name": "header",
+    "presets": [
+      {
+        "name": "header"
+      }
+    ],
+    "settings": [
+      {
+        "type": "image_picker",
+        "label": "Logo for the Header",
+        "id": "header"
+      }
 
-  ]
-}
+    ]
+  }
 {% endschema %}

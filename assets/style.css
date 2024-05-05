@@ -1,13 +1,10 @@
 :root {
   --primary-color: #fff;
-  --secondary-color: #161616;
+  --secondary-color: #131921;
   --extra-color: #ff5b02;
 }
 
 * {
     margin: 0;
-}
-
-* {
-  margin: 0;
+    box-sizing: border-box; 
 }
