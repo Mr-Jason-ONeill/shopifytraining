@@ -1,18 +1,18 @@
 .amazon-header-container {
-    width: 100%;
+  width: 100%;
 }
 
 .amazon-header-wrapper {
-    width: 100%;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .amazon-header {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
