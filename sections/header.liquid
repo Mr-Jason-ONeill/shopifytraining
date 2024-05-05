@@ -1,3 +1,4 @@
+<header>
 <div class="amazon-header-container">
   <div class="amazon-header-wrapper">
     <div class="amazon-header">
@@ -11,7 +12,8 @@
         <input
           class="amazon-search-bar"
           type="text"
-          placeholder="Search">
+          placeholder="Search"
+        >
 
         <button class="search-button">
           {% render 'icon-search' %}
@@ -26,21 +28,34 @@
   </div>
 </div>
 
-{% schema %}
-  {
-    "name": "header",
-    "presets": [
-      {
-        "name": "header"
-      }
-    ],
-    "settings": [
-      {
-        "type": "image_picker",
-        "label": "Logo for the Header",
-        "id": "header"
-      }
+<div class="main-nav-container">
+  <div class="main-nav-wrapper">
+    <!-- For Navigation Links -->
+    <ul class="main-nav">
+      {% for link in linklists['main-menu'].links -%}
+        <li class="nav-link">{{ link.title | link_to: link.url }}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</div>
 
-    ]
-  }
+</header>
+
+{% schema %}
+{
+  "name": "header",
+  "presets": [
+    {
+      "name": "header"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Logo for the Header",
+      "id": "header"
+    }
+
+  ]
+}
 {% endschema %}
