@@ -1,3 +1,7 @@
+header {
+  display: flex;
+}
+
 .amazon-header-container {
   width: 100%;
 }
