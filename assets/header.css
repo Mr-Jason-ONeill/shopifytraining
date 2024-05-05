@@ -1,5 +1,6 @@
 header {
   display: flex;
+  flex-direction: column;
 }
 
 .amazon-header-container {
