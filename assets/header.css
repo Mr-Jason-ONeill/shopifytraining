@@ -1,0 +1,10 @@
+.amazon-header-container {
+    width: 100%;
+}
+
+.amazon-header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
