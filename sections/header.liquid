@@ -1,59 +1,54 @@
-{% section %}
-  <div class="amazon-header-container">
-    <div class="amazon-header-wrapper">
-
-      <div class="amazon-header">
-        <div class="amazon-header-left">
-          <a href="#" class="header-link">
-            {{ section.settings.header | image_url: width: 300 | image_tag }}
-          </a>
-        </div>
-
-        <div class="amazon-header-middle">
-          <input
-            class="search-bar"
-            type="text"
-            placeholder="Search">
-
-          <button class="search-button">
-            {% render 'icon-search' %}
-          </button>
-        </div>
-
-        <div class="amazon-header-right">
-          <a class="orders-link header-link" href="#">
-            <span class="returns-text">Returns</span>
-            <span class="orders-text">& Orders</span>
-          </a>
-
-          <a class="cart-link" href="#">
-            {% render 'icon-cart' %}
-            <div class="cart-quantity">0</div>
-          </a>
-        </div>
+<div class="amazon-header-container">
+  <div class="amazon-header-wrapper">
+    <div class="amazon-header">
+      <div class="amazon-header-left">
+        <a href="#" class="header-link">
+          {{ section.settings.header | image_url: width: 300 | image_tag }}
+        </a>
       </div>
 
+      <div class="amazon-header-middle">
+        <input
+          class="amazon-search-bar"
+          type="text"
+          placeholder="Search"
+        >
 
+        <button class="search-button">
+          {% render 'icon-search' %}
+        </button>
+      </div>
+
+      <div class="amazon-header-right">
+        <a class="orders-link header-link" href="#">
+          <span class="returns-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+
+        <a class="cart-link" href="#">
+          {% render 'icon-cart' %}
+          <div class="cart-quantity">0</div>
+        </a>
+      </div>
     </div>
   </div>
-
-{% endsection %}
+</div>
 
 {% schema %}
-  {
-    "name": "header",
-    "presets": [
-      {
-        "name": "header"
-      }
-    ],
-    "settings": [
-      {
-        "type": "image_picker",
-        "label": "Logo for the Header",
-        "id": "header"
-      }
+{
+  "name": "header",
+  "presets": [
+    {
+      "name": "header"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Logo for the Header",
+      "id": "header"
+    }
 
-    ]
-  }
+  ]
+}
 {% endschema %}

@@ -8,7 +8,7 @@
     {{ 'header.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
-    <h1>Hello World!</h1>
     {{ content_for_layout }}
+    {%  render 'nav' %}
   </body>
 </html>
