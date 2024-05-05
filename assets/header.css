@@ -53,6 +53,20 @@
   padding: 1rem;
 }
 
+.main-nav {
+  gap: 2rem;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--nav-color);
+  color: var(--secondary-color);
+}
+
 /* Media Queries */
 @media screen and (min-width: 20px) and (max-width: 768px) {
   .amazon-search-bar {
