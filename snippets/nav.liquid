@@ -9,12 +9,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    background-color: var(--nav-color);
+    color: var(--secondary-color);
   }
 {% endstyle %}
 
 <!-- For Navigation Links -->
 <ul class="main-nav">
   {% for link in linklists['main-menu'].links -%}
-    <li class="nav-link">{{ link.title | upcase | link_to: link.url }}</li>
+    <li class="nav-link">{{ link.title | link_to: link.url }}</li>
   {%- endfor %}
 </ul>
