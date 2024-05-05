@@ -38,9 +38,10 @@
 }
 
 .search-button {
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 10px;
   background-color: var(--extra-color);
+  transform: translateX(-20px);
 }
 
 /* Media Queries */
