@@ -4,15 +4,57 @@
 
 .amazon-header-wrapper {
     width: 100%;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .amazon-header {
+    position: relative;
+    padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
     align-items: center;
+}
+
+.amazon-header-left {
+    padding-left: 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.amazon-header-middle {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.amazon-header-right {
+    padding-right: 2rem;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.amazon-search-bar {
+    padding: 1rem 20rem 1rem 1rem;
+}
+
+.search-button {
+    padding: 1.5rem 2rem;
 }
