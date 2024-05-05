@@ -19,13 +19,13 @@
 .amazon-header-left,
 .amazon-header-middle,
 .amazon-header-right {
+  display: flex;
   flex-grow: 1;
   text-align: center;
   margin: 0.5rem;
 }
 
 .amazon-header-right {
-  display: flex;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
