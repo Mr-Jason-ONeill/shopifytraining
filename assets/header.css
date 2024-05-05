@@ -6,59 +6,39 @@
   width: 100%;
   background-color: var(--secondary-color);
   color: var(--primary-color);
+  padding: 1rem;
 }
 
 .amazon-header {
-  position: relative;
-  padding: 2rem;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  align-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 
-.amazon-header-left {
-  padding-left: 2rem;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.amazon-header-middle {
-  width: 100%;
-  display: flex;
-  position: absolute;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
+.amazon-header-left,
+.amazon-header-middle,
 .amazon-header-right {
-  padding-right: 5rem;
-  right: 0;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  flex-grow: 1;
+  text-align: center;
+  margin: 0.5rem;
 }
 
 .amazon-search-bar {
-  padding: 1rem 20rem 1rem 1rem;
+  width: calc(100% - 100px);
+  padding: 1rem;
   border-radius: 10px;
 }
 
 .search-button {
-  padding: 1.5rem 2rem;
+  padding: 1rem;
   border-radius: 10px;
-  transform: translateX(-20px);
   background-color: var(--extra-color);
+}
+
+/* Media Queries */
+@media screen and (min-width: 20px) and (max-width: 768px) {
+  .amazon-search-bar {
+    width: calc(100% - 50px);
+  }
 }
