@@ -39,10 +39,18 @@
 
 .search-button,
 .login-button {
-  padding: 1.5rem;
   border-radius: 10px;
   background-color: var(--extra-color);
   transform: translateX(-20px);
+  border: none;
+}
+
+.search-button {
+  padding: 1rem 2.5rem;
+}
+
+.login-button {
+  padding: 1rem;
 }
 
 /* Media Queries */
