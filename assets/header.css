@@ -24,6 +24,13 @@
   margin: 0.5rem;
 }
 
+.amazon-header-right {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
 .amazon-search-bar {
   width: calc(100% - 100px);
   padding: 1rem;
