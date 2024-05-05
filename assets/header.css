@@ -37,7 +37,8 @@
   border-radius: 10px;
 }
 
-.search-button {
+.search-button,
+.login-button {
   padding: 1.5rem;
   border-radius: 10px;
   background-color: var(--extra-color);
