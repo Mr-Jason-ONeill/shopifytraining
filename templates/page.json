@@ -13,10 +13,17 @@
         "hero2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
         "hero3": "shopify:\/\/shop_images\/Barbados1.jpg"
       }
+    },
+    "products_grid_ddhpze": {
+      "type": "products-grid",
+      "settings": {
+        "product-grid": "Product Grid"
+      }
     }
   },
   "order": [
     "header",
-    "hero-carousel"
+    "hero-carousel",
+    "products_grid_ddhpze"
   ]
 }
