@@ -1,3 +1,28 @@
-<div class="main">
-  <div class="products-grid js-products-grid"></div>
+<div class="product-grid-container">
+  <div class="product-grid-wrapper">
+    <div class="main">
+      <div class="products-grid js-products-grid"></div>
+    </div>
+  </div>
 </div>
+
+
+{% schema %}
+  {
+  "name": "product-grid",
+  "presets": [
+    {
+      "name": "product-grid"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Title for Grid",
+      "id": "product-grid"
+    }
+
+  ]
+}
+
+{% endschema %}
