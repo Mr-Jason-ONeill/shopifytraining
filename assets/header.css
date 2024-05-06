@@ -15,10 +15,12 @@ header {
 }
 
 .amazon-header {
+  height: 50px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  align-content: center;
 }
 
 .amazon-header-left,
