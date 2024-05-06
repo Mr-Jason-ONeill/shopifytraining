@@ -53,7 +53,7 @@ header {
 
 .search-button {
   padding: 1rem 2.5rem;
-  transform: translateX(-20px);
+  transform: translate(-50%);
 }
 
 .login-button {
