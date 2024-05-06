@@ -1,33 +1,29 @@
 <div class="hero-carousel-container">
-  <div class="hero-carousel-wrapper">
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-           <div class="hero-carousel" style="background-image: url('{{ section.settings.hero | image_url: width: 800 }}')"></div>
-        </div>
-        <div class="swiper-slide">
-          <div class="hero-carousel" style="background-image: url('{{ section.settings.hero2 | image_url: width: 800 }}')"></div>
-        </div>
-        <div class="swiper-slide">
-          <div class="hero-carousel" style="background-image: url('{{ section.settings.hero3 | image_url: width: 800 }}')"></div>
-        </div>
-        ...
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="background-image" style="background-image: url('{{ section.settings.hero | image_url: width: 800 }}')"></div>
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
+      <div class="swiper-slide">
+        <div class="background-image" style="background-image: url('{{ section.settings.hero2 | image_url: width: 800 }}')"></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="background-image" style="background-image: url('{{ section.settings.hero3 | image_url: width: 800 }}')"></div>
+      </div>
+      <!-- Other slides -->
     </div>
-
-    <!-- End of Carousel Wrapper & Container -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
   </div>
 </div>
+
+
 
 {% schema %}
 {
