@@ -48,12 +48,12 @@ header {
 .login-button {
   border-radius: 10px;
   background-color: var(--extra-color);
-  transform: translateX(-20px);
   border: none;
 }
 
 .search-button {
   padding: 1rem 2.5rem;
+  transform: translateX(-20px);
 }
 
 .login-button {
