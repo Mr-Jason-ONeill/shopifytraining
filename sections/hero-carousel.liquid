@@ -4,19 +4,13 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide">
-          <div class="hero-carousel">
-            {{ section.settings.hero | image_url: width: 800 | image_tag }}
-          </div>
+           <div class="hero-carousel" style="background-image: url('{{ section.settings.hero | image_url: width: 800 }}')"></div>
         </div>
         <div class="swiper-slide">
-          <div class="hero-carousel">
-            {{ section.settings.hero2 | image_url: width: 800 | image_tag }}
-          </div>
+          <div class="hero-carousel" style="background-image: url('{{ section.settings.hero2 | image_url: width: 800 }}')"></div>
         </div>
         <div class="swiper-slide">
-          <div class="hero-carousel">
-            {{ section.settings.hero3 | image_url: width: 800 | image_tag }}
-          </div>
+          <div class="hero-carousel" style="background-image: url('{{ section.settings.hero3 | image_url: width: 800 }}')"></div>
         </div>
         ...
       </div>
