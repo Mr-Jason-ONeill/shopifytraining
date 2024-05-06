@@ -9,7 +9,9 @@
 }
 
 .hero-carousel {
-  width: 100%;
-  height: auto;
-  display: block;
+    width: 100vw;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
