@@ -1,17 +1,14 @@
 .hero-carousel-container,
 .hero-carousel-wrapper {
   width: 100%;
-  z-index: -1;
+  z-index: -1
 }
 
 .hero-carousel-wrapper {
   overflow: hidden;
 }
 
-.hero-carousel {
-    width: 100vw;
-    height: auto;
-    display: block;
-    margin: 0;
-    padding: 0;
+.hero-carousel img {
+  width: 100%;
+  height: auto;
 }
