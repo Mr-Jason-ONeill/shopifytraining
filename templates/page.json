@@ -9,7 +9,9 @@
     "hero-carousel": {
       "type": "hero-carousel",
       "settings": {
-        "hero": "shopify:\/\/shop_images\/gaming.jpg"
+        "hero": "shopify:\/\/shop_images\/gaming.jpg",
+        "hero2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
+        "hero3": "shopify:\/\/shop_images\/Barbados1.jpg"
       }
     }
   },
