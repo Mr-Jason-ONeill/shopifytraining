@@ -3,10 +3,11 @@
 }
 
 .product-grid-wrapper {
-  max-width: 800px;
+  width: 100%;
 }
 
 .products-grid {
+  max-width: 800px;
   display: flex;
   flex-direction: row;
   gap: 2rem;
