@@ -5,3 +5,9 @@
 .product-grid-wrapper {
   max-width: 800px;
 }
+
+.products-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
