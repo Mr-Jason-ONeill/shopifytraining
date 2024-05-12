@@ -17,7 +17,9 @@
     "products_grid_ddhpze": {
       "type": "products-grid",
       "settings": {
-        "product-grid": "Product Grid"
+        "product-grid1": "Grid Item 1",
+        "product-grid2": "Grid Item 2",
+        "product-grid3": "Grid Item 3"
       }
     }
   },
