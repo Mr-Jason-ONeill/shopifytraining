@@ -21,11 +21,21 @@
         "product-grid2": "Grid Item 2",
         "product-grid3": "Grid Item 3"
       }
+    },
+    "swiper_reiy4j": {
+      "type": "swiper",
+      "settings": {
+        "carousel": "shopify:\/\/shop_images\/gaming.jpg",
+        "carousel2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
+        "carousel3": "shopify:\/\/shop_images\/Barbados1.jpg",
+        "carousel4": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
+      }
     }
   },
   "order": [
     "header",
     "hero",
-    "products_grid_ddhpze"
+    "products_grid_ddhpze",
+    "swiper_reiy4j"
   ]
 }
