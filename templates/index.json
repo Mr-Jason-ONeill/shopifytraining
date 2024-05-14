@@ -6,8 +6,8 @@
         "header": "shopify:\/\/shop_images\/amazon-logo-white.png"
       }
     },
-    "hero-carousel": {
-      "type": "hero-carousel",
+    "hero": {
+      "type": "hero",
       "settings": {
         "hero": "shopify:\/\/shop_images\/gaming.jpg",
         "hero2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
@@ -25,7 +25,7 @@
   },
   "order": [
     "header",
-    "hero-carousel",
+    "hero",
     "products_grid_ddhpze"
   ]
 }
