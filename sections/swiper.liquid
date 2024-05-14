@@ -1,9 +1,17 @@
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">
+        <div class="background-image" style="background-image: url('{{ section.settings.carousel | image_url: width: 800 }}')"></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="background-image" style="background-image: url('{{ section.settings.carousel2 | image_url: width: 800 }}')"></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="background-image" style="background-image: url('{{ section.settings.carousel3 | image_url: width: 800 }}')"></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="background-image" style="background-image: url('{{ section.settings.carousel4 | image_url: width: 800 }}')"></div>
+      </div>
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
@@ -12,8 +20,31 @@
 
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "carousel",
+  "presets": [
+    {
+      "name": "carousel"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "carousel",
+      "label": "Image 1 for the main Carousel"
+    }, {
+      "type": "image_picker",
+      "id": "carousel2",
+      "label": "Image 2 for the main Carousel"
+    }, {
+      "type": "image_picker",
+      "id": "carousel3",
+      "label": "Image 3 for the main Carousel"
+    }, {
+      "type": "image_picker",
+      "id": "carousel4",
+      "label": "Image 4 for the main Carousel"
+    }
+  ]
+}
 {% endschema %}
