@@ -6,12 +6,13 @@
         "header": "shopify:\/\/shop_images\/amazon-logo-white.png"
       }
     },
-    "hero": {
-      "type": "hero",
+    "swiper_reiy4j": {
+      "type": "swiper",
       "settings": {
-        "hero": "shopify:\/\/shop_images\/gaming.jpg",
-        "hero2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-        "hero3": "shopify:\/\/shop_images\/Barbados1.jpg"
+        "carousel": "shopify:\/\/shop_images\/gaming.jpg",
+        "carousel2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
+        "carousel3": "shopify:\/\/shop_images\/Barbados1.jpg",
+        "carousel4": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
       }
     },
     "products_grid_ddhpze": {
@@ -21,21 +22,11 @@
         "product-grid2": "Grid Item 2",
         "product-grid3": "Grid Item 3"
       }
-    },
-    "swiper_reiy4j": {
-      "type": "swiper",
-      "settings": {
-        "carousel": "shopify:\/\/shop_images\/gaming.jpg",
-        "carousel2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-        "carousel3": "shopify:\/\/shop_images\/Barbados1.jpg",
-        "carousel4": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
-      }
     }
   },
   "order": [
     "header",
-    "hero",
-    "products_grid_ddhpze",
-    "swiper_reiy4j"
+    "swiper_reiy4j",
+    "products_grid_ddhpze"
   ]
 }
