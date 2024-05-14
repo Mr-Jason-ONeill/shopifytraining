@@ -22,11 +22,18 @@
         "product-grid2": "Grid Item 2",
         "product-grid3": "Grid Item 3"
       }
+    },
+    "hero_ptV4zF": {
+      "type": "hero",
+      "settings": {
+        "hero": "shopify:\/\/shop_images\/amazon-logo.png"
+      }
     }
   },
   "order": [
     "header",
     "swiper_reiy4j",
-    "products_grid_ddhpze"
+    "products_grid_ddhpze",
+    "hero_ptV4zF"
   ]
 }
