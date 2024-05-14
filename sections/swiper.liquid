@@ -1,16 +1,16 @@
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.carousel | image_url: width: 800 }}')"></div>
+        <div class="background-image" style="background-image: url('{{ section.settings.swiper | image_url: width: 800 }}')"></div>
       </div>
       <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.carousel2 | image_url: width: 800 }}')"></div>
+        <div class="background-image" style="background-image: url('{{ section.settings.swiper2 | image_url: width: 800 }}')"></div>
       </div>
       <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.carousel3 | image_url: width: 800 }}')"></div>
+        <div class="background-image" style="background-image: url('{{ section.settings.swiper3 | image_url: width: 800 }}')"></div>
       </div>
       <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.carousel4 | image_url: width: 800 }}')"></div>
+        <div class="background-image" style="background-image: url('{{ section.settings.swiper4 | image_url: width: 800 }}')"></div>
       </div>
     </div>
     <div class="swiper-button-next"></div>
@@ -21,28 +21,28 @@
 
 {% schema %}
 {
-  "name": "carousel",
+  "name": "swiper",
   "presets": [
     {
-      "name": "carousel"
+      "name": "swiper"
     }
   ],
   "settings": [
     {
       "type": "image_picker",
-      "id": "carousel",
+      "id": "swiper",
       "label": "Image 1 for the main Carousel"
     }, {
       "type": "image_picker",
-      "id": "carousel2",
+      "id": "swiper2",
       "label": "Image 2 for the main Carousel"
     }, {
       "type": "image_picker",
-      "id": "carousel3",
+      "id": "swiper3",
       "label": "Image 3 for the main Carousel"
     }, {
       "type": "image_picker",
-      "id": "carousel4",
+      "id": "swiper4",
       "label": "Image 4 for the main Carousel"
     }
   ]
