@@ -1,26 +1,11 @@
-<div class="hero-carousel-container">
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.hero | image_url: width: 800 }}')"></div>
+<div class="hero-container">
+  <div class="hero-wrapper">
+    <div class="hero-content">
+      <div class="hero-image"></div>
+
+
       </div>
-      <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.hero2 | image_url: width: 800 }}')"></div>
-      </div>
-      <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.hero3 | image_url: width: 800 }}')"></div>
-      </div>
-      <!-- Other slides -->
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
 </div>
 
 
@@ -37,15 +22,7 @@
     {
       "type": "image_picker",
       "id": "hero",
-      "label": "Image 1 for the main Carousel"
-    }, {
-      "type": "image_picker",
-      "id": "hero2",
-      "label": "Image 2 for the main Carousel"
-    }, {
-      "type": "image_picker",
-      "id": "hero3",
-      "label": "Image 3 for the main Carousel"
+      "label": "Image for Hero Section"
     }
   ]
 }
