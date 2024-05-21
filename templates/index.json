@@ -3,7 +3,6 @@
     "header": {
       "type": "header",
       "settings": {
-        "header": "shopify:\/\/shop_images\/amazon-logo-white.png"
       }
     },
     "swiper_reiy4j": {
@@ -28,12 +27,24 @@
       "settings": {
         "hero": "shopify:\/\/shop_images\/amazon-logo.png"
       }
+    },
+    "signin": {
+      "type": "signin",
+      "settings": {
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
+      }
     }
   },
   "order": [
     "header",
     "swiper_reiy4j",
     "products_grid_ddhpze",
-    "hero_ptV4zF"
+    "hero_ptV4zF",
+    "signin",
+    "footer"
   ]
 }
