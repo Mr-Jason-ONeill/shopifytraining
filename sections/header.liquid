@@ -4,8 +4,8 @@
       <div class="amazon-header">
         <div class="amazon-header-left">
           <a href="#" class="header-link">
-            <img src="assets\amazon-logo-white.png" alt="logo">
-            <!-- {{ section.settings.header | image_url: width: 100 | image_tag }} -->
+           <!-- <img src="assets\amazon-logo-white.png" alt="logo"> -->
+            {{ section.settings.headerLogo | image_url: width: 100 | image_tag }} 
           </a>
         </div>
 
@@ -65,8 +65,19 @@
 </header>
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "header",
+  "presets": [
+    {
+      "name": "header"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "headerLogo",
+      "label": "Logo for NavBar"
+    }
+  ]
+}
 {% endschema %}
