@@ -1,61 +1,65 @@
 <header>
-<div class="amazon-header-container">
-  <div class="amazon-header-wrapper">
-    <div class="amazon-header">
-      <div class="amazon-header-left">
-        <a href="#" class="header-link">
-          {{ section.settings.header | image_url: width: 100 | image_tag }}
-        </a>
-      </div>
+  <div class="amazon-header-container">
+    <div class="amazon-header-wrapper">
+      <div class="amazon-header">
+        <div class="amazon-header-left">
+          <a href="#" class="header-link">
+            <img src="assets\amazon-logo-white.png" alt="logo">
+            <!-- {{ section.settings.header | image_url: width: 100 | image_tag }} -->
+          </a>
+        </div>
 
-      <div class="amazon-header-middle">
-        <input
-          class="amazon-search-bar"
-          type="text"
-          placeholder="Search"
-        >
+        <div class="amazon-header-middle">
+          <input
+            class="amazon-search-bar"
+            type="text"
+            placeholder="Search">
 
-        <button class="search-button">
-          {% render 'icon-search' %}
-        </button>
-      </div>
+          <div class="search-button">
+            <!-- {% render 'icon-search' %} -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!-- !Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+              <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg>
+          </div>
+        </div>
 
-      <div class="amazon-header-right">
-        {% render 'icon-cart' %}
-        <button class="login-button">Sign In</button>
+        <div class="amazon-header-right">
+          <!-- {% render 'icon-cart' %} -->
+          <style>
+            .icon-cart {
+              fill: var(--primary-color);
+              width: 50px;
+              height: auto;
+            }
+          </style>
+
+          <svg
+            class="icon icon-cart"
+            aria-hidden="true"
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 40 40"
+            fill="none">
+            <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M20.5 6.5a4.75 4.75 0 00-4.75 4.75v.56h-3.16l-.77 11.6a5 5 0 004.99 5.34h7.38a5 5 0 004.99-5.33l-.77-11.6h-3.16v-.57A4.75 4.75 0 0020.5 6.5zm3.75 5.31v-.56a3.75 3.75 0 10-7.5 0v.56h7.5zm-7.5 1h7.5v.56a3.75 3.75 0 11-7.5 0v-.56zm-1 0v.56a4.75 4.75 0 109.5 0v-.56h2.22l.71 10.67a4 4 0 01-3.99 4.27h-7.38a4 4 0 01-4-4.27l.72-10.67h2.22z" />
+          </svg>
+          <button class="login-button">Sign In</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="main-nav-container">
-  <div class="main-nav-wrapper">
+  <div class="main-nav-container">
+    <div class="main-nav-wrapper">
     <!-- For Navigation Links -->
-    <ul class="main-nav">
-      {% for link in linklists['main-menu'].links -%}
-        <li class="nav-link">{{ link.title | link_to: link.url }}</li>
-      {%- endfor %}
-    </ul>
+    <!-- <ul class="main-nav">
+    {% for link in linklists['main-menu'].links -%}
+          <li class="nav-link">{{ link.title | link_to: link.url }}</li>
+        {%- endfor %}
+      </ul> -->
+    </div>
   </div>
-</div>
-
 </header>
-
-{% schema %}
-{
-  "name": "header",
-  "presets": [
-    {
-      "name": "header"
-    }
-  ],
-  "settings": [
-    {
-      "type": "image_picker",
-      "label": "Logo for the Header",
-      "id": "header"
-    }
-
-  ]
-}
-{% endschema %}
