@@ -26,7 +26,7 @@
 <div class="swiper mySwiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <img src="assets\gaming.jpg" alt="Gamer trying Stock Trading">
+      {{ section.settings.swiper | image_url: width: 1800 | image_tag }} 
     </div>
     <div class="swiper-slide">
       <img src="assets\a-bridge-sitting-in-thick-pink-and-purple-fog.jpg" alt="High Bridge">
