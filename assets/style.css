@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #fff;
-  --secondary-color: #131921;
-  --extra-color: #ff5b02;
-  --nav-color: #232f3e;
-}
-
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
+    --primary-color: #fff;
+    --secondary-color: #131921;
+    --extra-color: #ff5b02;
+    --nav-color: #232f3e;
+    --button-color: #ebeb28;
+  }
+  
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
