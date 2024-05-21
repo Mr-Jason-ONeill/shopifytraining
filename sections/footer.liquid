@@ -66,8 +66,19 @@
 </footer>
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "footer",
+  "presets": [
+    {
+      "name": "footer"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "footerLogo",
+      "label": "Logo For Footer Section"
+    }
+  ]
+}
 {% endschema %}
