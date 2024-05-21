@@ -3,6 +3,7 @@
     "header": {
       "type": "header",
       "settings": {
+        "headerLogo": "shopify:\/\/shop_images\/amazon-logo-white.png"
       }
     },
     "swiper_reiy4j": {
@@ -31,6 +32,7 @@
     "signin": {
       "type": "signin",
       "settings": {
+        "signIn": ""
       }
     },
     "footer": {
