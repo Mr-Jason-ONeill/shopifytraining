@@ -1,22 +1,68 @@
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="{{ section.settings.swiper | image_url: width: 800, height: 800 }}" alt="First Image in the Carousel">
-      </div>
-      <div class="swiper-slide">
-        <img src="{{ section.settings.swiper2 | image_url: width: 800, height: 800 }}" alt="Second Image in the Carousel">
-      </div>
-      <div class="swiper-slide">
-        <img src="{{ section.settings.swiper3 | image_url: width: 800, height: 800 }}" alt="Third Image in the Carousel">
-      </div>
-      <div class="swiper-slide">
-        <img src="{{ section.settings.swiper4 | image_url: width: 800, height: 800 }}" alt="Fourth Image in the Carousel">
-      </div>
+<!-- Swiper -->
+<style>
+  .swiper {
+    width: 100%;
+    height: 800px;
+    z-index: -2;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="assets\gaming.jpg" alt="Gamer trying Stock Trading">
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
+    <div class="swiper-slide">
+      <img src="assets\a-bridge-sitting-in-thick-pink-and-purple-fog.jpg" alt="High Bridge">
+    </div>
+    <div class="swiper-slide">
+      <img src="assets\person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg" alt="Fisherman">
+    </div>
+    <div class="swiper-slide">
+      <img src="assets\Barbados1.jpg" alt="Barbados">
+    </div>
   </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+<!-- End of Swiper -->
+
+<!-- Scripts -->
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    const swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      keyboard: true,
+    });
+</script>
+<script src="assets\swiper.js"></script>
 
 
 {% schema %}
