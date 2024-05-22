@@ -52,6 +52,6 @@
 @media screen and (min-width: 230px) and (max-width: 767px) {
   .links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 }
