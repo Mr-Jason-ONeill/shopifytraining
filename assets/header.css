@@ -91,5 +91,11 @@ header {
     .amazon-search-bar {
       width: calc(100% - 50px);
     }
+
+    .amazon-header-left,
+    .login-button {
+      visibility: collapse;
+    }
+    
   }
   
