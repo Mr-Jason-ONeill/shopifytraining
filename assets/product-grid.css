@@ -103,6 +103,10 @@
     flex: 1 1 50%;
     display: flex;
   }
+
+  .amazon-header-left {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
