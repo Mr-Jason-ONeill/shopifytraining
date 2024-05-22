@@ -88,6 +88,7 @@
 /* ---- Media Queries ---- */
 @media screen and (min-width: 230px) and (max-width: 767px) {
   .grid {
+    padding: 1rem;
     display: flex;
     flex-wrap: nowrap;
     padding-left: 2rem;
