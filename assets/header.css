@@ -66,6 +66,7 @@ header {
   }
   
   .main-nav {
+    padding: 1rem;
     gap: 2rem;
     display: flex;
     text-decoration: none;
@@ -80,6 +81,7 @@ header {
   }
 
 .nav-link {
+  text-decoration: none;
   color: var(--primary-color);
 }
   
