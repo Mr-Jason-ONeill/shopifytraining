@@ -1,22 +1,3 @@
-/* .product-grid-container {
-    width: 100%;
-}
-
-.grid {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        }
-        
-    .grid-slot { grid-area: 1 / 2 / 6 / 3; }
-    .grid-slot2 { grid-area: 1 / 4 / 6 / 5; }
-
-/* grid-area: 1 / 2 / 6 / 3;: This property sets the grid item's size and location within the grid container. The four values represent grid-row-start, grid-column-start, grid-row-end, and grid-column-end respectively. So, .grid-slot will start at the first row and the second column, and end at the sixth row and the third column. */
-
-/* grid-template-columns: repeat(5, 1fr);: This property defines the number and size of the columns in the grid. In this case, it creates 5 columns, each occupying an equal fraction of the available space within the container (1fr means one fraction unit). */
-
 
 /* ---- Container for all cards ---- */
 .product-grid {
@@ -102,7 +83,7 @@
     color: blue;
 }
 
-
+/* ---- Media Queries ---- */
 @media (min-width: 640px) {
     .grid-slot {
         flex: 1 1 50%;
