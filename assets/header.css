@@ -88,6 +88,12 @@ header {
   
   /* Media Queries */
   @media screen and (min-width: 20px) and (max-width: 768px) {
+
+    .amazon-header {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    
     .amazon-search-bar {
       width: calc(100% - 50px);
     }
