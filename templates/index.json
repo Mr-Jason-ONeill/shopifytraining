@@ -18,9 +18,12 @@
     "products_grid_ddhpze": {
       "type": "products-grid",
       "settings": {
-        "product-grid1": "",
-        "product-grid2": "Grid Item 2",
-        "product-grid3": "Grid Item 3"
+        "grid": "shopify:\/\/shop_images\/bbq.jpg",
+        "grid2": "shopify:\/\/shop_images\/book.jpg",
+        "grid3": "shopify:\/\/shop_images\/car.jpg",
+        "grid4": "shopify:\/\/shop_images\/toy.jpg",
+        "grid5": "shopify:\/\/shop_images\/iphone.jpg",
+        "grid6": "shopify:\/\/shop_images\/computer.jpg"
       }
     },
     "hero_ptV4zF": {
