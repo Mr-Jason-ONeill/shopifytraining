@@ -50,19 +50,22 @@
 
 <!-- Initialize Swiper -->
 <script>
+  document.addEventListener("DOMContentLoaded", function () {
     const swiper = new Swiper(".mySwiper", {
       cssMode: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+      loop: true, 
+      autoplay: {
+        delay: 3000, 
+        disableOnInteraction: false,  
       },
       pagination: {
         el: ".swiper-pagination",
       },
       keyboard: true,
     });
+  });
 </script>
-<script src="assets\swiper.js"></script>
+<script src="assets\swiper.js" defer></script>
 
 
 {% schema %}
