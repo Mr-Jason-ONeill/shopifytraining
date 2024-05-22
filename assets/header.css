@@ -36,6 +36,10 @@ header {
   margin: 0.5rem;
 }
 
+.amazon-header-middle {
+  width: calc(100% - 300px);
+}
+
 .amazon-header-right {
   justify-content: center;
   align-content: center;
