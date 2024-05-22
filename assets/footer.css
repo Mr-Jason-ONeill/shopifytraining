@@ -41,6 +41,7 @@
 .links-3,
 .links-4 {
   list-style: none;
+  max-width: 250px;
 }
 
 .ul-title {
