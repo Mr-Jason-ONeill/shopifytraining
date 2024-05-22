@@ -104,7 +104,8 @@
     display: flex;
   }
 
-  .amazon-header-left {
+  .amazon-header-left,
+  .login-button {
     display: none;
   }
 
