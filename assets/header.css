@@ -100,8 +100,6 @@ header {
 
   .search-button {
     padding: 1rem 1.5rem;
-    transform: translate(-50%, 3%);
-    height: 3.1rem;
   }
 
   .amazon-header-right {
