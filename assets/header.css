@@ -53,6 +53,7 @@ header {
     border-radius: 10px;
     background-color: var(--extra-color);
     border: none;
+    cursor: pointer;
   }
   
   .search-button {
