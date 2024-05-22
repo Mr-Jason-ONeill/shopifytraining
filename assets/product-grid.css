@@ -1,106 +1,115 @@
-
 /* ---- Container for all cards ---- */
 .product-grid {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .product-grid-container {
-    width: 100%;
+  width: 100%;
 }
 
 .product-grid-wrapper {
-    padding: 12px;
+  padding: 12px;
 }
 
 .product-grid-content {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -12px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -12px;
 }
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 2rem;
-    padding-right: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .grid-slot {
-    padding: 12px;
-    flex: 1 1 100%;
+  padding: 12px;
+  flex: 1 1 100%;
 }
 
 /* ---- Card styles ---- */
 .grid-details {
-    background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width:100%;
-    padding: 16px;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 16px;
 }
 
 .grid-image {
-    background-size: cover;
-    height: 12rem;
+  background-size: cover;
+  height: 12rem;
 }
 
 .grid-image img {
-    max-width: 275px;
-    max-height: 185px;
+  max-width: 275px;
+  max-height: 185px;
 }
 
 /* ---- Card content styles ---- */
 .grid-title {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .grid-description {
-    color: #4a4a4a;
-    font-size: 0.875rem;
-    flex: 1;
+  color: #4a4a4a;
+  font-size: 0.875rem;
+  flex: 1;
 }
 
 .grid-link {
-    cursor: pointer;
-    display: block;
-    height: 28px;
-    position: relative;
-    color: #000;
-    font-size: 12px;
-    line-height: 28px;
-    text-align: center;
-    font-weight: 700;
-    text-decoration: none;
-    text-shadow: 0 1px 0 #ffe093;
-    background-color: var(--button-color);
+  cursor: pointer;
+  display: block;
+  height: 28px;
+  position: relative;
+  color: #000;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffe093;
+  background-color: var(--button-color);
 }
 
 .grid-link:hover {
-    color: blue;
+  color: blue;
 }
 
 /* ---- Media Queries ---- */
 @media (min-width: 640px) {
-    .grid-slot {
-        flex: 1 1 50%;
-        flex-direction: column;
-        display: flex;
-    }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .grid-slot {
+    flex: 1 1 50%;
+    display: flex;
+  }
 }
 
 @media (min-width: 768px) {
-    .grid-slot {
-        display: flex;
-        flex: 1 1 33.33%;
-        justify-content: center;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-    }
+  .grid-slot {
+    display: flex;
+    flex: 1 1 33.33%;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
 }
