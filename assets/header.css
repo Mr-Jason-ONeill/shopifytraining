@@ -78,6 +78,10 @@ header {
     background-color: var(--nav-color);
     color: var(--secondary-color);
   }
+
+.nav-link {
+  color: var(--primary-color);
+}
   
   /* Media Queries */
   @media screen and (min-width: 20px) and (max-width: 768px) {
