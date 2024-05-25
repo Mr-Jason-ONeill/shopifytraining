@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -7789,3 +7790,37 @@ MinimogLibs.Swiper = core_class;
 }();
 /******/ })()
 ;
+=======
+/*
+Use with npm
+
+import Swiper from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
+// import Swiper and modules styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination'; 
+*/
+
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "vertical",
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});
+>>>>>>> 0b9d00bf3a7155837fbf3ed565160f5807255f0f

@@ -1,10 +1,79 @@
+<<<<<<< HEAD
 <footer class="sf-footer" data-section-type="footer" data-section-id="{{ section.id }}">
   {% render 'footer-blocks', blocks: section.blocks, bordered: section.settings.bordered, container: section.settings.container %}
   {% render 'footer-design', container: section.settings.container %}
+=======
+<footer>
+
+<div class="amazon-footer-container">
+    <div class="amazon-footer-container">
+      <div class="amazon-footer-wrapper">
+        <button class="amazon-bottom-top-button">
+          <a href="index.html#top">Back to Top</a>
+        </button>
+        <div class="amazon-footer-links-container">
+          <div class="amazon-footer-links-wrapper">
+            <!-- Links -->
+            <div class="links">
+              <ul class="links-1">
+                <h3 class="ul-title">Get To Know Us</h3>
+                <li>Careers</li>
+                <li>About Us</li>
+                <li>Modern Slavery</li>
+                <li>Sustainability</li>
+                <li>Amazon Science</li>
+              </ul>
+              <ul class="links-2">
+                <h3 class="ul-title">Make Money With Us</h3>
+                <li>Amazon Pay</li>
+                <li>Sell on Amazon</li>
+                <li>Sell on Amazon Business</li>
+                <li>Sell on Amazon Handmade</li>
+                <li>Host an Amazon Hub</li>
+              </ul>
+              <ul class="links-3">
+                <h3 class="ul-title">Amazon Payment Methods</h3>
+                <li>Amazon Platinum Mastercard</li>
+                <li>Amazon Classic Mastercard</li>
+                <li>Gift Cards</li>
+                <li>Top Up Your Account</li>
+                <li>Top Up Your Acount in Store</li>
+              </ul>
+              <ul class="links-4">
+                <h3 class="ul-title">Let Us Help You</h3>
+                <li>Track & View Your Orders</li>
+                <li>Recycling</li>
+                <li>Amazon Prime</li>
+                <li>Manage Your Content</li>
+                <li>Returns</li>
+              </ul>
+            </div>
+          <!-- End of Links -->
+          </div>
+        </div>
+        <!-- End of Links Container -->
+        <!-- Company Banner/Sponsors -->
+        <div class="company-banner-container">
+          <div class="company-banner-wrapper">
+            <div class="company-banner-context"></div>
+          </div>
+        </div>
+        <!-- End of Company Banner/Sponsors -->
+        <div class="copyright-container">
+          <div class="copyright-wrapper">
+            <div class="copyright-content"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+>>>>>>> 0b9d00bf3a7155837fbf3ed565160f5807255f0f
 </footer>
 
 {% schema %}
 {
+<<<<<<< HEAD
   "name": "Footer",
   "settings": [
     {
@@ -614,3 +683,20 @@
   ]
 }
 {% endschema %}
+=======
+  "name": "footer",
+  "presets": [
+    {
+      "name": "footer"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "footerLogo",
+      "label": "Logo For Footer Section"
+    }
+  ]
+}
+{% endschema %}
+>>>>>>> 0b9d00bf3a7155837fbf3ed565160f5807255f0f

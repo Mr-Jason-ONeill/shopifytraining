@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "name": "theme_info",
     "theme_name": "Minimog - OS 2.0",
     "theme_version": "3.0.0",
@@ -2714,6 +2715,22 @@
         "id": "currency_code_enabled",
         "label": "Show currency codes",
         "default": false
+=======
+    "name": "shopifytraining",
+    "theme_name": "amazonStyle",
+    "theme_version": "1.0.1",
+    "theme_author": "Jason",
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
+  },
+  {
+    "name": "header",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo for Header"
+>>>>>>> 0b9d00bf3a7155837fbf3ed565160f5807255f0f
       }
     ]
   }
