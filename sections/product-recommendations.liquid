@@ -1,0 +1,118 @@
+{%- assign st = section.settings -%}
+<div
+  class="sf-product__section product-recommendations hidden"
+  data-section-type="product-recommendations"
+  data-section-id="{{ section.id }}"
+  data-products-to-show="{{ st.limit }}"
+  data-products-per-row="{{ st.columns }}"
+  data-enable-slider="{{ st.enable_slider }}"
+  style="--column-gap: {{ st.column_gap }}px; --column-gap-mobile: 20px; --row-gap: {{ st.column_gap | plus: 10 }}px; --items: {{ st.columns }}"
+>
+  <div class="{{ section.settings.container }} section-my">
+    {% assign default_heading = 'products.product.product_recommendation_heading' | t %}
+    <div class="section__header text-{{ section.settings.text_align | default: 'left' }}">
+      <h2 class="section__heading">{{ st.heading | default: default_heading }}</h2>
+    </div>
+    <div class="relative">
+      {%- capture grid_class -%}
+        md:grid-cols-{{ st.columns | minus: 1 }} xl:grid-cols-{{ st.columns }}
+      {%- endcapture -%}
+      <div class="sf-grid md:grid {{ grid_class | strip_newlines }}" data-grid-container>
+        <div class="swiper-wrapper" data-product-list></div>
+      </div>
+      {% if st.enable_slider %}
+        {% render 'slider-controls', absolute: true, show_nav: true, container: st.container, custom_class: 'hidden' %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Product recommendations",
+  "settings": [
+    {
+      "type": "select",
+      "id": "container",
+      "label": "Container type",
+      "default": "container",
+      "options": [
+        {
+          "value": "container-fluid",
+          "label": "Default"
+        },
+        {
+          "value": "w-full",
+          "label": "Full width"
+        },
+        {
+          "value": "container",
+          "label": "Use container box"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "You Might Also Like",
+      "placeholder": "Product recommendations"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text alignment",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "limit",
+      "label": "Products to show",
+      "default": 8,
+      "min": 3,
+      "max": 20
+    },
+    {
+      "type": "range",
+      "id": "columns",
+      "label": "Products per row",
+      "default": 4,
+      "min": 3,
+      "max": 8
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "label": "Column gap",
+      "default": 30,
+      "min": 0,
+      "max": 50,
+      "step": 2
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_slider",
+      "label": "Enable slider",
+      "default": true
+    }
+  ],
+  "templates": [
+    "product"
+  ],
+  "presets": [
+    {
+      "name": "Product recommendations"
+    }
+  ]
+}
+{% endschema %}

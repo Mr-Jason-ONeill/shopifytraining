@@ -1,0 +1,351 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-about-us",
+      "settings": {
+      }
+    },
+    "custom-content": {
+      "type": "custom-content",
+      "blocks": {
+        "be5d2488-3c71-471f-bb75-dbccb6970cb0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/serum-hair-spray-product-banner.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "1e98e927-ed37-4e84-b684-eb62947f3062": {
+          "type": "text",
+          "settings": {
+            "title": "<h4 class=\"about__block-heading\">The story that inspired Unveil Hair Care<\/h4>",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "center-intro"
+          }
+        },
+        "c0522e43-ec4a-4e98-997c-1fcbc96e194a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-helena-section.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "4e1fb14f-ef60-4693-b6a2-2b26063e1b70": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-helena-sectionff.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "f5e88f1f-ff68-4d03-b686-0cb9fe62fab1": {
+          "type": "text",
+          "settings": {
+            "title": "<p class=\"about__block-subheading\" style=\"font-size: 18px; letter-spacing: 2px; line-height: 1.6; font-weight: 600; color: #626045;\">My desire to help others regain their confidence started over 20 years ago by helping my mom who has always struggled with thinning hair.<\/p>",
+            "subheading": "",
+            "text": "<p>Her situation was like that of many others: it wasn’t medical-related hair loss, it was hereditary hair loss. Watching her search for solutions inspired me to open the first Strut Hair Solutions in 2002. Our award-winning brick and mortar stores are located in Fresno & San Diego, California, where we sell hair enhancements such as wigs, hair pieces, and topical products.  <\/p><p>Now, fast forward 20 plus years of being in the hair loss industry—I’ve done everything from styling celebrities’ hair, to writing a book about hair, and to being an educator for top hair replacement manufacturers. I’ve tried and sold it all…all the new products, all the new types of extensions, the latest wig crazes, the DIY hacks…and then I started noticing the gaps in the industry.  So I decided to make my own product, based off of my experience.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "special-border mobile-border"
+          }
+        },
+        "a11e16a2-a357-4141-b119-384a90cac4e1": {
+          "type": "text",
+          "settings": {
+            "title": "<br>\n<h3>What sets us apart<\/h3>",
+            "subheading": "",
+            "text": "<p>Clients were tired of Minoxidil and synthetic ingredients. They came in wanting and asking for clean ingredients, and really examining what was in a product. That was the moment the lightbulb went off in my head and I decided to take all my experience and create my own products. I was in the best position I could’ve possibly been in: having a client base, plus a team in each of my stores for real-time, honest feedback. <\/p><p>It took me almost two years to gather the right mixture of ingredients. Every obstacle that could have come up, did—and a few of them came up multiple times—but Unveil Restorative Hair Care is finally here! This has been a labor of love. I’m beyond thrilled to bring these products to the world and change the narrative around hair loss.<\/p><p><strong>To you and your hair!<\/strong><\/p><p><strong>Xoxo,<\/strong><\/p><p><em><strong>Helena<\/strong><\/em><\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "95fe68c8-3f39-4290-9e4a-06c081f027d8": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/helena-signature.png",
+            "link": "",
+            "width": "16%",
+            "alignment": "center",
+            "block_custom_class": "signature"
+          }
+        },
+        "c41bd8e5-e4f8-420b-87fc-2b0e89493a03": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5\" data-wrapper=\"\">\n                    \n                        \n                        <div class=\"swiper-slide\" data-index=\"0\">\n                            <div class=\"brands-list__logo h-full flex items-center px-4 py-6\">\n                                \n                                    <responsive-image class=\"sf-image w-full mx-auto\" style=\"--aspect-ratio: 1.0;        --max-width: 150px;\" intersecting=\"true\">\n  <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/gluten-free-f.png?v=1663622382&amp;width=165 165w,\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/gluten-free-f.png?v=1663622382 250w\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/gluten-free-f.png?v=1663622382&amp;width=360\" sizes=\"150px\" alt=\"\" loading=\"lazy\" class=\"f-img-loaded\" width=\"150\" height=\"150\">\n  <noscript>\n    <img class=\"\" loading=\"lazy\" width=\"\" height=\"\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/gluten-free-f.png?crop=center&amp;height=2048&amp;v=1663622382&amp;width=2048\" alt=\"\">\n  <\/noscript>\n<\/responsive-image>\n\n                                \n                            <\/div>\n                        <\/div>\n                    \n                        \n                        <div class=\"swiper-slide\" data-index=\"1\">\n                            <div class=\"brands-list__logo h-full flex items-center px-4 py-6\">\n                                \n                                    <responsive-image class=\"sf-image w-full mx-auto\" style=\"--aspect-ratio: 1.0;        --max-width: 150px;\" intersecting=\"true\">\n  <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/cruelty-free.png?v=1663622471&amp;width=165 165w,\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/cruelty-free.png?v=1663622471 250w\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/cruelty-free.png?v=1663622471&amp;width=360\" sizes=\"150px\" alt=\"\" loading=\"lazy\" class=\"f-img-loaded\" width=\"150\" height=\"150\">\n  <noscript>\n    <img class=\"\" loading=\"lazy\" width=\"\" height=\"\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/cruelty-free.png?crop=center&amp;height=2048&amp;v=1663622471&amp;width=2048\" alt=\"\">\n  <\/noscript>\n<\/responsive-image>\n\n                                \n                            <\/div>\n                        <\/div>\n                    \n                        \n                        <div class=\"swiper-slide\" data-index=\"2\">\n                            <div class=\"brands-list__logo h-full flex items-center px-4 py-6\">\n                                \n                                    <responsive-image class=\"sf-image w-full mx-auto\" style=\"--aspect-ratio: 1.0;        --max-width: 150px;\" intersecting=\"true\">\n  <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/carcinogens-none.png?v=1663623448&amp;width=165 165w,\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/carcinogens-none.png?v=1663623448 250w\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/carcinogens-none.png?v=1663623448&amp;width=360\" sizes=\"150px\" alt=\"\" loading=\"lazy\" class=\"f-img-loaded\" width=\"150\" height=\"150\">\n  <noscript>\n    <img class=\"\" loading=\"lazy\" width=\"\" height=\"\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/carcinogens-none.png?crop=center&amp;height=2048&amp;v=1663623448&amp;width=2048\" alt=\"\">\n  <\/noscript>\n<\/responsive-image>\n\n                                \n                            <\/div>\n                        <\/div>\n                    \n                        \n                        <div class=\"swiper-slide\" data-index=\"3\">\n                            <div class=\"brands-list__logo h-full flex items-center px-4 py-6\">\n                                \n                                    <responsive-image class=\"sf-image w-full mx-auto\" style=\"--aspect-ratio: 1.0;        --max-width: 150px;\" intersecting=\"true\">\n  <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/Vegan.png?v=1663623672&amp;width=165 165w,\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/Vegan.png?v=1663623672 250w\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/Vegan.png?v=1663623672&amp;width=360\" sizes=\"150px\" alt=\"\" loading=\"lazy\" class=\"f-img-loaded\" width=\"150\" height=\"150\">\n  <noscript>\n    <img class=\"\" loading=\"lazy\" width=\"\" height=\"\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/Vegan.png?crop=center&amp;height=2048&amp;v=1663623672&amp;width=2048\" alt=\"\">\n  <\/noscript>\n<\/responsive-image>\n\n                                \n                            <\/div>\n                        <\/div>\n                    \n                        \n                        <div class=\"swiper-slide\" data-index=\"4\">\n                            <div class=\"brands-list__logo h-full flex items-center px-4 py-6\">\n                                \n                                    <responsive-image class=\"sf-image w-full mx-auto\" style=\"--aspect-ratio: 1.0;        --max-width: 150px;\" intersecting=\"true\">\n  <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/stem-cell-culture.png?v=1663624146&amp;width=165 165w,\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/stem-cell-culture.png?v=1663624146 250w\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/stem-cell-culture.png?v=1663624146&amp;width=360\" sizes=\"150px\" alt=\"\" loading=\"lazy\" class=\"f-img-loaded\" width=\"150\" height=\"150\">\n  <noscript>\n    <img class=\"\" loading=\"lazy\" width=\"\" height=\"\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/stem-cell-culture.png?crop=center&amp;height=2048&amp;v=1663624146&amp;width=2048\" alt=\"\">\n  <\/noscript>\n<\/responsive-image>\n\n                                \n                            <\/div>\n                        <\/div>\n                    \n                <\/div>",
+            "width": "100%",
+            "block_custom_class": ""
+          }
+        },
+        "9a3a8077-de29-4141-9162-b9484d4a85f8": {
+          "type": "html",
+          "disabled": true,
+          "settings": {
+            "code": "<div class=\"sf__about-custom-list\">\n  <ul>\n    <li>\n      <span><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/toxin-free.svg\"><\/span>\n      <div class=\"rte\">\n          <h4>Non-Toxic<\/h4>\n          <p class=\"text-color-subtext\">Clients were tired of Minoxidil and synthetic ingredients.<\/p>\n      <\/div>\n    <\/li>\n    <li>\n      <span><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/no-carcinogens.svg\"><\/span>\n      <div class=\"rte\">\n          <h4>No Known Carcinogens<\/h4>\n          <p class=\"text-color-subtext\">Our products contain clean ingredients.<\/p>\n      <\/div>\n    <\/li>\n    <li>\n      <span><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/gluten-free.svg\"><\/span>\n      <div class=\"rte\">\n          <h4>Gluten-Free<\/h4>\n          <p class=\"text-color-subtext\">Professional Gluten Free Hair Care Products.<\/p>\n      <\/div>\n    <\/li>\n<li>\n      <span><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/vegan.svg\"><\/span>\n      <div class=\"rte\">\n          <h4>Vegan<\/h4>\n          <p class=\"text-color-subtext\">Infused with carefully selected ingredients.<\/p>\n      <\/div>\n    <\/li>\n<li>\n      <span><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/cruelty-free.svg\"><\/span>\n      <div class=\"rte\">\n          <h4>Cruelty-Free<\/h4>\n          <p class=\"text-color-subtext\">Not tested on animals in any capacity or at any stage.<\/p>\n      <\/div>\n    <\/li>\n<li>\n      <span><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/fragrance-free.svg\"><\/span>\n      <div class=\"rte\">\n          <h4>Fragrance-Free<\/h4>\n          <p class=\"text-color-subtext\">Fragrance free and sulfate free hair care products.<\/p>\n      <\/div>\n    <\/li>\n  <\/ul>\n<\/div>",
+            "width": "33%",
+            "block_custom_class": "sf__about-custom-html"
+          }
+        },
+        "28e3ce35-e364-43f3-ba87-18b633233063": {
+          "type": "text",
+          "settings": {
+            "title": "<h4 class=\"about__block-heading\">Our Mission<\/h4>",
+            "subheading": "",
+            "text": "<p>Our mission is to create non-toxic, clean, sustainable, cruelty-free, and restorative hair-care products that promote a personal state of wellness, thus empowering you to feel confident in your appearance and show up as your best self. <\/p><p>For far too long we have ignored the mental toll that hair loss can have on our confidence & self-esteem. After being in the hair loss industry for 20 years, I created Unveil to free us from that negative self-image.<\/p><p><strong>Unveil your most <\/strong><em><strong>confident<\/strong><\/em><strong> self. <\/strong><\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "sf__about-block sf__about-block-text sf__about-block-text-2"
+          }
+        },
+        "c6a8b57f-c54c-43f1-9771-9ea5d88a2f36": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Our Team",
+            "subheading": "",
+            "text": "",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "sf__about-custom-heading"
+          }
+        },
+        "859f4ef2-676f-4587-9ae8-3a19ffa439dd": {
+          "type": "image_card",
+          "disabled": true,
+          "settings": {
+            "width": "33%",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "link": "",
+            "title": "Edward Lindgren",
+            "subtitle": "Clients were tired of Minoxidil and synthetic ingredients. They came in wanting and asking for clean ingredients, and really examining what was in a product. That was the moment the lightbulb went off in my head and I decided to take all my experience and create my own products. I was in the best position I could’ve possibly been in: having a client base, plus a team in each of my stores for real-time, honest feedback. It took me almost two years to gather the right mixture of ingredients. Every obstacle that could have come up, did—and a few of them came up multiple times—but Unveil Restorative Hair Care is finally here! This has been a labor of love. I’m beyond thrilled to bring these products to the world and change the narrative around hair loss.\n<br><br>\nTo you and your hair!<br>\nXoxo,<br>\nHelena",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "sf__about-card-custom"
+          }
+        },
+        "dc4597e9-ca80-4d0f-9e30-ff28c96dd3aa": {
+          "type": "image_card",
+          "disabled": true,
+          "settings": {
+            "width": "33%",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "link": "",
+            "title": "Nado Husa",
+            "subtitle": "<span class=\"text-color-subtext\">CO-FOUNDER<\/span>",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "sf__about-card-custom"
+          }
+        },
+        "a1a4a67f-c83f-4629-a006-e44f56c80bf5": {
+          "type": "image_card",
+          "disabled": true,
+          "settings": {
+            "width": "33%",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "link": "",
+            "title": "Chineze Afamefuna",
+            "subtitle": "<span class=\"text-color-subtext\">MARKETING<\/span>",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "sf__about-card-custom"
+          }
+        },
+        "6b6eacac-d73e-4928-9fda-3b9e4a83d774": {
+          "type": "html",
+          "disabled": true,
+          "settings": {
+            "code": "",
+            "width": "50%",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "be5d2488-3c71-471f-bb75-dbccb6970cb0",
+        "1e98e927-ed37-4e84-b684-eb62947f3062",
+        "c0522e43-ec4a-4e98-997c-1fcbc96e194a",
+        "4e1fb14f-ef60-4693-b6a2-2b26063e1b70",
+        "f5e88f1f-ff68-4d03-b686-0cb9fe62fab1",
+        "a11e16a2-a357-4141-b119-384a90cac4e1",
+        "95fe68c8-3f39-4290-9e4a-06c081f027d8",
+        "c41bd8e5-e4f8-420b-87fc-2b0e89493a03",
+        "9a3a8077-de29-4141-9162-b9484d4a85f8",
+        "28e3ce35-e364-43f3-ba87-18b633233063",
+        "c6a8b57f-c54c-43f1-9771-9ea5d88a2f36",
+        "859f4ef2-676f-4587-9ae8-3a19ffa439dd",
+        "dc4597e9-ca80-4d0f-9e30-ff28c96dd3aa",
+        "a1a4a67f-c83f-4629-a006-e44f56c80bf5",
+        "6b6eacac-d73e-4928-9fda-3b9e4a83d774"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 48,
+        "padding_bottom": 0,
+        "custom_class": "background-graphic"
+      }
+    },
+    "icon-box": {
+      "type": "icon-box",
+      "blocks": {
+        "c8a16382-6620-4bcf-ba3e-1bb9d69d5b77": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "Free Shipping",
+            "description": "<p>Free Shipping for orders over £130<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "13184979-bd7f-482c-865f-60738819a029": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "Money Guarantee",
+            "description": "<p>Within 30 days for an exchange.<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "c4cf2072-efce-4cb9-b184-14404b61e2a3": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "Online Support",
+            "description": "<p>24 hours a day, 7 days a week<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "8e15d521-c62b-4552-a64a-94ead24641e5": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "Flexible Payment",
+            "description": "<p>Pay with Multiple Credit Cards<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "c8a16382-6620-4bcf-ba3e-1bb9d69d5b77",
+        "13184979-bd7f-482c-865f-60738819a029",
+        "c4cf2072-efce-4cb9-b184-14404b61e2a3",
+        "8e15d521-c62b-4552-a64a-94ead24641e5"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#ffffff",
+        "item_per_row": 4,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "horizontal",
+        "image_max_width": "30px",
+        "content_alignment": "start",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom-content",
+    "icon-box"
+  ]
+}

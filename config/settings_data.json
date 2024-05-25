@@ -1,9 +1,388 @@
 {
   "current": {
-    "shopifytraining": "amazonStyle",
-    "primary_color": "#000000",
+    "favicon": "shopify:\/\/shop_images\/Untitled_design_2.png",
+    "language_support_rtl": "",
+    "container_width": 1900,
+    "container_fluid_width": 1620,
+    "container_fluid_offset": 65,
+    "color_primary": "#616045",
+    "color_field_bg": "#ffffff",
+    "color_body_text": "#231f20",
+    "color_heading_text": "#616045",
+    "color_sub_text": "#666666",
+    "color_text_link": "#616045",
+    "color_btn_bg": "#616045",
+    "color_btn_secondary_border": "#616045",
+    "color_btn_secondary_text": "#231f20",
+    "color_btn_bg_hover": "#1c1b1b",
+    "product_title_color": "#1c1b1b",
+    "prod_sale_price_color": "#666666",
+    "prod_regular_price_color": "#1c1b1b",
+    "prod_type_color": "#666666",
+    "color_annoucement_bg": "#b7bcb1",
+    "color_topbar_bg": "#ffffff",
+    "color_topbar_text": "#616045",
+    "color_header_bg": "#ffffff",
+    "color_header_link": "#1c1b1b",
+    "color_header_transparent": "#1c1b1b",
+    "bg_cart_wishlist_count": "#b7bcb1",
+    "color_menu_bar_bg": "#1c1b1b",
+    "color_menu_bar_text": "#f8f8f8",
+    "color_footer_bg": "#f5f5f5",
+    "color_footer_text": "#1c1b1b",
+    "color_footer_subtext": "#666666",
+    "color_footer_link_hover": "#1c1b1b",
+    "color_footer_bottom_bg": "#f5f5f5",
+    "color_footer_bottom_text": "#1c1b1b",
+    "color_border": "#dedede",
+    "img_overlay_bg": "#1c1b1b",
+    "img_overlay_opacity": 20,
+    "tooltip_background_color": "#1c1b1b",
+    "type_base_font": "work_sans_n4",
+    "use_custom_font_body": true,
+    "custom_body_font": "https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/Delamere_Regular.ttf?v=1663046894",
+    "custom_body_weight": "600",
+    "type_base_size": 19,
+    "type_header_font": "playfair_display_n4",
+    "use_custom_font_heading": false,
+    "custom_heading_font": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Regular.ttf?v=1618297125@400\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Medium.ttf?v=1618297125@500\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-SemiBold.ttf?v=1618297125@600",
+    "custom_heading_weight": "600",
+    "type_header_base_size": 39,
+    "type_header_spacing": 1,
+    "btn_base_size": 19,
+    "btn_letter_spacing": 1,
+    "btn_weight": "600",
+    "pcard_layout": "1",
+    "pcard_alignment": "center",
+    "pcard_image_ratio": "original",
+    "pcard_limit_values_number": 0,
+    "show_wishlist_button": false,
+    "show_compare_button": false,
+    "on_sale_badge": "show_text",
+    "show_review_badge": true,
+    "show_vendor": false,
+    "variant_option_design1": "button",
+    "variant_option_design2": "color",
+    "variant_option_design3": "color",
+    "product_colors": "red: #FF6961,\nyellow: #FDDA76,\nblack: #000000,\nblack band: #000000,\nblue: #8DB4D2,\ngreen: #C1E1C1,\npurple: #B19CD9,\nsilver: #EEEEEF,\nwhite: #FFFFFF,\nbrown: #836953,\nlight brown: #B5651D,\ndark turquoise: #23cddc,\norange: #FFB347,\ntan: #E9D1BF,\nviolet: #B490B0,\npink: #FFD1DC,\ngrey: #E0E0E0,\nsky: #96BDC6,\npale leaf: #CCD4BF,\nlight blue: #b1c5d4,\ndark grey: #aca69f,\nbeige: #EBE6DB,\nbeige band: #EED9C4,\ndark blue: #063e66,\ncream: #FFFFCC,\nlight pink: #FBCFCD,\nmint: #bedce3,\ndark gray: #3A3B3C,\nrosy brown: #c4a287,\nlight grey:#D3D3D3,\ncopper: #B87333,\nrose gold: #ECC5C0,\nnight blue: #151B54,\ncoral: #FF7F50,\nlight purple: #C6AEC7",
+    "filter_color1": "Gingham",
+    "filter_color2": "flannel",
+    "article_show_date": false,
+    "article_show_excerpt": true,
+    "article_show_button": true,
+    "share_facebook": true,
+    "share_pinterest": true,
+    "contact_phone_number": "",
+    "contact_email": "hello@unveilrestorativehair.com",
+    "social_twitter_link": "",
+    "social_twitter_label": "",
+    "social_facebook_link": "#",
+    "social_facebook_label": "300k Followers",
+    "social_pinterest_link": "",
+    "social_pinterest_label": "",
+    "social_instagram_link": "#",
+    "social_instagram_label": "100k Followers",
+    "agree_text": "<p>I agree with the <a href=\"\/pages\/privacy-policy\" title=\"Privacy Policy\">Terms & conditions<\/a><\/p>",
+    "show_agree_on_product": false,
+    "show_cookie_consent": true,
+    "cookie_consent_placement": "bottom-left",
+    "cookie_consent_theme": "white",
+    "show_variant_swatch_image": true,
+    "bg_cart_count": "#da3f3f",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "5e153016-a9d7-46c9-a10e-30d16446793d": {
+            "type": "topbar",
+            "disabled": true,
+            "settings": {
+              "show_divider": true,
+              "show_phone_numb": false,
+              "show_email": false,
+              "show_social_links": true,
+              "show_stores_page": false,
+              "show_currency_switcher": true,
+              "show_country_selector": false,
+              "show_language_switcher": true,
+              "alert_message": "<span>Open Doors To A World Of Fashion  |  <a class=\"sf__text-link  ml-1 underline\" href=\"#\">Discover More<\/a><span><\/span><\/span>"
+            }
+          }
+        },
+        "block_order": [
+          "5e153016-a9d7-46c9-a10e-30d16446793d"
+        ],
+        "settings": {
+          "header_design": "logo-center-menu-left",
+          "container": "container-fluid",
+          "header_sticky": true,
+          "transparent_on_top": false,
+          "logo_text": "MINIMOG",
+          "logo": "shopify:\/\/shop_images\/logo-main.png",
+          "logo_mobile": "shopify:\/\/shop_images\/logo-main.png",
+          "logo_transparent": "shopify:\/\/shop_images\/logo-main-wh.png",
+          "logo_svg": "",
+          "logo_mobile_svg": "",
+          "logo_transparent_svg": "",
+          "logo_max_width": 145,
+          "sticky_logo_max_width": 145,
+          "mobile_logo_max_width": 110,
+          "main_menu": "main-menu",
+          "secondary_menu": "main-menu",
+          "mobile_menu": "",
+          "uppercase_parent_level": false,
+          "search": "show_icon",
+          "show_account_icon": true,
+          "show_cart_icon": true,
+          "show_wishlist_icon": false,
+          "show_compare_icon": false,
+          "show_currency_switcher": false,
+          "show_country_selector": false,
+          "show_language_switcher": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "c0108d8b-0cf1-4d74-a9f6-49b498f416a9": {
+            "type": "custom_html",
+            "settings": {
+              "title": "",
+              "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/logo-main.png\" width=\"220\" height=\"auto\"\/>\n<br>\n<h6>STAY IN TOUCH<\/h6><br>\n<p>Our mission is to create non-toxic, clean, sustainable, cruelty-free, and restorative hair-care products that promote a personal state of wellness, thus empowering you to feel confident in your appearance and show up as your best self. <\/p>\n<br>\n<div class=\"flex items-center\">\n    <a target=\"_blank\" class=\"px-2 flex items-center\" href=\"https:\/\/www.facebook.com\/UnveilHairCare\" rel=\"noreferrer\">\n        <svg class=\"w-[16px] h-[16px]\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 320 512\"><path fill=\"currentColor\" d=\"M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z\"><\/path><\/svg>        \n    <\/a>\n    <a target=\"_blank\" class=\"px-2 flex items-center\" href=\"https:\/\/www.instagram.com\/unveilhaircare\/\" rel=\"noreferrer\">\n        <svg class=\"w-[16px] h-[16px]\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\"><\/path><\/svg>\n<\/a>\n\n <a target=\"_blank\" class=\"px-2 flex items-center\" href=\"https:\/\/www.tiktok.com\/@unveilhaircare\" rel=\"noreferrer\">\n     <svg class=\"w-[16px] h-[16px]\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 512 512\" id=\"icons\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path\nfill=\"currentColor\" d=\"M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z\"\/><\/path><\/svg>\n<\/a>\n\n<a target=\"_blank\" class=\"px-2 flex items-center\" href=\"https:\/\/www.pinterest.com\/unveilrestorativehaircare\/\" rel=\"noreferrer\">\n     <svg class=\"w-[16px] h-[16px]\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 496 512\" id=\"icons\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path\nfill=\"currentColor\" d=\"M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z\"\/><\/path><\/svg>\n<\/a>\n\n<\/div>\n<br>\n<strong>Sign up for our latest news, special discounts, and new product announcements!<\/strong>\n<div class=\"klaviyo-form-X2fyKm\"><\/div>\n\n\n<br><br><br><br>\n\n<iframe src=\"https:\/\/www.faire.com\/embed\/bw_gf9qemabj3\" width=\"360\" height=\"64\" scrolling=\"no\" style=\"margin:0 auto;border:none;display:block;max-width:100%;width:360px;height:64px;\"><\/iframe>\n*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.",
+              "width": "66%",
+              "order_first": false,
+              "open_default": false
+            }
+          },
+          "7ea14b37-d304-41e0-8807-80d0a28c5658": {
+            "type": "custom_html",
+            "settings": {
+              "title": "",
+              "html": "<div class=\"sf__accordion-content rte sf__footer-block-content\">                                     <div class=\"pb-5 md:pb-0\">                                        <div class=\"mt-0 md:mt-4 block-text\">                                             <p><a href=\"https:\/\/unveilhaircare.com\/pages\/affiliate-page\" title=\"Contact\"><span style=\"text-decoration:underline\">Become an Affiliate<\/span><\/a><\/p>                                         <\/div>                                <div class=\"sf__accordion-content rte sf__footer-block-content\">                                     <div class=\"pb-5 md:pb-0\">                                        <div class=\"mt-0 md:mt-4 block-text\">                                             <p><a href=\"https:\/\/unveilhaircare.com\/pages\/wholesale\" title=\"Contact\"><span style=\"text-decoration:underline\">How can I get UNVEIL in my Business?<\/span><\/a><\/p>                                         <\/div>                                         <div class=\"block-text mt-4\">                                             <p>                                                 <a href=\"tel:\" class=\"hover:text-black\">                                               <\/a>                                            <\/p>                                               <p class=\"mt-1\">                                                   <a href=\"mailto:hello@unveilhaircare.com\" class=\"hover:text-black\">                                                      hello@unveilhaircare.com<\/a>                                  <\/p><\/div>\n<\/div>\n<\/div>\n<br>\n<p style=\"line-height:15px; font-size: 12px;\"><u>Shipping Policy<\/u>: Free Domestic Shipping to the Lower 48 USA States. AK, HI & US Territories on orders over $75. $5 for orders under $75. We currently do not ship internationally.<\/p>\n<br>\n<p><float: left><span style=\"text-decoration:underline\">\n<a href=\"https:\/\/unveilhaircare.com\/pages\/buying-guide\" class=\"hover:text-black\">                                                      Get your free buying guide \n& tips on how to manage hair loss.<\/a>  \n<img style=\"float: center;\" alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/unveil_book_picture.png?v=1675957449\" width=\"150\" height=\"auto\">\n<\/div>\n<br><br>\n<a\nhref=\"https:\/\/unveilhaircare.com\/pages\/privacy-policy\"><strong>Privacy Policy<\/strong><\/a>\n<img style=\"float: center;\" alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/UniversalBeautyAwardsGold.webp?v=1713808841\" width=\"150\" height=\"auto\">",
+              "width": "33%",
+              "order_first": false,
+              "open_default": false
+            }
+          },
+          "49e72833-c68f-4a7b-ab64-3ef0cae99bcb": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "menu": "quick-links",
+              "title": "<b>Quick Links<\/b>",
+              "width": "25%",
+              "order_first": false,
+              "open_default": false
+            }
+          },
+          "7ebc2f78-975b-4a81-b874-103c3355a866": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "menu": "footer",
+              "title": "",
+              "width": "25%",
+              "order_first": false,
+              "open_default": false
+            }
+          }
+        },
+        "block_order": [
+          "c0108d8b-0cf1-4d74-a9f6-49b498f416a9",
+          "7ea14b37-d304-41e0-8807-80d0a28c5658",
+          "49e72833-c68f-4a7b-ab64-3ef0cae99bcb",
+          "7ebc2f78-975b-4a81-b874-103c3355a866"
+        ],
+        "custom_css": [
+
+        ],
+        "settings": {
+          "design": "footer-2",
+          "container": "w-full",
+          "bordered": true,
+          "copyright": "© UNVEIL RESTORATIVE HAIR CARE 2024",
+          "show_country_selector": false,
+          "show_currency_selector": false,
+          "show_language_selector": false,
+          "show_social_links": false,
+          "show_payment_icons": true,
+          "payment_icons_width": 300
+        }
+      },
+      "annoucement": {
+        "type": "annoucement",
+        "settings": {
+          "show_announcement": false,
+          "homepage_only": true,
+          "show_close": true,
+          "message": "<span style=\"font-size: 14px; letter-spacing: 4px; font-weight: 700: text-transform: uppercase;\">Our Best Selling Serum is Back In Stock!<\/span>",
+          "message_link": "shopify:\/\/products\/no-3-unveil-thicker-hair-serum-30ml-1oz",
+          "show_divider": false
+        }
+      },
+      "mobile-sticky-bar": {
+        "type": "mobile-sticky-bar",
+        "settings": {
+          "show_mobile_sticky": true,
+          "show_home_icon": true,
+          "show_collection_icon": true,
+          "show_cart_icon": true,
+          "show_search_icon": true,
+          "show_account_icon": false,
+          "show_wishlist_icon": false
+        }
+      },
+      "hura-announcement-bar": {
+        "type": "hura-announcement-bar",
+        "blocks": {
+          "4c9d15a9-b6a8-457b-a1c9-d6969fe0d9b8": {
+            "type": "header",
+            "settings": {
+              "message": "FREE SHIPPING ON ORDERS OVER $75"
+            }
+          },
+          "2d582e47-8b22-4635-af28-b279c74b20d8": {
+            "type": "header",
+            "settings": {
+              "message": "LOVE IT OR YOUR MONEY BACK"
+            }
+          }
+        },
+        "block_order": [
+          "4c9d15a9-b6a8-457b-a1c9-d6969fe0d9b8",
+          "2d582e47-8b22-4635-af28-b279c74b20d8"
+        ],
+        "custom_css": [
+
+        ],
+        "settings": {
+          "show_announcement_bar": true,
+          "autoplay": true,
+          "delay": "5000",
+          "colorBackground": "#b7bcb1",
+          "colorText": "#ffffff"
+        }
+      }
+    },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "8962992520437913685": {
+        "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/loader-app-embed-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+        "disabled": false,
+        "settings": {
+          "inject_modules_loader": true,
+          "inject_sdk_loader": false
+        }
+      },
+      "2153490007123654574": {
+        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10436698916776057164": {
+        "type": "shopify:\/\/apps\/appstle-subscriptions\/blocks\/appstle-subscription-helper\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1996061711396120121": {
+        "type": "shopify:\/\/apps\/uppromote-affiliate-referral\/blocks\/message-bar\/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9005256451184024879": {
+        "type": "shopify:\/\/apps\/uppromote-affiliate-referral\/blocks\/customer-referral\/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "8991839284468175114": {
+        "type": "shopify:\/\/apps\/revoffers-advertiser\/blocks\/ts-block\/e79cacf7-e960-43e6-b6c7-edb67bdc9247",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7612553728132747764": {
+        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/net-promoter-score-form-modal\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "disabled": true,
+        "settings": {
+          "email": "",
+          "name": "",
+          "title": "",
+          "message": "Enable advanced features and increase your monthly order limit to match your business's needs.",
+          "reason": "",
+          "thank_you": "",
+          "label_name": "",
+          "label_email": ""
+        }
+      },
+      "4697538150380142411": {
+        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/reviews-popup\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "disabled": true,
+        "settings": {
+          "layout": "horizontal",
+          "effect": "slidetop",
+          "delay_seconds": 3,
+          "show_seconds": 10,
+          "pause_seconds": 10,
+          "position": "bottomleft",
+          "color_background": "",
+          "color_star": "",
+          "color_text": "",
+          "review_ids": "",
+          "product_ids": "",
+          "category": "",
+          "product_brand": "",
+          "tags": "",
+          "min_rating": "none",
+          "fill_empty": false,
+          "random": false,
+          "with_photos": false
+        }
+      },
+      "9901917232353999808": {
+        "type": "shopify:\/\/apps\/buddha-mega-menu-navigation\/blocks\/megamenu\/dbb4ce56-bf86-4830-9b3d-16efbef51c6f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16278478101612877664": {
+        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5149645339031002760": {
+        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "disabled": false,
+        "settings": {
+          "async": false
+        }
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#8ec194",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#6a6a6a",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "lowest",
+          "greeting_message": "Hello, how can we help you?"
+        }
+      }
+    }
   }
 }

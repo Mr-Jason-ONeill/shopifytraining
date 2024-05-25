@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container",
+        "text_alignment": "center",
+        "hide_current": false,
+        "hide_on_mb": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "2bd8d5a7-87bf-4ed8-996e-0da19a2a344c": {
+          "type": "short_description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "8f445ba7-af6b-4cd3-8458-bb15e13114ae": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_atc_button": true,
+            "show_dynamic_checkout": true
+          }
+        },
+        "addons": {
+          "type": "addons",
+          "disabled": true,
+          "settings": {
+            "show_atcp": true,
+            "show_ask_a_question": true,
+            "show_social": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "2bd8d5a7-87bf-4ed8-996e-0da19a2a344c",
+        "8f445ba7-af6b-4cd3-8458-bb15e13114ae",
+        "variant_picker",
+        "buy_buttons",
+        "addons"
+      ],
+      "settings": {
+        "container": "container",
+        "layout": "layout-6",
+        "show_atwl": true,
+        "enable_history_state": true,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": false,
+        "show_pagination_mobile": true,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Orders are captured in our system immediately.<br\/>We do our best to process your order in 2 business days after the order is placed. <\/p><p>Therefore, any changes to an order we will try to accommodate but cannot guarantee.<\/p><p>Once shipped from our location in Solana Beach, CA orders will arrive from USPS | FedEx with delivery confirmation or signature required.<\/p><p><\/p><p><a href=\"\/shipping-and-returns\" title=\"\/shipping-and-returns\">Read More<\/a><\/p>",
+            "content_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-narrow",
+        "bg_color": "",
+        "default_open": true
+      }
+    },
+    "16951386437c664e62": {
+      "type": "apps",
+      "blocks": {
+        "9146f62c-4d73-4477-90ba-8160e96e2843": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "9146f62c-4d73-4477-90ba-8160e96e2843"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "2b240fb2-d311-44b0-b128-57e8ae2bf3be": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "heading": "Reviews",
+        "custom_liquid": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "container": "container",
+        "heading": "You Might Also Like",
+        "text_align": "left",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "enable_slider": true
+      }
+    },
+    "recent-viewed-products": {
+      "type": "recent-viewed-products",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "heading": "Recently Viewed Products",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "enable_slider": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "product-details-tabs",
+    "16951386437c664e62",
+    "2b240fb2-d311-44b0-b128-57e8ae2bf3be",
+    "product-recommendations",
+    "recent-viewed-products"
+  ]
+}

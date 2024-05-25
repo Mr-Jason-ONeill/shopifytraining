@@ -1,0 +1,1408 @@
+{
+  "sections": {
+    "8e830119-1ede-4f15-a447-2e7bd6e86d43": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify:\/\/shop_images\/Mens_Shop_Page_Photo_1.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "For Men",
+        "subtitle": "",
+        "text": "<p><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": ""
+      }
+    },
+    "16637467137fe8cc32": {
+      "type": "new-featured-product",
+      "blocks": {
+        "166374671318e30fb1-0": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "166374671318e30fb1-1": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "696c98db-8dc3-4386-958c-5106022fd779": {
+          "type": "text",
+          "settings": {
+            "text": "Our signature product targets the causes of hair loss by improving follicle length and decreasing hair shedding. Full of DHT inhibitors, you can reduce hair breakage and scalp irritation.",
+            "text_style": "body"
+          }
+        },
+        "60ebdfcf-ad52-4f7d-9da0-e4456a4b27d8": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "14f330ae-542a-4544-93b0-556a5ca99b95": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients:",
+            "content": "<p>Water, Alcohol, Glycerin, Butylene Glycol, Sorbitan Oleate Decylglucoside Crosspolymer, Dextran, Niacinamide, Caffeine, Acetyl Tetrapeptide-3, Trifolium Pratense (Clover) Flower Extract, Panthenol (Vitamin B5), Malus Domestica Fruit Cell Culture Extract, Xanthan Gum, Lecithin, Polysorbate-20, Sodium Benzoate, Citric Acid, Sodium Citrate.<\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "26d87593-f6f1-47f4-bcff-8fa1a96ffe70": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Grow your hair and keep it. Unveil No.3 is the first anti-shedding, anti-breakage, thickening serum, for fuller thicker hair of hair.<\/p><p>Non-Toxic | No Known Carcinogens | Gluten-Free | Vegan | Cruelty-Free | Fragrance-Free<\/p><p><\/p><p><strong>Subscribe:<\/strong> Receive <strong>3 bottles<\/strong> every <strong>3 months<\/strong> and get <em>$21 OFF in savings<\/em>!<\/p>"
+          }
+        },
+        "166374671318e30fb1-2": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "29649ae0-a385-43e6-a942-8b9ae30683b3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<script src=\"https:\/\/cdn-widgetsrepository.yotpo.com\/v1\/loader\/LkIMsQFva2Mx4qOqIZ5Ad08JF9AHxBvkPGFG3eYe\" async><\/script>\n\n<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"240134\"\nauto-inject-target-selector=\"form[data-product-handle={{section.settings.featured_product}}]\" \nproduct-handle=\"no-3-unveil-thicker-hair-serum-30ml-1oz\"\nallow-out-of-form=\"true\" \nwidget-type=\"SubscriptionsAddToCartWidget\" full-format-product-price=\"{{ product.price | money }}\"><\/div>"
+          }
+        },
+        "166374671318e30fb1-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": true
+          }
+        },
+        "6cfb168a-4ac0-4014-8a56-489215e7908d": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "How to apply?",
+            "content": "<p>Spray 1-2 pumps directly onto your scalp in <span style=\"text-decoration:underline\">each<\/span> of your thinning areas. <\/p><p>Massage into your scalp with fingertips. <\/p><p>For best results, use our scalp-stimulating brush before you spray your scalp, to get the blood flow up to the scalp and clean away any debris. <\/p><p>Use once daily, either AM or PM.  <\/p><p>** This is a Leave-On Treatment**<\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "ce4c547f-45b1-42da-971b-a436bdcdb9db": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "How does it work?",
+            "content": "<p>Our proprietary blend was specifically formulated to give you thicker, fuller, stronger hair. Get ready to love your hair again. <\/p><p><strong>Decrease Shedding <\/strong><\/p><p>Acetyl tetrapeptide-3 is a peptide which has a direct effect on the hair follicle and its vitality. The peptide signals tissue remodeling of the hair follicle to grow, which helps anchor the follicle in your scalp so that it’s stronger.<\/p><p><strong>Blocks DHT<\/strong><\/p><p>Biochanin A, extracted from Red Clover (Trifolium pretense), is a powerful flavonoid. It is an effective inhibitor of 5-α-reductase (type I & II) activity, DHT Modulation. Reducing the hair follicle miniaturization process. <\/p><p>\t<\/p><p><strong>Anti-Aging & Scalp Health<\/strong><\/p><p>Our apple cell stem culture blend (High in antioxidants) is a unique and revolutionary ingredient able to protect the most precious hair cells—the hair stem cells—against premature aging and loss.<\/p><p><strong>No More Breakage<\/strong><\/p><p>Caffeine and Niacinamide coat the hair, helping it appear instantly thicker, and remain protected from breakage.<\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "5fd305e7-499f-431d-a07b-9f78378c6ee2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "What Makes Us Different",
+            "content": "<p>Grow your hair and keep it. Unveil No.3 is the first anti-shedding, anti-breakage, thickening serum, for fuller thicker hair of hair.<\/p><p>Non-Toxic | No Known Carcinogens | Gluten-Free | Vegan | Cruelty-Free | Fragrance-Free<\/p><p><\/p><p><strong>Subscribe:<\/strong> Receive <strong>3 bottles<\/strong> every <strong>3 months<\/strong> and get <em>$21 OFF in savings<\/em>!<\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "cbc6c7f3-8b7c-4b95-98ab-a25d8bb6ed00": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "How to apply",
+            "content": "<p>Spray 1-2 pumps directly onto your scalp in <span style=\"text-decoration:underline\">each<\/span> of your thinning areas. <\/p><p>Massage into your scalp with fingertips. <\/p><p>For best results, use our scalp-stimulating brush before you spray your scalp, to get the blood flow up to the scalp and clean away any debris. <\/p><p>Use once daily, either AM or PM.  <\/p><p>** This is a Leave-On Treatment**<\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "166374671318e30fb1-0",
+        "166374671318e30fb1-1",
+        "696c98db-8dc3-4386-958c-5106022fd779",
+        "60ebdfcf-ad52-4f7d-9da0-e4456a4b27d8",
+        "14f330ae-542a-4544-93b0-556a5ca99b95",
+        "26d87593-f6f1-47f4-bcff-8fa1a96ffe70",
+        "166374671318e30fb1-2",
+        "29649ae0-a385-43e6-a942-8b9ae30683b3",
+        "166374671318e30fb1-3",
+        "6cfb168a-4ac0-4014-8a56-489215e7908d",
+        "ce4c547f-45b1-42da-971b-a436bdcdb9db",
+        "5fd305e7-499f-431d-a07b-9f78378c6ee2",
+        "cbc6c7f3-8b7c-4b95-98ab-a25d8bb6ed00"
+      ],
+      "settings": {
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "featured_product": "no-3-unveil-thicker-hair-serum-30ml-1oz",
+        "column_gap": 100,
+        "column_gap_mobile": 30,
+        "image_placement": "left",
+        "padding_top": 40,
+        "padding_bottom": 42,
+        "custom_class": "cus-product-sec"
+      }
+    },
+    "166383754661f70bd2": {
+      "type": "new-featured-product",
+      "blocks": {
+        "16638375463539e07e-0": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "2162a3fd-70a1-454a-9b6d-e27e3c3e06f6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "ECO-Friendly Wheat Straw Biodegradable Stimulating Scalp BrushHealthy hair begins with a healthy scalp. Regularly massaging your scalp promotes blood circulation and flow to the scalp, boosting scalp health. ",
+            "text_style": "body"
+          }
+        },
+        "10526d24-6710-4096-b6ed-27de1bc69516": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "16638375463539e07e-1": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "33d6b0c2-1d67-4ad9-820e-fd6b35893401": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "content": "<p>ECO-Friendly Wheat Straw Biodegradable Stimulating Scalp Brush.<\/p><p>Healthy hair begins with a healthy scalp. Regularly massaging your scalp promotes blood circulation and flow to the scalp boosting scalp health. Remove debris from product buildup and dead skin Cell build-up Relaxing experience Perfect in conjunction with our <a href=\"https:\/\/unveilhaircare.com\/products\/no-3-unveil-thicker-hair-serum-30ml-1oz\">Serum<\/a>.<\/p>"
+          }
+        },
+        "2eca512d-5153-464f-aa9b-cc365d3d4cba": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Safe for All Hair Types | Can Be Used on Wet or Dry Hair | Easy to Clean<\/p>"
+          }
+        },
+        "16638375463539e07e-2": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "16638375463539e07e-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": true
+          }
+        },
+        "5a7685af-11b2-4c08-bee8-1a1577801180": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "How to Use",
+            "content": "<p>Holding the massager and gently press the tips to your scalp and massage in circular motions. Use all over the scalp. <\/p><p><\/p><p>Can be used on wet or dry hair, with or without product. The goal is to increase circulation, remove debris and create a feeling of wellbeing and self care. <\/p><p><\/p><p>You can use it in or out of the shower. Our creator likes to use it dry however, some clients use it when shampooing their hair.<\/p><p><\/p><p>Rinse the massager in cool water and hang to dry weekly with daily use. <\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "16638375463539e07e-0",
+        "2162a3fd-70a1-454a-9b6d-e27e3c3e06f6",
+        "10526d24-6710-4096-b6ed-27de1bc69516",
+        "16638375463539e07e-1",
+        "33d6b0c2-1d67-4ad9-820e-fd6b35893401",
+        "2eca512d-5153-464f-aa9b-cc365d3d4cba",
+        "16638375463539e07e-2",
+        "16638375463539e07e-3",
+        "5a7685af-11b2-4c08-bee8-1a1577801180"
+      ],
+      "settings": {
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "featured_product": "n-0-unveil-restorative-scalp-stimulating-brush",
+        "column_gap": 100,
+        "column_gap_mobile": 30,
+        "image_placement": "right",
+        "padding_top": 10,
+        "padding_bottom": 0,
+        "custom_class": "cus-product-sec"
+      }
+    },
+    "39c323b6-1d4f-4d5c-be26-669a04cf4bb4": {
+      "type": "new-featured-product",
+      "blocks": {
+        "template--16560423239907__39c323b6-1d4f-4d5c-be26-669a04cf4bb4-16715278011e4efb0e-0": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "7fe1b9c9-f739-4d6d-991b-9647fa18b3e7": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "baa8e892-d345-4ac0-8c1d-a05e904f00b0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Our No.5 Unveil Stronger Hair Nutrition Vitamins is a proprietary blend that supports our hair, scalp, and over all anti-aging goals! What we put into our bodies is as important as what we put on our skin. We strive to source the highest quality ingredients for our supplements that are bio-available to the body. Here's to looking and feeling your best with clean, non-toxic beauty.",
+            "text_style": "body"
+          }
+        },
+        "template--16560423239907__39c323b6-1d4f-4d5c-be26-669a04cf4bb4-16715278011e4efb0e-1": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "template--16560423239907__39c323b6-1d4f-4d5c-be26-669a04cf4bb4-16715278011e4efb0e-2": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "template--16560423239907__39c323b6-1d4f-4d5c-be26-669a04cf4bb4-16715278011e4efb0e-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": true
+          }
+        },
+        "b7f4b153-b9f6-4862-a0fa-c6597fd3a953": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "How Does It Work",
+            "content": "<p>Suggested Use: 60 Capsules - take 2 per day. Best taken with food.<br\/><\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16560423239907__39c323b6-1d4f-4d5c-be26-669a04cf4bb4-16715278011e4efb0e-0",
+        "7fe1b9c9-f739-4d6d-991b-9647fa18b3e7",
+        "baa8e892-d345-4ac0-8c1d-a05e904f00b0",
+        "template--16560423239907__39c323b6-1d4f-4d5c-be26-669a04cf4bb4-16715278011e4efb0e-1",
+        "template--16560423239907__39c323b6-1d4f-4d5c-be26-669a04cf4bb4-16715278011e4efb0e-2",
+        "template--16560423239907__39c323b6-1d4f-4d5c-be26-669a04cf4bb4-16715278011e4efb0e-3",
+        "b7f4b153-b9f6-4862-a0fa-c6597fd3a953"
+      ],
+      "settings": {
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "featured_product": "unveil-no-5-hair-nutrition-vitamins",
+        "column_gap": 100,
+        "column_gap_mobile": 30,
+        "image_placement": "left",
+        "padding_top": 20,
+        "padding_bottom": 50,
+        "custom_class": "cus-product-sec"
+      }
+    },
+    "f8a1dace-38e3-4c2c-bb37-106af069fa2c": {
+      "type": "new-featured-product",
+      "blocks": {
+        "3d4a0812-5287-4c18-ae66-650d935fd845": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "6be354da-43c2-44db-ad20-3c6e095157ce": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "0f2284c5-d8c0-43fb-9e90-2839549d162b": {
+          "type": "text",
+          "settings": {
+            "text": "Our No.5 Unveil Stronger Hair Nutrition Vitamins is a proprietary blend that supports our hair, scalp, and over all anti-aging goals! What we put into our bodies is as important as what we put on our skin. We strive to source the highest quality ingredients for our supplements that are bio-available to the body. Here's to looking and feeling your best with clean, non-toxic beauty.",
+            "text_style": "body"
+          }
+        },
+        "6d8e3bf5-e489-4d37-832e-5b9f9f2ce885": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "04f0233e-4f91-4a79-ab83-fd405f1d2965": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "44788ada-1cd4-411a-a451-47bac5a12e62": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": true
+          }
+        },
+        "b2c84559-b39f-4176-ae79-4667c8c8d041": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How Does It Work",
+            "content": "<p>Suggested Use: 60 Capsules - take 2 per day. Best taken with food.<br\/><\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "d8892267-bde3-4ca8-a33d-0bb5142a735e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How To Apply",
+            "content": "<p>Spray 1-2 pumps directly onto your scalp in <span style=\"text-decoration:underline\">each<\/span> of your thinning areas. <\/p><p>Massage into your scalp with fingertips. <\/p><p>For best results, use our scalp-stimulating brush before you spray your scalp, to get the blood flow up to the scalp and clean away any debris. <\/p><p>Use once daily, either AM or PM.  <\/p><p>** This is a Leave-On Treatment**<\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "3d4a0812-5287-4c18-ae66-650d935fd845",
+        "6be354da-43c2-44db-ad20-3c6e095157ce",
+        "0f2284c5-d8c0-43fb-9e90-2839549d162b",
+        "6d8e3bf5-e489-4d37-832e-5b9f9f2ce885",
+        "04f0233e-4f91-4a79-ab83-fd405f1d2965",
+        "44788ada-1cd4-411a-a451-47bac5a12e62",
+        "b2c84559-b39f-4176-ae79-4667c8c8d041",
+        "d8892267-bde3-4ca8-a33d-0bb5142a735e"
+      ],
+      "settings": {
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "featured_product": "serum-and-vitamin-bundle",
+        "column_gap": 100,
+        "column_gap_mobile": 30,
+        "image_placement": "right",
+        "padding_top": 20,
+        "padding_bottom": 50,
+        "custom_class": "cus-product-sec"
+      }
+    },
+    "6d83943b-b3ad-416b-9b93-6f7535fa82ab": {
+      "type": "custom-content",
+      "blocks": {
+        "template--16560423239907__6d83943b-b3ad-416b-9b93-6f7535fa82ab-1667014243495ab7a8-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mens-home-bannerff.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "template--16560423239907__6d83943b-b3ad-416b-9b93-6f7535fa82ab-1667014243495ab7a8-0": {
+          "type": "text",
+          "settings": {
+            "title": "By the age of 30, 25% of men have visible HAIR LOSS. By 50, 50% of men experience HAIR LOSS.",
+            "subheading": "",
+            "text": "<p>\"<strong>The male pattern baldness (MPB) form of androgenetic alopecia (there is also a female pattern baldness) accounts for more than 95% of hair loss in men<\/strong>. By age 35, two-thirds of American men will have some degree of appreciable hair loss and by age 50 approximately 85% of men have significantly thinning hair.\" - WebMD<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16560423239907__6d83943b-b3ad-416b-9b93-6f7535fa82ab-1667014243495ab7a8-1",
+        "template--16560423239907__6d83943b-b3ad-416b-9b93-6f7535fa82ab-1667014243495ab7a8-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "custom_class": "bg-image-swish"
+      }
+    },
+    "main": {
+      "type": "page-men",
+      "settings": {
+      }
+    },
+    "16638024021eb42edc": {
+      "type": "image-with-text-2",
+      "disabled": true,
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify:\/\/shop_images\/Mens_Shop_Page_Photo_1.png",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "right bottom",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "SOLUTIONS FOR MEN",
+        "subtitle": "",
+        "text": "<p><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": ""
+      }
+    },
+    "1664491718d55f4717": {
+      "type": "custom-content",
+      "blocks": {
+        "1664491718ef99df41-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<p><strong>By age 35, two-thirds of American men will have some degree of appreciable hair loss<\/strong> and by age 50 approximately 85% of men have significantly thinning hair. (src=\"WebMD\")<\/p><p>Although you can’t prevent male pattern baldness, there are ways to slow down hair loss-- This is when Unveil Restorative Hair Care comes in with solutions to help you grow and keep your hair! <\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "lr-padding"
+          }
+        },
+        "9ecd55f3-4214-4fd4-9bbd-c74f854bbc95": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/step-1-scalp-brush4.jpg",
+            "title": "1. Brush your scalp in circular motions on preferably dry hair.",
+            "subheading": "",
+            "text": "<p><\/p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "cc660980-616d-4aee-ad35-4bb3025f672b": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/step-2-holding-serum.jpg",
+            "title": "2. Spray our serum on your scalp line down the middle",
+            "subheading": "",
+            "text": "<p><\/p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "42e8aaae-3739-4eed-bc32-8a2b61d91048": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/step-3-fingers-through-scalp2.jpg",
+            "title": "3. Use your fingers to massage the serum into your scalp.",
+            "subheading": "",
+            "text": "<p><\/p>",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664491718ef99df41-0",
+        "9ecd55f3-4214-4fd4-9bbd-c74f854bbc95",
+        "cc660980-616d-4aee-ad35-4bb3025f672b",
+        "42e8aaae-3739-4eed-bc32-8a2b61d91048"
+      ],
+      "settings": {
+        "heading": "How to use Unveil Hair Serum and Scalp Stimulating Brush",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 60,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 90,
+        "padding_bottom": 90,
+        "custom_class": "cus-how-work"
+      }
+    },
+    "166449171051d91d41": {
+      "type": "icon-box",
+      "disabled": true,
+      "blocks": {
+        "1664491710a3de6e5c-0": {
+          "type": "iconbox",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HAIRLOSS-01_ea702d48-5da4-43bd-8aa4-7886224cc323.png",
+            "image_by_url": "",
+            "title": "Standard Shipping Worldwide",
+            "description": "<p>Tell about your service.<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1664491710a3de6e5c-1": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "100% Safe & Secure Checkout",
+            "description": "<p>Tell about your service.<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1664491710a3de6e5c-2": {
+          "type": "iconbox",
+          "disabled": true,
+          "settings": {
+            "image_by_url": "",
+            "title": "24\/7 online support",
+            "description": "<p>Tell about your service.<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664491710a3de6e5c-0",
+        "1664491710a3de6e5c-1",
+        "1664491710a3de6e5c-2"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_per_row": 3,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "vertical",
+        "image_max_width": "70px",
+        "content_alignment": "center",
+        "hover_effect": "zoom-in",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": true,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1663806431df8bb28f": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "5b954530-8602-4339-bf96-b108580ef723": {
+          "type": "html",
+          "settings": {
+            "code": "<br><br>",
+            "width": "50%",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "5b954530-8602-4339-bf96-b108580ef723"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1663802394c1f0e0f7": {
+      "type": "banner-with-slider",
+      "disabled": true,
+      "blocks": {
+        "1663802394e0330df5-0": {
+          "type": "item_slide",
+          "settings": {
+            "content_text_color": "black",
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "subheading": "Hot this week",
+            "heading": "Chenille sweater with<br> raglan sleeves",
+            "description": "<p><\/p>",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1663802394e0330df5-1": {
+          "type": "item_slide",
+          "settings": {
+            "content_text_color": "black",
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "subheading": "Hot this week",
+            "heading": "Chenille sweater with<br> raglan sleeves",
+            "description": "<p><\/p>",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "1663802394e0330df5-2": {
+          "type": "item_slide",
+          "settings": {
+            "content_text_color": "black",
+            "content_position": "left middle",
+            "text_alignment": "left",
+            "subheading": "Hot this week",
+            "heading": "Chenille sweater with<br> raglan sleeves",
+            "description": "<p><\/p>",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663802394e0330df5-0",
+        "1663802394e0330df5-1",
+        "1663802394e0330df5-2"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "slide_autoplay": false,
+        "autorotate_speed": 5,
+        "button_text_1": "",
+        "button_link_1": "",
+        "button_style_1": "sf__btn-white",
+        "button_size_1": "",
+        "button_text_2": "Shop Now",
+        "button_link_2": "",
+        "button_style_2": "sf__btn-white",
+        "button_size_2": "",
+        "button_text_3": "Shop Now",
+        "button_link_3": "",
+        "button_style_3": "sf__btn-white",
+        "button_size_3": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1663837720abba38b9": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "1663837719b00f4765-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<p><strong>By age 35, two-thirds of American men will have some degree of appreciable hair loss<\/strong> and by age 50 approximately 85% of men have significantly thinning hair. (src=\"WebMD\")<\/p><p>Although you can’t prevent male pattern baldness, there are ways to slow down hair loss-- This is when Unveil Restorative Hair Care comes in with solutions to help you grow and keep your hair! <\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "1663837719b00f4765-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663837719b00f4765-0",
+        "1663837719b00f4765-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16638064554c27dce7": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "1663806454fd40de9d-1": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "04c4bb33-e8f0-4f9d-8dfc-b7bf71eda051": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "88d53d86-e04f-4712-aadc-750c4fe4385c": {
+          "type": "image_card",
+          "settings": {
+            "width": "33%",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify:\/\/shop_images\/step-3-fingers-through-scalp2.jpg",
+            "link": "",
+            "title": "Reduce DHT in the scalp with topical finasteride",
+            "subtitle": "Recent clinical studies suggest that topical finasteride treatment can help prevent further hair loss in men with androgenetic alopecia (aka male pattern hair loss), while having a lower side effect profile than when taken as a pill. Finasteride works by blocking an enzyme that converts testosterone into DHT, a hormone that can weaken hair follicles.",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663806454fd40de9d-1",
+        "04c4bb33-e8f0-4f9d-8dfc-b7bf71eda051",
+        "88d53d86-e04f-4712-aadc-750c4fe4385c"
+      ],
+      "settings": {
+        "heading": "Custom content",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "icon-box": {
+      "type": "icon-box",
+      "disabled": true,
+      "blocks": {
+        "c8a16382-6620-4bcf-ba3e-1bb9d69d5b77": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "Free Shipping",
+            "description": "<p>Free Shipping for orders over £130<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "13184979-bd7f-482c-865f-60738819a029": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "Money Guarantee",
+            "description": "<p>Within 30 days for an exchange.<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "c4cf2072-efce-4cb9-b184-14404b61e2a3": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "Online Support",
+            "description": "<p>24 hours a day, 7 days a week<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "8e15d521-c62b-4552-a64a-94ead24641e5": {
+          "type": "iconbox",
+          "settings": {
+            "image_by_url": "",
+            "title": "Flexible Payment",
+            "description": "<p>Pay with Multiple Credit Cards<\/p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "c8a16382-6620-4bcf-ba3e-1bb9d69d5b77",
+        "13184979-bd7f-482c-865f-60738819a029",
+        "c4cf2072-efce-4cb9-b184-14404b61e2a3",
+        "8e15d521-c62b-4552-a64a-94ead24641e5"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#ffffff",
+        "item_per_row": 4,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "horizontal",
+        "image_max_width": "30px",
+        "content_alignment": "start",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    },
+    "5a4c0e5f-b7b4-4743-b900-8f43c0c80634": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "template--16560423239907__5a4c0e5f-b7b4-4743-b900-8f43c0c80634-16662856231ffe0989-0": {
+          "type": "text",
+          "settings": {
+            "title": "Talk about your brand",
+            "subheading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "width": "25%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "template--16560423239907__5a4c0e5f-b7b4-4743-b900-8f43c0c80634-16662856231ffe0989-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/No.3-Unveil-Thicker-Hair-Serum-30ml-1oz-box.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "23d64df4-b529-4841-80f2-30a6aed64831": {
+          "type": "text",
+          "settings": {
+            "title": "Talk about your brand",
+            "subheading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "width": "25%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16560423239907__5a4c0e5f-b7b4-4743-b900-8f43c0c80634-16662856231ffe0989-0",
+        "template--16560423239907__5a4c0e5f-b7b4-4743-b900-8f43c0c80634-16662856231ffe0989-1",
+        "23d64df4-b529-4841-80f2-30a6aed64831"
+      ],
+      "settings": {
+        "heading": "Two hair loss treatments, one spray",
+        "subheading": "",
+        "description": "This spray isn’t something you can find on the supermarket shelf. It’s a mixture of 0.3% finasteride (RX only) and 6% minoxidil, so it’s only available if a provider prescribes it for you.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "treat-about-sec"
+      }
+    },
+    "c321db7f-c2ac-4419-a3cc-ffac35a252f2": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "#efe8df",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/side-img-templated.gif",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "Is a minoxidil and finasteride topical solution for you?",
+        "sub_title": "",
+        "text": "<p><strong>Hair regrowth awaits<\/strong><\/p><p>With topical minoxidil in the mix, this spray is built to combat receding hairlines, bald spots, or overall thinning.<br\/><\/p><p><strong>Easy hair loss treatment<\/strong><\/p><p>Topical finasteride reduces scalp DHT levels and helps hair follicles hold on for dear life.<br\/><\/p><p><strong>May offer a lower side effect risk<\/strong><\/p><p>This spray has a topical version of 0.3% finasteride, which recent clinical studies on male patients suggest may have a lower risk of side effects than the pill version of finasteride (Generic for Propecia®) when used to treat male pattern hair loss.<\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 100,
+        "padding_bottom": 42,
+        "custom_class": "cus-image-text"
+      }
+    },
+    "c8e87f64-ef41-4ce5-a833-09afe8a9f651": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "w-full",
+        "background_color": "#efe8df",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/mens-home-banner.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "Hair loss can be confusing. We can connect you to experts for help.",
+        "sub_title": "",
+        "text": "<p>- Answer questions about your medical history online<br\/>- We match you with a licensed medical expert<br\/>- Get prescription treatment delivered, if prescribed<\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "Shop Collection",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "padding_top": 52,
+        "padding_bottom": 100,
+        "custom_class": "cus-image-text"
+      }
+    },
+    "ffff4d22-f36a-4965-961d-0714ab0b826f": {
+      "type": "custom-content",
+      "blocks": {
+        "f9bf8d68-9225-4a90-a303-db0a8b34f37a": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/Jen-Before-After_f965acdb-ec9a-41c0-8019-24d416e23.jpg",
+            "title": "<span>REAL RESULTS<\/span>\nJen A.",
+            "subheading": "",
+            "text": "<p>\"As far as my experience - the first 2-3 weeks I noticed a big change in the hair not easily breaking and being fuller - from there I have been getting length in my current hair and most exciting, more hair! It’s such an easy to apply product adding it to your daily routine is a breeze! I also really appreciate that there isn’t a scent to the product and most importantly it doesn’t do anything to make my hair greasy, flat or needing to be washed after applying it. I am so excited the product has worked even better than I could have imagined - it’s inspired me to start using the product all around my part! This is a must buy for anyone that wants thicker, stronger and longer hair - commit to the 90 days, it’s 100% worth the wait!\"<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "3ae2bca8-bea9-4f67-9281-748c4dfa3520": {
+          "type": "text-img",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "subheading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "bda359ff-8caf-4f66-a5b8-7b4998719d11": {
+          "type": "text-img",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "subheading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "c7c2e539-f7ff-4deb-9e6f-38f05dd67ec2": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/ardelle-Before-After_f965acdb-ec9a-41c0-8019-24d416e23.jpg",
+            "title": "<span>REAL RESULTS<\/span>\nArdelle",
+            "subheading": "",
+            "text": "<p>\"I just got my haircut and my niece noticed the hair growth. That really made me happy!\"<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "60a61790-8a6a-4b41-b127-c12e86469e7d": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/Jessica-Z_04ff7d5e-b0ad-4a6e-bdf3-058308bf2179.jpg",
+            "title": "<span>REAL RESULTS<\/span>\nJessica Z.",
+            "subheading": "",
+            "text": "<p>\"I love how the pictures show the change because I wasn’t necessarily<br\/>feeling it - but see it!\"<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "f5d9398c-7cf3-47c1-bb22-14a1e99c8c7c": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/Danielle-G.jpg",
+            "title": "<span>REAL RESULTS<\/span>\nDanielle G.",
+            "subheading": "",
+            "text": "<p>\"I love your hair growth spray! Look at all these new baby sprouts.\"<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "7a6aa228-ca05-46ce-9166-fa9cf3a5f9a2": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/ang-before-after.jpg",
+            "title": "<span>REAL RESULTS<\/span>\nAng V.",
+            "subheading": "",
+            "text": "<p>\"Way Fuller, Tons of New Hair!\" <\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "e59c9bc7-f968-4fbb-80c9-ced1185eac5b": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/Marisol-Before-After_f965acdb-ec9a-41c0-8019-24d416e23.webp",
+            "title": "<span>REAL RESULTS<\/span>\nMarisol",
+            "subheading": "",
+            "text": "<p>\"WOW...I can't believe the difference\"<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "f9bf8d68-9225-4a90-a303-db0a8b34f37a",
+        "3ae2bca8-bea9-4f67-9281-748c4dfa3520",
+        "bda359ff-8caf-4f66-a5b8-7b4998719d11",
+        "c7c2e539-f7ff-4deb-9e6f-38f05dd67ec2",
+        "60a61790-8a6a-4b41-b127-c12e86469e7d",
+        "f5d9398c-7cf3-47c1-bb22-14a1e99c8c7c",
+        "7a6aa228-ca05-46ce-9166-fa9cf3a5f9a2",
+        "e59c9bc7-f968-4fbb-80c9-ced1185eac5b"
+      ],
+      "settings": {
+        "heading": "REAL CLIENTS TRANSFORMED",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#faf8f2",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "custom_class": "single-review-slider"
+      }
+    },
+    "47df2fa2-88c5-4481-9b98-f0d5e4c023a2": {
+      "type": "custom-content",
+      "blocks": {
+        "template--16560423239907__47df2fa2-88c5-4481-9b98-f0d5e4c023a2-1669919025519b3bf8-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "subheading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "template--16560423239907__47df2fa2-88c5-4481-9b98-f0d5e4c023a2-1669919025519b3bf8-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Excited_Client_7911.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "21685bc9-823a-482f-a38a-5afbe360ec35": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Our_first_sale_7910.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "834588fd-4353-4fbe-a865-4fd1d0602cd4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Excited_Client_2.2.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "4948ce6d-e192-4703-8891-d02d0d7b23f9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Client.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "52b47ecf-6af1-42a7-910f-31b5de075625": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Excited_Team_Member.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "634d5568-3605-43a8-8600-f78adfe9735f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16560423239907__47df2fa2-88c5-4481-9b98-f0d5e4c023a2-1669919025519b3bf8-0",
+        "template--16560423239907__47df2fa2-88c5-4481-9b98-f0d5e4c023a2-1669919025519b3bf8-1",
+        "21685bc9-823a-482f-a38a-5afbe360ec35",
+        "834588fd-4353-4fbe-a865-4fd1d0602cd4",
+        "4948ce6d-e192-4703-8891-d02d0d7b23f9",
+        "52b47ecf-6af1-42a7-910f-31b5de075625",
+        "634d5568-3605-43a8-8600-f78adfe9735f"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#b3b895",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "review-slider"
+      }
+    }
+  },
+  "order": [
+    "8e830119-1ede-4f15-a447-2e7bd6e86d43",
+    "16637467137fe8cc32",
+    "166383754661f70bd2",
+    "39c323b6-1d4f-4d5c-be26-669a04cf4bb4",
+    "f8a1dace-38e3-4c2c-bb37-106af069fa2c",
+    "6d83943b-b3ad-416b-9b93-6f7535fa82ab",
+    "main",
+    "16638024021eb42edc",
+    "1664491718d55f4717",
+    "166449171051d91d41",
+    "1663806431df8bb28f",
+    "1663802394c1f0e0f7",
+    "1663837720abba38b9",
+    "16638064554c27dce7",
+    "icon-box",
+    "5a4c0e5f-b7b4-4743-b900-8f43c0c80634",
+    "c321db7f-c2ac-4419-a3cc-ffac35a252f2",
+    "c8e87f64-ef41-4ce5-a833-09afe8a9f651",
+    "ffff4d22-f36a-4965-961d-0714ab0b826f",
+    "47df2fa2-88c5-4481-9b98-f0d5e4c023a2"
+  ]
+}

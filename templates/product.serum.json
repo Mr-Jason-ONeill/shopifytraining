@@ -1,0 +1,490 @@
+{
+  "sections": {
+    "84f96739-da1e-41a9-88d1-003e91104920": {
+      "type": "image-with-text-2",
+      "disabled": true,
+      "settings": {
+        "container": "w-full",
+        "hero_size": "adapt",
+        "show_overlay": false,
+        "image": "shopify:\/\/shop_images\/serum-bottles.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": ""
+      }
+    },
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "text_alignment": "center",
+        "hide_current": false,
+        "hide_on_mb": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "b173668b-9fd0-4dad-9a2d-9f12f0d7ef9d": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "c576f237-899e-4f45-a336-5e3117499185": {
+          "type": "text",
+          "settings": {
+            "text": "Our serum (sprays as a mist) targets the causes of hair loss by improving follicle length, decreasing follicle miniaturization (anti-aging) and DHT inhibitors reducing shedding and breakage.",
+            "text_style": "body"
+          }
+        },
+        "1c6f2b54-2b4a-4443-9d06-22e8039f1af7": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "2bd8d5a7-87bf-4ed8-996e-0da19a2a344c": {
+          "type": "short_description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "12fd9837-9453-40eb-b2e4-f012f0e206fc": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Grow your hair and keep it. Unveil No.3 is the first anti-shedding, anti-breakage, thickening serum, for fuller thicker hair of hair.<\/p><p>Non-Toxic | No Known Carcinogens | Gluten-Free | Vegan | Cruelty-Free | Fragrance-Free<\/p><p><\/p><p><strong>Subscribe:<\/strong> Receive <strong>3 bottles<\/strong> every <strong>3 months<\/strong> and get <em>$21 OFF in savings<\/em>!<\/p>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_atc_button": true,
+            "show_dynamic_checkout": true
+          }
+        },
+        "addons": {
+          "type": "addons",
+          "disabled": true,
+          "settings": {
+            "show_atcp": true,
+            "show_ask_a_question": true,
+            "show_social": true
+          }
+        },
+        "f9d62ed6-0bb5-4a76-9bc9-5abec51c97cc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Our Clean Ingredients",
+            "content": "<p>Water, Alcohol,<br\/>Glycerin, Butylene Glycol,<br\/>Sorbitan Oleate Decylglucoside<br\/>Crosspolymer, Dextran,<br\/>Niacinamide, Caffeine, Acetyl<br\/>Tetrapeptide-3, Trifolium<br\/>Pratense (Clover) Flower Extract,<br\/>Panthenol (Vitamin B5), Malus<br\/>Domestica Fruit Cell Culture<br\/>Extract, Xanthan Gum, Lecithin,<br\/>Polysorbate-20, Sodium<br\/>Benzoate, Citric Acid,<br\/>Sodium Citrate.<\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "f3572860-3133-443b-8acf-81054f33e5e5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What Makes Us Different",
+            "content": "<p>Unveil No.3 is the first anti-shedding, anti-breakage, thickening serum, for a fuller thicker head of hair. Now you can grow your hair and keep it. <\/p><p>Non-Toxic | Vegan | Gluten-Free | Cruelty-Free | Fragrance-Free | No Known Carcinogens <\/p><p><\/p><p><strong>Subscribe:<\/strong> Receive <strong>3 bottles<\/strong> every <strong>3 months<\/strong> and get <em>$21 OFF in savings<\/em>!<\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        },
+        "0ce531f7-2eb2-4eb8-8130-c32c5466b542": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to apply",
+            "content": "<p>Spray 1-2 pumps directly onto your scalp in <span style=\"text-decoration:underline\">each<\/span> of your thinning areas. <\/p><p>Massage into your scalp with fingertips. <\/p><p>For best results, use our scalp-stimulating brush before you spray your scalp, to get increased blood flow up to the scalp and clean away any debris. <\/p><p>Use once daily, either AM or PM.  <\/p><p>** This is a Leave-On Treatment**<\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "b173668b-9fd0-4dad-9a2d-9f12f0d7ef9d",
+        "c576f237-899e-4f45-a336-5e3117499185",
+        "1c6f2b54-2b4a-4443-9d06-22e8039f1af7",
+        "2bd8d5a7-87bf-4ed8-996e-0da19a2a344c",
+        "12fd9837-9453-40eb-b2e4-f012f0e206fc",
+        "variant_picker",
+        "buy_buttons",
+        "addons",
+        "f9d62ed6-0bb5-4a76-9bc9-5abec51c97cc",
+        "f3572860-3133-443b-8acf-81054f33e5e5",
+        "0ce531f7-2eb2-4eb8-8130-c32c5466b542"
+      ],
+      "settings": {
+        "container": "container",
+        "layout": "layout-6",
+        "show_atwl": true,
+        "enable_history_state": true,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": false,
+        "show_pagination_mobile": true,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "custom_content_zx4xJN": {
+      "type": "custom-content",
+      "blocks": {
+        "html_fdMMAr": {
+          "type": "html",
+          "settings": {
+            "code": "<video controls=\"controls\" style=\"max-width: 75%; height: auto;\">\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a726791ba4714b6b8dff4738d692eec5.mp4\" type=\"video\/mp4\">\nYour browser does not support our video.\n<\/source><\/video>",
+            "width": "33%",
+            "block_custom_class": ""
+          }
+        },
+        "html_RnGwzt": {
+          "type": "html",
+          "settings": {
+            "code": "<video controls=\"controls\" style=\"max-width: 75%; height: auto;\">\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/88d9f92b25b44af8815ed06ae3285574.mp4\" type=\"video\/mp4\">\nYour browser does not support our video.\n<\/source><\/video>",
+            "width": "33%",
+            "block_custom_class": ""
+          }
+        },
+        "html_qhKVCL": {
+          "type": "html",
+          "settings": {
+            "code": "<video controls=\"controls\" style=\"max-width: 75%; height: auto;\">\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8419b7cda26543d78a57b1757d8f7a37.mp4\" type=\"video\/mp4\">\nYour browser does not support our video.\n<\/source><\/video>",
+            "width": "33%",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "html_fdMMAr",
+        "html_RnGwzt",
+        "html_qhKVCL"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "custom_content_8MpFmd": {
+      "type": "custom-content",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1695138164f0da7168": {
+      "type": "apps",
+      "blocks": {
+        "01505270-49aa-4748-8ec9-c254d6bcbd30": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "01505270-49aa-4748-8ec9-c254d6bcbd30"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "2b240fb2-d311-44b0-b128-57e8ae2bf3be": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "heading": "Reviews",
+        "custom_liquid": ""
+      }
+    },
+    "659a9eb6-4392-407c-95ed-3984a5786e24": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/step-2-holding-serum.jpg",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "4",
+        "hover_effect": false,
+        "title": "Keep your hair naturally and make Unveil Hair Care part of your hair wellness routine.",
+        "sub_title": "Subscribe and Save",
+        "text": "<p><strong>The Benefits:<br\/><\/strong>- Free Shipping on all US orders<br\/>- Save 10-20% Off <br\/>- Save time. When you buy once,   we'll do all the work<br\/>- Consistency is the key to success<\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "38af229b-9fb6-4592-8c9d-9c2bc84fdd7a": {
+      "type": "custom-content",
+      "blocks": {
+        "007724dd-80f2-4f0f-8371-3dfbb69050e3": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/step-1-scalp-brush4.jpg",
+            "title": "1. Brush your scalp in circular motions on preferably dry hair.",
+            "subheading": "",
+            "text": "",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "fc84ce6b-a24a-4d4e-9d38-8afa16cb1267": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/step-2-holding-serum.jpg",
+            "title": "2. Spray our serum on your scalp line down the middle",
+            "subheading": "",
+            "text": "",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "d9f1aa94-18c5-4d6f-ab4f-f05789b2adf0": {
+          "type": "text-img",
+          "settings": {
+            "image_text": "shopify:\/\/shop_images\/step-3-fingers-through-scalp2.jpg",
+            "title": "3. Use your fingers to massage the serum into your scalp.",
+            "subheading": "",
+            "text": "",
+            "width": "33%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "template--16552395735267__38af229b-9fb6-4592-8c9d-9c2bc84fdd7a-166561100717c15ebe-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/step-1-scalp-brush4.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "f0bd19ca-cbed-4045-8c8d-e03f0dcf5d86": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/step-2-holding-serum.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "58c33f19-16bb-4471-a9fa-c4a0b0eb6aef": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/step-3-fingers-through-scalp2.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "007724dd-80f2-4f0f-8371-3dfbb69050e3",
+        "fc84ce6b-a24a-4d4e-9d38-8afa16cb1267",
+        "d9f1aa94-18c5-4d6f-ab4f-f05789b2adf0",
+        "template--16552395735267__38af229b-9fb6-4592-8c9d-9c2bc84fdd7a-166561100717c15ebe-1",
+        "f0bd19ca-cbed-4045-8c8d-e03f0dcf5d86",
+        "58c33f19-16bb-4471-a9fa-c4a0b0eb6aef"
+      ],
+      "settings": {
+        "heading": "How to use Unveil Hair Serum and Scalp Stimulating Brush",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 60,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "custom_class": "cus-how-work"
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Orders are captured in our system immediately.<br\/>We do our best to process your order in 2 business days after the order is placed. <\/p><p>Therefore, any changes to an order we will try to accommodate but cannot guarantee.<\/p><p>Once shipped from our location in Solana Beach, CA orders will arrive from USPS | FedEx with delivery confirmation or signature required.<\/p><p><\/p><p><a href=\"\/shipping-and-returns\" title=\"\/shipping-and-returns\">Read More<\/a><\/p>",
+            "content_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "bg_color": "",
+        "default_open": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "container": "container",
+        "heading": "You Might Also Like",
+        "text_align": "left",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "enable_slider": true
+      }
+    },
+    "recent-viewed-products": {
+      "type": "recent-viewed-products",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "heading": "Recently Viewed Products",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "enable_slider": true
+      }
+    }
+  },
+  "order": [
+    "84f96739-da1e-41a9-88d1-003e91104920",
+    "breadcrumb",
+    "main",
+    "custom_content_zx4xJN",
+    "custom_content_8MpFmd",
+    "1695138164f0da7168",
+    "2b240fb2-d311-44b0-b128-57e8ae2bf3be",
+    "659a9eb6-4392-407c-95ed-3984a5786e24",
+    "38af229b-9fb6-4592-8c9d-9c2bc84fdd7a",
+    "product-details-tabs",
+    "product-recommendations",
+    "recent-viewed-products"
+  ]
+}

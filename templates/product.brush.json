@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "f78d7a68-92c3-4d59-9de8-4c9cba7a2a69": {
+      "type": "image-with-text-2",
+      "disabled": true,
+      "settings": {
+        "container": "w-full",
+        "hero_size": "adapt",
+        "show_overlay": false,
+        "image": "shopify:\/\/shop_images\/SEPT2822-11_2.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": ""
+      }
+    },
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container",
+        "text_alignment": "center",
+        "hide_current": false,
+        "hide_on_mb": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "2bd8d5a7-87bf-4ed8-996e-0da19a2a344c": {
+          "type": "short_description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "aec18da3-9d78-42af-96ae-7d1502b3a2bb": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "a9b731d3-bf34-48f5-9c6a-fcf345535e37": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "content": "<p>ECO-Friendly Wheat Straw Biodegradable Stimulating Scalp Brush.<\/p><p>Healthy hair begins with a healthy scalp. Regularly massaging your scalp promotes blood circulation and flow to the scalp boosting scalp health. Remove debris from product buildup and dead skin Cell build-up Relaxing experience Perfect in conjunction with our <a href=\"https:\/\/unveilhaircare.com\/products\/no-3-unveil-thicker-hair-serum-30ml-1oz\">Serum<\/a>.<\/p>"
+          }
+        },
+        "b04bffc5-a577-431c-9956-858c985a2d70": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Safe for All Hair Types | Can Be Used on Wet or Dry Hair | Easy to Clean<\/p>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false
+          }
+        },
+        "addons": {
+          "type": "addons",
+          "disabled": true,
+          "settings": {
+            "show_atcp": true,
+            "show_ask_a_question": true,
+            "show_social": true
+          }
+        },
+        "a97615d3-678b-4e60-8c02-4da92c8eb13c": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "What Makes Us Different",
+            "content": "",
+            "liquid": "<p>ECO-Friendly Wheat Straw Biodegradable Stimulating Scalp Brush<\/p>\n<p>Healthy hair begins with a healthy scalp. Regularly massaging your scalp promotes blood circulation and flow to the scalp, boosting scalp health.&nbsp;<\/p>\n<ul>\n<li>Remove debris from product buildup and dead skin<\/li>\n<li>Cell buildup<\/li>\n<li>Relaxing experience<\/li>\n<li>Perfect in conjunction with our <a href=\"https:\/\/unveilhaircare.com\/products\/no-3-unveil-thicker-hair-serum-30ml-1oz\">Serum<\/a>\n<\/li>\n<\/ul>\n<p>Safe for all hair types | Can be used on wet or dry hair | Easy to clean<\/p>",
+            "default_open": false
+          }
+        },
+        "f3572860-3133-443b-8acf-81054f33e5e5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to Use",
+            "content": "<p>Holding the massager and gently press the tips to your scalp and massage in circular motions. Use all over the scalp. <\/p><p><\/p><p>Can be used on wet or dry hair, with or without product. The goal is to increase circulation, remove debris and create a feeling of wellbeing and self care. <\/p><p><\/p><p>You can use it in or out of the shower. Our creator likes to use it dry however, some clients use it when shampooing their hair.<\/p><p><\/p><p>Rinse the massager in cool water and hang to dry weekly with daily use. <\/p>",
+            "liquid": "",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "2bd8d5a7-87bf-4ed8-996e-0da19a2a344c",
+        "aec18da3-9d78-42af-96ae-7d1502b3a2bb",
+        "a9b731d3-bf34-48f5-9c6a-fcf345535e37",
+        "b04bffc5-a577-431c-9956-858c985a2d70",
+        "variant_picker",
+        "buy_buttons",
+        "addons",
+        "a97615d3-678b-4e60-8c02-4da92c8eb13c",
+        "f3572860-3133-443b-8acf-81054f33e5e5"
+      ],
+      "settings": {
+        "container": "container",
+        "layout": "layout-6",
+        "show_atwl": true,
+        "enable_history_state": true,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": true,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": false,
+        "show_pagination_mobile": true,
+        "use_sticky_atc": true,
+        "use_sticky_atc_on_mobile": true,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": false,
+        "sticky_atc_compare": false
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Orders are captured in our system immediately.<br\/>We do our best to process your order in 2 business days after the order is placed. <\/p><p>Therefore, any changes to an order we will try to accommodate but cannot guarantee.<\/p><p>Once shipped from our location in Solana Beach, CA orders will arrive from USPS | FedEx with delivery confirmation or signature required.<\/p><p><\/p><p><a href=\"\/shipping-and-returns\" title=\"\/shipping-and-returns\">Read More<\/a><\/p>",
+            "content_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-narrow",
+        "bg_color": "",
+        "default_open": true
+      }
+    },
+    "1695138614d658556b": {
+      "type": "apps",
+      "blocks": {
+        "1c5fbfd6-5a45-463b-bf24-79f4b7a18ec7": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "1c5fbfd6-5a45-463b-bf24-79f4b7a18ec7"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "2b240fb2-d311-44b0-b128-57e8ae2bf3be": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "heading": "Reviews",
+        "custom_liquid": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "container": "container",
+        "heading": "You Might Also Like",
+        "text_align": "left",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "enable_slider": true
+      }
+    },
+    "recent-viewed-products": {
+      "type": "recent-viewed-products",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "heading": "Recently Viewed Products",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "enable_slider": true
+      }
+    }
+  },
+  "order": [
+    "f78d7a68-92c3-4d59-9de8-4c9cba7a2a69",
+    "breadcrumb",
+    "main",
+    "product-details-tabs",
+    "1695138614d658556b",
+    "2b240fb2-d311-44b0-b128-57e8ae2bf3be",
+    "product-recommendations",
+    "recent-viewed-products"
+  ]
+}

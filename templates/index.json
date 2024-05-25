@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "e1e5aa1a-8a39-4245-9273-55e80ba65f80": {
+      "type": "new-featured-product",
+      "blocks": {
+        "template--16734104387811__e1e5aa1a-8a39-4245-9273-55e80ba65f80-16891986422b98c171-0": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--16734104387811__e1e5aa1a-8a39-4245-9273-55e80ba65f80-16891986422b98c171-1": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "template--16734104387811__e1e5aa1a-8a39-4245-9273-55e80ba65f80-16891986422b98c171-2": {
+          "type": "variant_picker",
+          "settings": {
+          }
+        },
+        "template--16734104387811__e1e5aa1a-8a39-4245-9273-55e80ba65f80-16891986422b98c171-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16734104387811__e1e5aa1a-8a39-4245-9273-55e80ba65f80-16891986422b98c171-0",
+        "template--16734104387811__e1e5aa1a-8a39-4245-9273-55e80ba65f80-16891986422b98c171-1",
+        "template--16734104387811__e1e5aa1a-8a39-4245-9273-55e80ba65f80-16891986422b98c171-2",
+        "template--16734104387811__e1e5aa1a-8a39-4245-9273-55e80ba65f80-16891986422b98c171-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "featured_product": "no-3-unveil-thicker-hair-serum-30ml-1oz",
+        "column_gap": 130,
+        "column_gap_mobile": 30,
+        "image_placement": "left",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "custom_class": ""
+      }
+    },
+    "508fa276-6a43-4251-a465-94952d66112b": {
+      "type": "custom-content",
+      "blocks": {
+        "template--16416870334691__508fa276-6a43-4251-a465-94952d66112b-1669919295cf2694c2-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "subheading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "template--16416870334691__508fa276-6a43-4251-a465-94952d66112b-1669919295cf2694c2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Excited_Client_7911.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "0d357149-e60c-4f5d-9a55-98591ad4d884": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Our_first_sale_9b138be4-2a05-434f-9c85-45db9cc8d810.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "1bddc2dc-99fa-4e1a-ae3c-8b67e9100219": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Excited_Client_2.2.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "99a9fc38-b291-4ddd-baa9-c28cbdecbcd6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Client.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "29dadf51-ff79-4b18-9f44-44cc0f180f45": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Excited_Team_Member.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "8a4b43b0-58a3-415e-889b-8895fbded9fa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo.jpg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16416870334691__508fa276-6a43-4251-a465-94952d66112b-1669919295cf2694c2-0",
+        "template--16416870334691__508fa276-6a43-4251-a465-94952d66112b-1669919295cf2694c2-1",
+        "0d357149-e60c-4f5d-9a55-98591ad4d884",
+        "1bddc2dc-99fa-4e1a-ae3c-8b67e9100219",
+        "99a9fc38-b291-4ddd-baa9-c28cbdecbcd6",
+        "29dadf51-ff79-4b18-9f44-44cc0f180f45",
+        "8a4b43b0-58a3-415e-889b-8895fbded9fa"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#b3b895",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "custom_class": "review-slider"
+      }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "e1e5aa1a-8a39-4245-9273-55e80ba65f80",
+    "508fa276-6a43-4251-a465-94952d66112b",
+    "pagefly-home"
+  ]
+}

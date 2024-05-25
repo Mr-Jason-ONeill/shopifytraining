@@ -1,0 +1,54 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16644448451af5bae5": {
+      "type": "custom-content",
+      "blocks": {
+        "1664444845d58ac342-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<p><strong>Hair Goals<\/strong> Proper supplementation and a healthy diet is a great place to start to creating a healthy foundation for strong hair. Then use clean products that do not build up on the scalp. Also important is a hair stimulating scalp brush, it promotes wellness and get the blood flowing to the scalp to nourish the hair follicles. These are great steps to take for healthy, strong, thicker hair.<\/p><p><strong>Fine hair<\/strong> – Thickening serums are great to increase hair strand diameter creating the illusion of thicker hair<\/p><p>Thick or Course hair needs moisture.<\/p><p>Oily Scalp don’t wash hair every day with shampoo…every other day as daily washing can over activate the sabulous glans<\/p><p><strong>Hair line Receding<\/strong> – is usually a sign of hereditary hair loss. Fortunately you can stop the progression and possibly regrow some of the hair you’ve lost.<\/p><p><strong>Excessive Shedding<\/strong>- It’s normal to lose 50 – 100 hairs day any more than that could be considered excessive shedding. Stress, poor diet, Menopause and post pregnancy (only if they chose woman ) can all be contributing factors to sudden excess hair loss<\/p><p><strong>Hard Water<\/strong>- Not to be overlooked, \"hard water\" — that is, water that contains a buildup of minerals — can have a significant impact on the look and feel of your hair, affecting everything from its moisture content, causing decreased hair thickness, dry scalp, and breakage.<\/p><p>Washing daily is too much every other day is best for scalp health<\/p><p>Washing less than 3 times a week is not enough scalp stimulation and can cause build up and suffocate the hair follicles and cause excessive hair shedding<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664444845d58ac342-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16644448451af5bae5"
+  ]
+}

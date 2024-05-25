@@ -1,0 +1,95 @@
+{%- if  section.blocks.size > 0 and section.settings.show_announcement_bar -%}
+<div class="hura-announcement-bar swiper-container">
+  <div class="hura-messages swiper-wrapper">
+    {%- for block in section.blocks -%}
+    <div class="hura-message swiper-slide">{{block.settings.message}}</div>
+    {%- endfor -%}
+  </div>
+  <div class="hura-swiper-button swiper-button-prev"></div>
+  <div class="hura-swiper-button swiper-button-next"></div>
+</div>
+<p style="display:none!important;">Powered by <a href="//www.huratips.com" target="_blank">HuraTips.Com</a></p>
+<script src="//cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+<script>
+  const swiper = new Swiper('.swiper-container', {
+    {%- if section.settings.autoplay %}
+    autoplay: {delay: {{section.settings.delay}} },
+    {%- endif -%}
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+<style>
+  .hura-announcement-bar{
+    background:{{section.settings.colorBackground}};
+    position: relative;
+    overflow: hidden;
+  }
+  .hura-announcement-bar .hura-message{
+    text-align:center;
+    color:{{section.settings.colorText}};
+    padding:0 25%;
+  }
+  .hura-announcement-bar .swiper-button-next:after, .hura-announcement-bar .swiper-container-rtl .swiper-button-prev:after,
+  .hura-announcement-bar .swiper-button-prev:after, .hura-announcement-bar .swiper-container-rtl .swiper-button-next:after{
+    font-size: 20px;
+    color:{{section.settings.colorText}};
+  }
+  {%- if  section.blocks.size < 5 %}
+  .hura-announcement-bar .hura-swiper-button{display:none!important;}
+  {%- endif -%}
+</style>
+{%- endif -%}
+ 
+{% schema %}
+  {
+    "name": "Announcement Bar",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_announcement_bar",
+        "label": "Show"
+      },
+      {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Autoplay"
+      },
+      {
+        "type": "text",
+        "id": "delay",
+        "label": "Delay between transitions (in ms)",
+        "default": "5000"
+      },
+      {
+        "type": "color",
+        "id": "colorBackground",
+        "label": "Background color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "colorText",
+        "label": "Text color",
+        "default": "#000"
+      }
+],
+"blocks": [
+      {
+        "type": "header",
+        "name": "Message",
+        "settings": [
+{
+              "id": "message",
+              "type": "textarea",
+             "label": "Message"
+            }
+        ]
+      }
+]
+  }
+{% endschema %}

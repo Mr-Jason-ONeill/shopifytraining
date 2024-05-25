@@ -1,0 +1,188 @@
+{
+  "sections": {
+    "166383165158946d91": {
+      "type": "image-with-text-2",
+      "disabled": true,
+      "settings": {
+        "container": "w-full",
+        "hero_size": "adapt",
+        "show_overlay": true,
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "Frequently Asked Questions",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "page-faqs",
+      "blocks": {
+        "custom-content": {
+          "type": "content",
+          "settings": {
+            "content": "<br><br><br><h3 style=\"text-align:center;\">Here are some frequently asked questions about our products. <\/h3>\n<br>\n<p style=\"text-align:center;\">If you have any other questions, you can always email us at <a href=\"mailto:hello@unveilhaircare.com\">hello@unveilhaircare.com<\/a>!<\/p>"
+          }
+        },
+        "9f596258-d1ab-4057-bef2-be8c93fd82b8": {
+          "type": "content",
+          "settings": {
+            "content": "<h5 style=\"font-weight:bolder; margin-bottom: -30px;\">OUR PRODUCTS<\/h5>"
+          }
+        },
+        "accordion-1": {
+          "type": "accordion",
+          "settings": {
+            "title": "Are Unveil Hair Products Non-Toxic?",
+            "content": "<p>YES! Unveil products are non-toxic, vegan, cruelty-free, fragrance-free, gluten-free, and silicone-free. NO known hormone disruptors & NO known carcinogens. Our goal is always to make our products as clean as possible.<\/p>",
+            "open": false
+          }
+        },
+        "accordion-2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Where are the products made?",
+            "content": "<p>Our products are made in the USA and ship from sunny San Diego, CA.<\/p>",
+            "open": false
+          }
+        },
+        "accordion-3": {
+          "type": "accordion",
+          "settings": {
+            "title": "How long until I see results?",
+            "content": "<p>Your hair should feel thicker and more manageable a few days after using the product. It takes 90-100 days for a hair growth cycle, so you will need to use the product for 3-4 months for optimal results. <\/p>",
+            "open": false
+          }
+        },
+        "c36bbc66-e666-471f-b7b8-c1cfc4ec2de3": {
+          "type": "accordion",
+          "settings": {
+            "title": "Will you be expanding your product line?",
+            "content": "<p>Yes, we have a few products already in the works and set to launch next year.<\/p>",
+            "open": false
+          }
+        },
+        "dc7ef1f3-b1ad-4de0-a8bc-db87c3ff1cc5": {
+          "type": "content",
+          "settings": {
+            "content": "<h5 id=\"shipping\" style=\"font-weight:bolder; margin-bottom: -30px;\">SHIPPING<\/h5>"
+          }
+        },
+        "accordion-4": {
+          "type": "accordion",
+          "settings": {
+            "title": "What method do you use to ship?",
+            "content": "<p>Currently, we use USPS.<\/p>",
+            "open": false
+          }
+        },
+        "accordion-5": {
+          "type": "accordion",
+          "settings": {
+            "title": "When will my package arrive?",
+            "content": "<p>All packages are shipped by USPS. The processing time for orders is 1-2 business days. After that, delivery time within the United States is 1-6 days.<\/p>",
+            "open": false
+          }
+        },
+        "73343703-f4b4-4925-9f6c-28b782042ac5": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do you accept international orders?",
+            "content": "<p>Not at this time…but we will sometime in the near future!<\/p>",
+            "open": false
+          }
+        },
+        "ed569906-1b4e-46e3-973c-506157e927d4": {
+          "type": "content",
+          "settings": {
+            "content": "<h5 id=\"returns\" style=\"font-weight:bolder; margin-bottom: -30px;\">RETURNS<\/h5>"
+          }
+        },
+        "5d07873d-cd0f-48d1-b089-ffa9030afbad": {
+          "type": "accordion",
+          "settings": {
+            "title": "I received a damaged product. What do I do?",
+            "content": "<p>Please inspect your order upon receipt and contact us within 3 days of your delivery if the item is leaking, damaged or if you receive the wrong item, so that we can evaluate the issue and quickly make it right. We may ask for you to send pictures when contacting us. Contact us at <a href=\"mailto:hello@unveilhaircare.com\" title=\"mailto:hello@unveilhaircare.com\"><span style=\"text-decoration:underline\">hello@unveilhaircare.com<\/span><\/a> and put in the subject line <strong>Damaged Product<\/strong>, tell us about the issue, and we’ll contact you within 2 business days with next steps.<\/p>",
+            "open": false
+          }
+        },
+        "a656e429-7e2a-4430-969a-f45ccedbe52a": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I return or exchange an item?",
+            "content": "<p>Our goal is to have you love our products as much as we do, but we get that sometimes, it’s just not a fit.<\/p><p><\/p><p>We stand behind our products, so if you are not 100% satisfied, you can return or exchange up to 90 days from the date of purchase. The bottle can be used, as we want you to try the product. (Remember, it takes up to 90 days to see noticeable difference with your hair and scalp.)<\/p><p><\/p><p>To start an exchange or refund, please email us for an RA (return authorization) number before returning the item to us, or the items will not be accepted and be returned to you. <\/p><p><\/p><p>Shipping costs are non-refundable, and you are responsible for the return shipping fees. <\/p><p><\/p><p>Returns have a $5 handling fee per order and will be deducted from the refund.<\/p><p><\/p><p>Email <a href=\"mailto:hello@unveilhaircare.com\" title=\"mailto:hello@unveilhaircare.com\"><span style=\"text-decoration:underline\">hello@unveilhaircare.com<\/span><\/a> and in the subject line put <strong>Return Request<\/strong>.<\/p><p><\/p><p>Please provide your order number and tell us why you are returning the product. <\/p><p><\/p><p>We will reach out within 2 business days with the address to send the product back. <\/p><p><\/p><p>Please get tracking and insurance when returning your items to us as we are not responsible for lost packages.<\/p>",
+            "open": false
+          }
+        },
+        "e672ac6c-8bf7-4b58-b402-a769bcdc7495": {
+          "type": "accordion",
+          "settings": {
+            "title": "I changed my mind. Can I cancel my order?",
+            "content": "<p>Yes, you can cancel your order. However, please note that a $5 handling fee will be deducted from your return covering our credit card processing.<\/p>",
+            "open": false
+          }
+        },
+        "4456f164-205b-448a-9ca9-91bf818f18eb": {
+          "type": "content",
+          "settings": {
+            "content": "<h5 id=\"lets-work-together\" style=\"font-weight:bolder; margin-bottom: -30px;\">LET’S WORK TOGETHER<\/h5>"
+          }
+        },
+        "107dd88f-b68b-416d-8991-6040f0f90f81": {
+          "type": "accordion",
+          "settings": {
+            "title": "I want to sell Unveil in my salon. How do I start?",
+            "content": "<p>Great! Email us at <a href=\"mailto:helena@unveilhaircare.com\"><span style=\"text-decoration:underline\">helena@unveilhaircare.com<\/span><\/a> and we’ll get back to you with the details about our wholesale program.<\/p>",
+            "open": false
+          }
+        },
+        "0197a971-50ea-40ca-88c1-4ec29d33b879": {
+          "type": "accordion",
+          "settings": {
+            "title": "Who can I contact about partnerships with Unveil?",
+            "content": "<p>We love partnering with other beauty brands. Email <a href=\"mailto:helena@unveilhaircare.com\"><span style=\"text-decoration:underline\">hello@unveilhaircare.com<\/span><\/a> and we’ll get back to you as soon as we can.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "custom-content",
+        "9f596258-d1ab-4057-bef2-be8c93fd82b8",
+        "accordion-1",
+        "accordion-2",
+        "accordion-3",
+        "c36bbc66-e666-471f-b7b8-c1cfc4ec2de3",
+        "dc7ef1f3-b1ad-4de0-a8bc-db87c3ff1cc5",
+        "accordion-4",
+        "accordion-5",
+        "73343703-f4b4-4925-9f6c-28b782042ac5",
+        "ed569906-1b4e-46e3-973c-506157e927d4",
+        "5d07873d-cd0f-48d1-b089-ffa9030afbad",
+        "a656e429-7e2a-4430-969a-f45ccedbe52a",
+        "e672ac6c-8bf7-4b58-b402-a769bcdc7495",
+        "4456f164-205b-448a-9ca9-91bf818f18eb",
+        "107dd88f-b68b-416d-8991-6040f0f90f81",
+        "0197a971-50ea-40ca-88c1-4ec29d33b879"
+      ],
+      "settings": {
+        "container": "container",
+        "menu": ""
+      }
+    }
+  },
+  "order": [
+    "166383165158946d91",
+    "main"
+  ]
+}

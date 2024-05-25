@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-product-compare",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

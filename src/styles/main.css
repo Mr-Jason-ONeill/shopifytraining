@@ -1,0 +1,5 @@
+/* stylelint-disable comment-empty-line-before */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";

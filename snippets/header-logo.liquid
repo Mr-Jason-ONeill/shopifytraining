@@ -1,0 +1,106 @@
+{% liquid
+  assign justify_css = justify | default: 'justify-center'
+  assign class = 'sf-logo px-4 ' | append: box_size | append: ' ' | append: justify_css
+
+  if header_settings.logo
+    assign class = class | append: ' has-logo-img'
+  endif
+
+  assign logo_alt = section.settings.logo.alt | default: shop.name
+  assign transparent_on_top = header_settings.transparent_on_top
+
+  assign default_logo = header_settings.logo
+  assign logo_svg = header_settings.logo_svg
+  assign logo_transparent_svg = header_settings.logo_transparent_svg
+  assign logo_transparent = header_settings.logo_transparent
+
+  if logo_svg != blank
+    assign default_logo = logo_svg
+  endif
+%}
+{% if request.page_type == 'index' and is_in_search != true %}
+<h1 class="{{ class | strip_newlines }}">
+{% else %}
+<div class="{{ class | strip_newlines }}">
+{% endif %}
+  {% if default_logo != blank or logo_svg != blank or logo_transparent_svg != blank or logo_transparent != blank %}
+      <a href="{{ routes.root_url }}" class="block py-2.5 logo-img relative" title="{{ shop.name }}">
+        {% if logo_svg != blank %}
+          <div class="sf-image sf-logo-default">
+            <img src="{{ logo_svg }}" alt="{{ logo_alt }}" width="auto" height="auto" loading="lazy">
+          </div>
+        {% else %}
+          {% comment %} {% render 'responsive-image', image_class: 'inline-block', image: default_logo, wrapper_class: 'sf-logo-default', alt: logo_alt %} {% endcomment %}
+          <responsive-image class="sf-image sf-logo-default" data-image-loading style="--aspect-ratio: {{ default_logo.aspect_ratio }};">
+            <img
+                srcset="{%- if default_logo.width >= 165 -%}{{ default_logo | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if default_logo.width >= 360 -%}{{ default_logo | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if default_logo.width >= 533 -%}{{ default_logo | image_url: width: 533 }} 533w,{%- endif -%}
+                    {%- if default_logo.width >= 720 -%}{{ default_logo | image_url: width: 720 }} 720w,{%- endif -%}
+                    {%- if default_logo.width >= 940 -%}{{ default_logo | image_url: width: 940 }} 940w,{%- endif -%}
+                    {%- if default_logo.width >= 1066 -%}{{ default_logo | image_url: width: 1066 }} 1066w,{%- endif -%}
+                    {%- if default_logo.width >= 1500 -%}{{ default_logo | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {%- if default_logo.width >= 1780 -%}{{ default_logo | image_url: width: 1780 }} 1780w,{%- endif -%}
+                    {%- if default_logo.width >= 2000 -%}{{ default_logo | image_url: width: 2000 }} 2000w,{%- endif -%}
+                    {{ default_logo | image_url }} {{ default_logo.width }}w"
+                src="{{ default_logo | image_url: width: 360 }}"
+                sizes="(min-width: {{ settings.container_width }}px) {{ settings.container_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="{{ logo_alt | default: default_logo.alt | escape }}"
+                class="inline-block"
+                width="{{ default_logo.width }}"
+                height="{{ default_logo.height }}"
+                {{ image_attributes }}
+            >
+          </responsive-image>
+        {% endif %}
+
+        {% if transparent_on_top %}
+          {% liquid
+            if logo_transparent == blank
+              assign logo_transparent = default_logo
+              if logo_svg != blank and logo_transparent_svg == blank
+                assign logo_transparent_svg = logo_svg
+              endif
+            endif
+          %}
+
+          {% if logo_transparent_svg != blank %}
+            <div class="sf-image sf-logo-transparent">
+              <img src="{{ logo_transparent_svg }}" alt="{{ logo_alt }}" width="auto" height="auto" loading="lazy">
+            </div>
+          {% else %}
+            {% comment %} {% render 'responsive-image', image_class: 'inline-block', image: logo_transparent, wrapper_class: 'sf-logo-transparent', alt: logo_alt %} {% endcomment %}
+            <responsive-image class="sf-image sf-logo-transparent" data-image-loading style="--aspect-ratio: {{ logo_transparent.aspect_ratio }};">
+              <img
+                  srcset="{%- if logo_transparent.width >= 165 -%}{{ logo_transparent | image_url: width: 165 }} 165w,{%- endif -%}
+                      {%- if logo_transparent.width >= 360 -%}{{ logo_transparent | image_url: width: 360 }} 360w,{%- endif -%}
+                      {%- if logo_transparent.width >= 533 -%}{{ logo_transparent | image_url: width: 533 }} 533w,{%- endif -%}
+                      {%- if logo_transparent.width >= 720 -%}{{ logo_transparent | image_url: width: 720 }} 720w,{%- endif -%}
+                      {%- if logo_transparent.width >= 940 -%}{{ logo_transparent | image_url: width: 940 }} 940w,{%- endif -%}
+                      {%- if logo_transparent.width >= 1066 -%}{{ logo_transparent | image_url: width: 1066 }} 1066w,{%- endif -%}
+                      {%- if logo_transparent.width >= 1500 -%}{{ logo_transparent | image_url: width: 1500 }} 1500w,{%- endif -%}
+                      {%- if logo_transparent.width >= 1780 -%}{{ logo_transparent | image_url: width: 1780 }} 1780w,{%- endif -%}
+                      {%- if logo_transparent.width >= 2000 -%}{{ logo_transparent | image_url: width: 2000 }} 2000w,{%- endif -%}
+                      {{ logo_transparent | image_url }} {{ logo_transparent.width }}w"
+                  src="{{ logo_transparent | image_url: width: 360 }}"
+                  sizes="(min-width: {{ settings.container_width }}px) {{ settings.container_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                  alt="{{ logo_alt | default: logo_transparent.alt | escape }}"
+                  class="inline-block"
+                  width="{{ logo_transparent.width }}"
+                  height="{{ logo_transparent.height }}"
+                  {{ image_attributes }}
+              >
+            </responsive-image>
+          {% endif %}
+        {% endif %}
+      </a>
+  {% else %}
+      <a href="{{ routes.root_url }}" class="block text-center">
+          <strong>{{ header_settings.logo_text | default: shop.name }}</strong>
+      </a>
+  {% endif %}
+{% if request.page_type == 'index' and is_in_search != true %}
+</h1>
+{% else %}
+</div>
+{% endif %}

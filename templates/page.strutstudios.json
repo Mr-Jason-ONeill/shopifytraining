@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "studios",
+      "settings": {
+      }
+    },
+    "16638024021eb42edc": {
+      "type": "image-with-text-2",
+      "disabled": true,
+      "settings": {
+        "container": "w-full",
+        "hero_size": "medium",
+        "show_overlay": true,
+        "image": "shopify:\/\/shop_images\/strut-studios-header.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "right bottom",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "",
+        "subtitle": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": ""
+      }
+    },
+    "1663806431df8bb28f": {
+      "type": "custom-content",
+      "blocks": {
+        "f4b2836c-2f6a-4d5a-a74e-f118cc644821": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Web-header.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "5b954530-8602-4339-bf96-b108580ef723": {
+          "type": "html",
+          "settings": {
+            "code": "<br><br>\n<h4>Our wig stores were created for women to visit when they want to feel vibrant, sexy, and free from the negative self-image that hair loss can cause.<\/h4>\n<br>\n<p>Come experience the Strut difference today.\nYou’ll be glad you did!<\/p>",
+            "width": "50%",
+            "block_custom_class": ""
+          }
+        },
+        "cee83e09-dc1a-4b88-8c1f-c4a4fb6d1281": {
+          "type": "html",
+          "disabled": true,
+          "settings": {
+            "code": "",
+            "width": "50%",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "f4b2836c-2f6a-4d5a-a74e-f118cc644821",
+        "5b954530-8602-4339-bf96-b108580ef723",
+        "cee83e09-dc1a-4b88-8c1f-c4a4fb6d1281"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "ff87c559-e03d-4247-b84d-30dd9774572d": {
+      "type": "custom-content",
+      "blocks": {
+        "cd434b3f-ba0b-4f01-8163-b799893aaaa3": {
+          "type": "html",
+          "settings": {
+            "code": "<br>",
+            "width": "100%",
+            "block_custom_class": ""
+          }
+        },
+        "dfac79d4-9c54-4d1d-a496-991e0f168168": {
+          "type": "html",
+          "settings": {
+            "code": "<h5 style=\"text-align:center;\">STRUT WIGS FRESNO<\/h5>\n<br>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/Fresno-Wig-Store.jpg\">\n<br>\n<div style=\"text-align:center;\">\n<p><b>LOCATION:<\/b><\/p>\n<p>6687 N. Blackstone Ave. Suite 103\nFresno, Ca 93710<\/p>\n<br>\n<a href=\"https:\/\/struthair.zenoti.com\/webstoreNew\/services\" target=\"_blank\" class=\"pointer-events-auto sf__btn sf__btn-primary  text-black\">Book Appointment<\/a>\n<\/div>",
+            "width": "50%",
+            "block_custom_class": ""
+          }
+        },
+        "54dc19ff-babc-4c0f-ad75-c5df3b4f1926": {
+          "type": "html",
+          "settings": {
+            "code": "<h5 style=\"text-align:center;\">STRUT WIGS SAN DIEGO<\/h5>\n<br>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0660\/2542\/3075\/files\/San-Diego-Wigs.jpg\">\n<br>\n<div style=\"text-align:center;\">\n<p><b>LOCATION:<\/b><\/p>\n<p>202 Lomas Santa Fe Dr.\nSolana Beach, Ca 92075<\/p>\n<br>\n<a href=\"https:\/\/struthair.zenoti.com\/webstoreNew\/services\" target=\"_blank\" class=\"pointer-events-auto sf__btn sf__btn-primary  text-black\">Book Appointment<\/a>\n<\/div>",
+            "width": "50%",
+            "block_custom_class": ""
+          }
+        },
+        "17b8ce31-dddd-40c0-b9e3-4cf3ecfa495d": {
+          "type": "image_card",
+          "disabled": true,
+          "settings": {
+            "width": "50%",
+            "content_position": "bottom_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify:\/\/shop_images\/Fresno-Wig-Store.jpg",
+            "link": "",
+            "title": "",
+            "subtitle": "",
+            "button_label": "Book Appointment",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "cd434b3f-ba0b-4f01-8163-b799893aaaa3",
+        "dfac79d4-9c54-4d1d-a496-991e0f168168",
+        "54dc19ff-babc-4c0f-ad75-c5df3b4f1926",
+        "17b8ce31-dddd-40c0-b9e3-4cf3ecfa495d"
+      ],
+      "settings": {
+        "heading": "Visit One of Our Strut Locations",
+        "subheading": "",
+        "description": "If you live or visit California come into one of our award winning studios and we will have your strutting with us in no time! Our stores were created for women to visit when they want to feel vibrant, sexy, and free from the negative self-image that hair loss can cause. \n\nIn these studios is where the vision for Unveil Hair Care was born. Our founder created Strut Hair Solutions to help her mom who was struggling with thinning hair over 20 years ago back in 2002.  Come experience the Strut difference today, you may run into Helena in one of our stores. \n\nYou can also pick up any of our Unveil Hair Care products in store while you are here!",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16638024021eb42edc",
+    "1663806431df8bb28f",
+    "ff87c559-e03d-4247-b84d-30dd9774572d"
+  ]
+}

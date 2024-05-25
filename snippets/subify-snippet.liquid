@@ -1,0 +1,20 @@
+{% assign subifySecret = "laksdjfoqiwe!@#$@#$AFsdfasdkjfasdlfjk!@#!@#@#edklajdalskjdfaskdjl" %}
+{% assign subifyCustomerID = customer.id %}
+{% assign subifyCustomerToken = subifyCustomerID | hmac_sha256: subifySecret %}
+
+
+<script id="Subify-config">
+  var SubifyConfig = {};
+  {% if customer %}
+  SubifyConfig.customerToken = "{{ subifyCustomerToken }}";
+  SubifyConfig.customerId = {{ customer.id }};
+  {% endif %}
+  SubifyConfig.product = {{ product | json }};
+  {% for variant in product.variants %}
+    var selling_plans = SubifyConfig.product.variants[{% increment base %}].selling_plans = []
+    {% for selling_plan_allocation in variant.selling_plan_allocations %}
+        selling_plans.push({{ selling_plan_allocation.selling_plan | json }})
+    {% endfor %}
+  {% endfor %}
+</script>
+<script id="Subify-sdk" defer src="https://static.shopgram.io/subify-sdk.js"></script>
