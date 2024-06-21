@@ -12,27 +12,6 @@
     "shopifytraining": "amazonStyle",
     "primary_color": "#000000",
     "sections": {
-      "annoucement": {
-        "type": "annoucement",
-        "settings": {
-          "show_announcement": false,
-          "homepage_only": false,
-          "show_close": false,
-          "message": "Free shipping for all orders from $60+",
-          "message_link": "",
-          "show_divider": false
-        }
-      },
-      "hura-announcement-bar": {
-        "type": "hura-announcement-bar",
-        "settings": {
-          "show_announcement_bar": false,
-          "autoplay": false,
-          "delay": "5000",
-          "colorBackground": "#ffffff",
-          "colorText": "#000"
-        }
-      },
       "header": {
         "type": "header",
         "settings": {
@@ -41,18 +20,6 @@
       "footer": {
         "type": "footer",
         "settings": {
-        }
-      },
-      "mobile-sticky-bar": {
-        "type": "mobile-sticky-bar",
-        "settings": {
-          "show_mobile_sticky": true,
-          "show_home_icon": true,
-          "show_collection_icon": true,
-          "show_cart_icon": true,
-          "show_search_icon": true,
-          "show_account_icon": false,
-          "show_wishlist_icon": false
         }
       }
     },
