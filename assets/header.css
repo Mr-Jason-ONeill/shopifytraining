@@ -23,10 +23,6 @@ header {
   align-content: center;
 }
 
-.amazon-header-left img {
-  padding-top: 0.5rem;
-}
-
 .amazon-header-left,
 .amazon-header-middle,
 .amazon-header-right {
@@ -34,10 +30,6 @@ header {
   flex-grow: 1;
   text-align: center;
   margin: 0.5rem;
-}
-
-.amazon-header-middle {
-  width: calc(100% - 350px);
 }
 
 .amazon-header-right {
@@ -57,14 +49,11 @@ header {
   border-radius: 10px;
   background-color: var(--extra-color);
   border: none;
-  cursor: pointer;
 }
 
 .search-button {
   padding: 1rem 2.5rem;
-  transform: translate(-100%, 3%);
-  opacity: 0.7;
-  height: 3.1rem;
+  transform: translate(-50%);
 }
 
 .login-button {
@@ -72,7 +61,6 @@ header {
 }
 
 .main-nav {
-  padding: 1rem;
   gap: 2rem;
   display: flex;
   text-decoration: none;
@@ -86,34 +74,9 @@ header {
   color: var(--secondary-color);
 }
 
-.nav-link a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
 /* Media Queries */
 @media screen and (min-width: 20px) and (max-width: 768px) {
-  .amazon-header {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
   .amazon-search-bar {
     width: calc(100% - 50px);
-  }
-
-  .search-button {
-    padding: 1rem 1.5rem;
-  }
-
-  .amazon-header-right {
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-  }
-
-  .amazon-header-left,
-  .login-button {
-    visibility: hidden;
   }
 }
