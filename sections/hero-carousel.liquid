@@ -3,15 +3,14 @@
     <div class="swiper-wrapper">
       <!-- Slides -->
       <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.hero | image_url: width: 800 }}')"></div>
+        {{ section.settings.hero | image_url: width: 800 }}
       </div>
       <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.hero2 | image_url: width: 800 }}')"></div>
+        {{ section.settings.hero2 | image_url: width: 800 }}
       </div>
       <div class="swiper-slide">
-        <div class="background-image" style="background-image: url('{{ section.settings.hero3 | image_url: width: 800 }}')"></div>
+        {{ section.settings.hero3 | image_url: width: 800 }}
       </div>
-      <!-- Other slides -->
     </div>
 
     
