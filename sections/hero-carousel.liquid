@@ -13,17 +13,30 @@
       </div>
       <!-- Other slides -->
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
-</div>
 
+    
+<!-- Scripts -->
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.j" async></script>
 
+<!-- Initialize Swiper -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      loop: true, 
+      autoplay: {
+        delay: 6000, 
+        disableOnInteraction: false,  
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      keyboard: true,
+    });
+  });
+</script>
+<script src="assets\swiper.js" defer></script>
 
 {% schema %}
 {
