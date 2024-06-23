@@ -18,8 +18,8 @@
     "cart_announcement_69Vhqm": {
       "type": "cart-announcement",
       "settings": {
-        "cartAnnouncement": "Your basket is empty",
-        "emptyCartAnnouncement": "Your basket has a couple of items"
+        "cartAnnouncement": "",
+        "emptyCartAnnouncement": ""
       }
     },
     "cart_template_gTRBJn": {
