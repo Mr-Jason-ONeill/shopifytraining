@@ -30,6 +30,10 @@
   flex: 1 1 100%;
 }
 
+.grid-link-button {
+  border: none;
+}
+
 /* ---- Card styles ---- */
 .grid-details {
   background-color: white;
