@@ -1,13 +1,13 @@
 {% if cart.items == 0 %}
   <div class="cart-announce-container">
     <div class="cart-announce-wrapper">
-      <h2 class="cart-announcement">Your cart is empty!</h2>
+      <h2 class="cart-announcement">{{ section.settings.emptyCartAnnouncement }}</h2>
     </div>
   </div>
 {% else %}
   <div class="cart-announce-container">
     <div class="cart-announce-wrapper">
-      <h2 class="cart-announcement">Your cart is coming along amazonly!</h2>
+      <h2 class="cart-announcement">{{ section.settings.cartAnnouncement }}</h2>
     </div> 
   </div>
 {% endif %}
@@ -20,6 +20,16 @@
       "name": "cart-announcement"
     }
   ],
-    "settings": []
+    "settings": [
+    {
+      "type": "textarea",
+      "id": "cartAnnouncement",
+      "label": "Announcement When Cart Has Items"
+    }, {
+      "type": "textarea",
+      "id": "emptyCartAnnouncement",
+      "label": "Announcement When Cart Has No Items"
+    }
+    ]
   }
 {% endschema %}
