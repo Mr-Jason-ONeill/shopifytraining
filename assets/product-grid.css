@@ -55,6 +55,7 @@
 
 .grid-image img {
   max-width: 275px;
+  object-fit: cover;
 }
 
 /* ---- Card content styles ---- */
