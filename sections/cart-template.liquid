@@ -1,6 +1,31 @@
+<div class="cart-container">
+  <h1>Your Cart</h1>
+  <div class="cart-items">
+    {% for item in cart.items %}
+      <div class="cart-item">
+        <div class="item-image">
+          <img src="{{ item.image | img_url: 'small' }}" alt="{{ item.title }}">
+        </div>
+        <div class="item-details">
+          <p>{{ item.title }}</p>
+          <p>Quantity: {{ item.quantity }}</p>
+          <p>Price: {{ item.price | money }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="cart-total">
+    <p>Total: {{ cart.total_price | money }}</p>
+  </div>
+  <div class="cart-checkout">
+    <a href="/checkout" class="checkout-button">Proceed to Checkout</a>
+  </div>
+</div>
+
+
 {% schema %}
   {
-    "name": "Section name",
+    "name": "cart-template",
     "settings": []
   }
 {% endschema %}
