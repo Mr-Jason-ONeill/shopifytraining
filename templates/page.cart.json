@@ -14,9 +14,15 @@
       "settings": {
         "headerLogo": "shopify:\/\/shop_images\/amazon-logo-white_c89d729a-37d0-4d01-ae01-5c195d48df91.png"
       }
+    },
+    "cart_announcement_69Vhqm": {
+      "type": "cart-announcement",
+      "settings": {
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "cart_announcement_69Vhqm"
   ]
 }
