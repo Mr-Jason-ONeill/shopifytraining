@@ -1,0 +1,22 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {
+        "headerLogo": "shopify:\/\/shop_images\/amazon-logo-white_c89d729a-37d0-4d01-ae01-5c195d48df91.png"
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
+}
