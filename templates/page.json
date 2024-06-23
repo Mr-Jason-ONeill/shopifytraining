@@ -1,85 +1,22 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
-<<<<<<< HEAD
-    "main": {
-      "type": "page",
-      "settings": {
-      }
-    },
-    "a458a293-6601-4509-a78a-317cb7e0fd7c": {
-      "type": "custom-content",
-      "blocks": {
-        "94dbc7bb-5e4b-4a78-8352-5d31c9f33306": {
-          "type": "html",
-          "settings": {
-            "code": "<center>\n<h2>Enter your email to get our free buying guide.<\/h2>\n<br><br>\n<p> Our buying guide gives 7 tips to help you manage thinning hair\/hair loss, and also covers the best use of our products to get you the healthy hair you deserve. \n\nDownload this today and you'll be on your way to unveiling healthier, thicker, hair!<\/p>\n<br><br><br>\n<\/center>\n<div class=\"klaviyo-form-VkCUkP\"><\/div>",
-            "width": "50%",
-            "block_custom_class": ""
-          }
-        },
-        "template--16416870432995__a458a293-6601-4509-a78a-317cb7e0fd7c-16760691824c23ba19-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Unveil_Guide.png",
-            "link": "",
-            "width": "50%",
-            "alignment": "center",
-            "block_custom_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "94dbc7bb-5e4b-4a78-8352-5d31c9f33306",
-        "template--16416870432995__a458a293-6601-4509-a78a-317cb7e0fd7c-16760691824c23ba19-1"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "description": "",
-        "header_alignment": "center",
-        "container": "container-fluid",
-        "background_color": "#faf8f2",
-        "gap": 30,
-        "use_scroll_mobile": false,
-        "gap_mobile": 16,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_class": ""
-=======
     "header": {
       "type": "header",
       "settings": {
-        "header": "shopify:\/\/shop_images\/amazon-logo-white.png"
-      }
-    },
-    "hero-carousel": {
-      "type": "hero-carousel",
-      "settings": {
-        "hero": "shopify:\/\/shop_images\/gaming.jpg",
-        "hero2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-        "hero3": "shopify:\/\/shop_images\/Barbados1.jpg"
-      }
-    },
-    "products_grid_ddhpze": {
-      "type": "products-grid",
-      "settings": {
-        "product-grid1": "Grid Item 1",
-        "product-grid2": "Grid Item 2",
-        "product-grid3": "Grid Item 3"
->>>>>>> 0b9d00bf3a7155837fbf3ed565160f5807255f0f
+        "headerLogo": "shopify:\/\/shop_images\/amazon-logo-white_c89d729a-37d0-4d01-ae01-5c195d48df91.png"
       }
     }
   },
   "order": [
-<<<<<<< HEAD
-    "main",
-    "a458a293-6601-4509-a78a-317cb7e0fd7c"
+    "header"
   ]
 }
-=======
-    "header",
-    "hero-carousel",
-    "products_grid_ddhpze"
-  ]
-}
->>>>>>> 0b9d00bf3a7155837fbf3ed565160f5807255f0f
