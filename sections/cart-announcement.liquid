@@ -1,7 +1,13 @@
-{% if cart.items != 0 %}
+{% if cart.items == 0 %}
   <div class="cart-announce-container">
     <div class="cart-announce-wrapper">
       <h2 class="cart-announcement"> Your cart is empty! </h2>
+    </div
+  </div>
+{% else %}
+    <div class="cart-announce-container">
+    <div class="cart-announce-wrapper">
+      <h2 class="cart-announcement"> Your cart is coming along amazonly! </h2>
     </div
   </div>
 {% endif %}
