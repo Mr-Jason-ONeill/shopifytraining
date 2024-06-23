@@ -12,25 +12,11 @@
     "header": {
       "type": "header",
       "settings": {
-      }
-    },
-    "hero-carousel": {
-      "type": "hero-carousel",
-      "settings": {
-        "hero": "shopify:\/\/shop_images\/gaming.jpg",
-        "hero2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-        "hero3": "shopify:\/\/shop_images\/Barbados1.jpg"
-      }
-    },
-    "products_grid_ddhpze": {
-      "type": "products-grid",
-      "settings": {
+        "headerLogo": "shopify:\/\/shop_images\/amazon-logo-white_380fe169-18a5-47a1-b4ae-a2917e9d85d1.png"
       }
     }
   },
   "order": [
-    "header",
-    "hero-carousel",
-    "products_grid_ddhpze"
+    "header"
   ]
 }
