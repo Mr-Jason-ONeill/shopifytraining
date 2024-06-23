@@ -19,10 +19,16 @@
       "type": "cart-announcement",
       "settings": {
       }
+    },
+    "cart_template_gTRBJn": {
+      "type": "cart-template",
+      "settings": {
+      }
     }
   },
   "order": [
     "header",
-    "cart_announcement_69Vhqm"
+    "cart_announcement_69Vhqm",
+    "cart_template_gTRBJn"
   ]
 }
