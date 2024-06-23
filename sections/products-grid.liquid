@@ -10,7 +10,9 @@
               <h3 class="grid-title">New In!</h3>
               <div class="grid-description">
                 <p>Check Out the Latest!</p>
-                <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+                <button class="grid-link-button">
+                  <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+                </button>
               </div>
             </div>
           </span>
@@ -23,7 +25,9 @@
               <div class="grid-description">
                 <p>Product information section</p>
               </div>
-              <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+              <button class="grid-link-button">
+                  <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+              </button>
             </div>
           </span>
           <span class="grid-slot">
@@ -35,7 +39,9 @@
               <div class="grid-description">
                 <p>Product information section</p>
               </div>
-              <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+              <button class="grid-link-button">
+                  <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+              </button>
             </div>
           </span>
           <span class="grid-slot">
@@ -47,7 +53,9 @@
               <div class="grid-description">
                 <p>Product information section</p>
               </div>
-              <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+                <button class="grid-link-button">
+                  <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+                </button>
             </div>
           </span>
           <span class="grid-slot">
@@ -59,7 +67,9 @@
               <div class="grid-description">
                 <p>Product information section</p>
               </div>
-              <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+                <button class="grid-link-button">
+                  <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+                </button>
             </div>
           </span>
           <span class="grid-slot">
@@ -71,7 +81,9 @@
               <div class="grid-description">
                 <p>Product information section</p>
               </div>
-              <a href="{{ product.title }}" class="grid-link">Add To Cart</a>
+                <button class="grid-link-button">
+                  <a href="{{ product.url }}" class="grid-link">Add To Cart</a>
+                </button>
             </div>
           </span>
         </div>
@@ -79,6 +91,27 @@
     </div>
   </div>
 
+
+ <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // For button
+      var button = document.getElementByClassName('grid-link-button');
+      if (button) {
+        button.addEventListener('click', function () {
+          window.location.href = '/cart';
+        });
+      }
+
+      // For link
+      var link = document.getElementByClassName('grid-link');
+      if (link) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          window.location.href = '/cart';
+        });
+      }
+    });
+  </script>
 
 {% schema %}
 {
