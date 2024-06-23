@@ -12,11 +12,14 @@
         {{ section.settings.hero3 | image_url: width: 800 | image_tag }}
       </div>
     </div>
+    <!-- Add pagination (optional) -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
 
-    
 <!-- Scripts -->
 <!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.j" async></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" async></script>
 
 <!-- Initialize Swiper -->
 <script>
@@ -30,12 +33,13 @@
       },
       pagination: {
         el: ".swiper-pagination",
+        clickable: true,
       },
       keyboard: true,
     });
   });
 </script>
-<script src="assets\swiper.js" defer></script>
+<script src="assets/swiper.js" defer></script>
 
 {% schema %}
 {
