@@ -39,12 +39,19 @@
       "settings": {
         "signIn": ""
       }
+    },
+    "footer_jzYwXG": {
+      "type": "footer",
+      "settings": {
+        "footerLogo": "shopify:\/\/shop_images\/amazon-logo-white_c89d729a-37d0-4d01-ae01-5c195d48df91.png"
+      }
     }
   },
   "order": [
     "header_X9KcM6",
     "hero_carousel_ccDYhz",
     "products_grid_ddhpze",
-    "signin"
+    "signin",
+    "footer_jzYwXG"
   ]
 }
