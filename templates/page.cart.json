@@ -26,11 +26,17 @@
       "type": "cart-template",
       "settings": {
       }
+    },
+    "footer_f6wEt3": {
+      "type": "footer",
+      "settings": {
+      }
     }
   },
   "order": [
     "header",
     "cart_announcement_69Vhqm",
-    "cart_template_gTRBJn"
+    "cart_template_gTRBJn",
+    "footer_f6wEt3"
   ]
 }
