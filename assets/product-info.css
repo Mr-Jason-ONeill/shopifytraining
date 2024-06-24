@@ -1,0 +1,13 @@
+.product-info-container {
+  width: 100%;
+}
+
+.product-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  object-fit: cover;
+}
