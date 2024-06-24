@@ -1,13 +1,14 @@
-const gridButton = document.querySelectorAll('.grid-link-button');
+const gridButtons = document.querySelectorAll('.grid-link-button');
 
-        // Add click event listener to the button
-        gridButton.addEventListener('click', function() {
-            // Check the current text of the button
-            if (gridButton.textContent === 'Add To Cart') {
-                // Change the text to 'Remove from Cart'
-                gridButton.textContent = 'Remove From Cart';
-            } else {
-                // Change the text back to 'Add to Cart'
-                gridButton.textContent = 'Add To Cart';
-            }
-        });
+gridButtons.forEach(button => {
+    button.addEventListener('click', function(event) {
+        event.preventDefault();
+        const link = button.querySelector('.grid-link');
+          if (link.textContent === 'Add To Cart') {
+            link.textContent = 'Remove From Cart';
+          } else {
+            
+            link.textContent = 'Add To Cart';
+        }
+    });
+});
