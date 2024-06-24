@@ -50,7 +50,7 @@
 
 .grid-image {
   background-size: cover;
-  height: auto; /* 12rem */
+  height: auto;
 }
 
 .grid-image img {
