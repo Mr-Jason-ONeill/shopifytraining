@@ -1,6 +1,33 @@
+<div class="product-info-container">
+  <div class="product-info-wrapper">
+    <div class="product-image">
+      {{ section.settings.productImage | image_url: width: 500 | image_tag }}
+    </div>
+    <div class="product-context-container">
+      <div class="product-context">
+        {{ section.settings.productInfo }}
+      </div>
+    </div>
+  </div>
+</div
+
+
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Product-info",
+    "settings": [
+    {
+      "type": "textarea",
+      "id": "productInfo",
+      "label": "Additional Information About the Product"
+    },  {
+      "type": "image_picker",
+      "id": "productImage",
+      "label": "Product Image"
+    }
+    ]
   }
 {% endschema %}
