@@ -15,6 +15,13 @@
         "headerLogo": "shopify:\/\/shop_images\/amazon-logo-white_c89d729a-37d0-4d01-ae01-5c195d48df91.png"
       }
     },
+    "product_info_BkYKda": {
+      "type": "product-info",
+      "settings": {
+        "productInfo": "Product Information is spot on",
+        "productImage": "shopify:\/\/shop_images\/toy.jpg"
+      }
+    },
     "footer_ffyHHp": {
       "type": "footer",
       "settings": {
@@ -24,6 +31,7 @@
   },
   "order": [
     "header",
+    "product_info_BkYKda",
     "footer_ffyHHp"
   ]
 }
