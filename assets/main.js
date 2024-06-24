@@ -1,4 +1,4 @@
-const gridButton = document.getElementByClassName('.grid-link-button');
+const gridButton = document.getElementByClassName('grid-link-button');
 
         // Add click event listener to the button
         gridButton.addEventListener('click', function() {
