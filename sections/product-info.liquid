@@ -42,7 +42,12 @@
     });
 
     addToCartButton.addEventListener('click', function() {
-      showAlert('Your items have been added to the cart');
+      let quantity = parseInt(quantityInput.value, 10);
+      if (quantity > 0) {
+        showAlert('Your items have been added to the cart');
+      } else {
+        showAlert('All items have been removed from the cart');
+      }
     });
 
     function showAlert(message) {
