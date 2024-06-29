@@ -23,3 +23,13 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
+
+.quantity-accordion {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
