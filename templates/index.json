@@ -34,6 +34,12 @@
         "grid6": "shopify:\/\/shop_images\/computer.jpg"
       }
     },
+    "banner_4PyMb3": {
+      "type": "banner",
+      "settings": {
+        "banner": "shopify:\/\/shop_images\/amazon-logo.png"
+      }
+    },
     "signin": {
       "type": "signin",
       "settings": {
@@ -51,6 +57,7 @@
     "header_X9KcM6",
     "hero_carousel_ccDYhz",
     "products_grid_ddhpze",
+    "banner_4PyMb3",
     "signin",
     "footer_jzYwXG"
   ]
