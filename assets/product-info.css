@@ -93,8 +93,8 @@
 /* Alert */
 .alert-message {
   position: fixed;
-  top: 50%;
-  right: 20px;
+  top: 100%;
+  right: 20%;
   background-color: var(--added-alert-color);
   color: green;
   padding: 15px;
