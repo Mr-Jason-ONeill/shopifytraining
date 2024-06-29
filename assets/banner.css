@@ -6,5 +6,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  
+}
+
+.banner-item {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
