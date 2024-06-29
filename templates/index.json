@@ -40,6 +40,17 @@
         "banner": "shopify:\/\/shop_images\/amazon-logo.png"
       }
     },
+    "products_grid_aT8VHy": {
+      "type": "products-grid",
+      "settings": {
+        "grid": "shopify:\/\/shop_images\/watch1.jpg",
+        "grid2": "shopify:\/\/shop_images\/watch4.jpg",
+        "grid3": "shopify:\/\/shop_images\/watch2_dcce69a8-acd6-4631-a107-27bfe3693d0b.jpg",
+        "grid4": "shopify:\/\/shop_images\/watch3.jpg",
+        "grid5": "shopify:\/\/shop_images\/train.jpg",
+        "grid6": "shopify:\/\/shop_images\/Avatar.png"
+      }
+    },
     "signin": {
       "type": "signin",
       "settings": {
@@ -58,6 +69,7 @@
     "hero_carousel_ccDYhz",
     "products_grid_ddhpze",
     "banner_4PyMb3",
+    "products_grid_aT8VHy",
     "signin",
     "footer_jzYwXG"
   ]
