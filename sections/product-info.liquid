@@ -9,9 +9,12 @@
         <h4 class="product-info">{{ section.settings.productInfo }}</h4>
         <div class="quantity-accordion">
           <button class="increment-btn">+</button>
-          <input type="text" class="product-quantity" value="0" />
+          <input type="text" class="product-quantity" value="0">
           <button class="decrement-btn">-</button>
         </div>
+        <button class="atc-button">
+          <a href="/pages/Cart" class="atc-link">Add To Cart</a>
+        </button>
       </div>
     </div>
   </div>
@@ -38,7 +41,6 @@
     });
   });
 </script>
-
 
 {% schema %}
 {
