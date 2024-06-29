@@ -15,35 +15,42 @@
 }
 
 .product-context-container {
-    position: relative;
-    width: 50%;
-    display: flex;
-    padding: 2rem;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+  position: relative;
+  width: 50%;
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .product-context {
-    transform: translateY(100%);
-    top: 0;
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: center;
-    flex-wrap: wrap;
+  transform: translateY(100%);
+  top: 0;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.product-title {
+  max-width: 250px;
+  background-color: yellow;
+  width: 100%;
+  border-radius: 6px;
 }
 
 .quantity-accordion {
-    display: flex;
-    padding-top: 2rem;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  padding-top: 2rem;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
