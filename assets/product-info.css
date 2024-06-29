@@ -12,3 +12,7 @@
 .product-image {
   object-fit: cover;
 }
+
+.product-context-container {
+  width:100%;
+}
