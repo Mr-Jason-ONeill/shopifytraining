@@ -21,10 +21,12 @@
 </div>
 
 <script>
+<script>
   document.addEventListener('DOMContentLoaded', function() {
     const incrementButton = document.querySelector('.increment-btn');
     const decrementButton = document.querySelector('.decrement-btn');
     const quantityInput = document.querySelector('.product-quantity');
+    const addToCartButton = document.querySelector('.atc-button');
 
     incrementButton.addEventListener('click', function() {
       let quantity = parseInt(quantityInput.value, 10);
@@ -39,7 +41,26 @@
         quantityInput.value = quantity;
       }
     });
+
+    addToCartButton.addEventListener('click', function() {
+      showAlert('Your items have been added to the cart');
+    });
+
+    function showAlert(message) {
+      let alert = document.createElement('div');
+      alert.className = 'alert-message';
+      alert.textContent = message;
+      document.body.appendChild(alert);
+      alert.style.display = 'block';
+
+      setTimeout(function() {
+        alert.style.display = 'none';
+        document.body.removeChild(alert);
+      }, 3000);
+    }
   });
+</script>
+
 </script>
 
 {% schema %}
