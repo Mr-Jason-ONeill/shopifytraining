@@ -1,6 +1,28 @@
+  <div class="banner-container">
+    <div class="banner-wrapper">
+      <div class="banner-item">
+        {{ section.settings.banner | image_url: width: 500 | image_tag }}
+      </div>
+    </div>
+  </div>
+
+
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "banner",
+  "presets": [
+    {
+      "name": "banner"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner",
+      "label": "Image for Banner"
+    }
+  ]
+}
 {% endschema %}
