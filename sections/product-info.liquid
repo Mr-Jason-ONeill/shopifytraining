@@ -7,11 +7,11 @@
       <div class="product-context">
         <h2 class="product-title">{{ section.settings.productInfoTitle }}</h2>
         <h4 class="product-info">{{ section.settings.productInfo }}</h4>
-        <div class="quantity-accordion">
-          <button class="increment-btn">+</button>
-          <div class="product-quantity">0</div>
-          <button class="decrement-btn">-</button>
-        </div>
+      </div>
+      <div class="quantity-accordion">
+        <button class="increment-btn">+</button>
+        <div class="product-quantity">0</div>
+        <button class="decrement-btn">-</button>
       </div>
     </div>
   </div>
@@ -39,33 +39,28 @@
   });
 </script>
 
-
-
-
-
-
 {% schema %}
+{
+  "name": "Product-info",
+  "presets": [
   {
-    "name": "Product-info",
-    "presets": [
-    {
-      "name": "product-info"
-    }
-  ],
-    "settings": [
-    {
-      "type": "textarea",
-      "id": "productInfoTitle",
-      "label": "Product Title"
-    },  {
-      "type": "textarea",
-      "id": "productInfo",
-      "label": "Additional Information About the Product"
-    }, {
-      "type": "image_picker",
-      "id": "productImage",
-      "label": "Product Image"
-    }
-    ]
+    "name": "product-info"
   }
+],
+  "settings": [
+  {
+    "type": "textarea",
+    "id": "productInfoTitle",
+    "label": "Product Title"
+  },  {
+    "type": "textarea",
+    "id": "productInfo",
+    "label": "Additional Information About the Product"
+  }, {
+    "type": "image_picker",
+    "id": "productImage",
+    "label": "Product Image"
+  }
+  ]
+}
 {% endschema %}
