@@ -85,3 +85,16 @@
 .atc-link:hover {
   color: blue;
 }
+
+.alert-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: green;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 1000;
+  display: none;
+}
+
