@@ -1,0 +1,9 @@
+.banner-container {
+  width: 100%
+}
+
+.banner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
