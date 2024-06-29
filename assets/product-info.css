@@ -5,7 +5,7 @@
 .product-info-wrapper {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .product-context-container {
-    width: 100%;
+    width: 50%;
     display: flex;
     padding: 2rem;
     justify-content: center;
