@@ -18,6 +18,7 @@
     "product_info_BkYKda": {
       "type": "product-info",
       "settings": {
+        "productInfoTitle": "Product Title",
         "productInfo": "Product Information is spot on",
         "productImage": "shopify:\/\/shop_images\/toy.jpg"
       }
