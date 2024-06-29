@@ -5,7 +5,13 @@
     </div>
     <div class="product-context-container">
       <div class="product-context">
-        {{ section.settings.productInfo }}
+        <h2 class="product-title">{{ section.settings.productInfoTitle }}</h2>
+        <h4 class="product-info">{{ section.settings.productInfo }}</h4>
+        <div class="quantity-accordion">
+          <div class="+">+</div>
+          <div class="product-quantity">0</div>
+          <div class="-">-</div>
+        </div
       </div>
     </div>
   </div>
@@ -26,9 +32,13 @@
     "settings": [
     {
       "type": "textarea",
+      "id": "productInfoTitle",
+      "label": "Product Title"
+    },  {
+      "type": "textarea",
       "id": "productInfo",
       "label": "Additional Information About the Product"
-    },  {
+    }, {
       "type": "image_picker",
       "id": "productImage",
       "label": "Product Image"
