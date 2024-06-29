@@ -95,7 +95,7 @@
   position: fixed;
   top: 20px;
   right: 20px;
-  background-color: #4caf50;
+  background-color: var(--added-alert-color);
   color: green;
   padding: 15px;
   border-radius: 5px;
