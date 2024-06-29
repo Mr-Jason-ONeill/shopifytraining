@@ -94,7 +94,7 @@
 .alert-message {
   position: fixed;
   top: 200px;
-  right: 20px;
+  right: 200px;
   background-color: #4caf50;
   color: green;
   padding: 15px;
