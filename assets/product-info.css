@@ -53,6 +53,7 @@
 .quantity-accordion {
   display: flex;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
