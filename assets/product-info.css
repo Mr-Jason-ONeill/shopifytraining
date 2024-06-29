@@ -45,6 +45,10 @@
   border-radius: 6px;
 }
 
+.product-info {
+  padding-top: 2rem;
+}
+
 .quantity-accordion {
   display: flex;
   padding-top: 2rem;
