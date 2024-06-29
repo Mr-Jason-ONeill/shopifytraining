@@ -17,7 +17,7 @@
 .product-context-container {
   max-width: 500px;
   position: relative;
-  width: 50%;
+  width: 100%;
   display: flex;
   padding: 2rem;
   justify-content: center;
