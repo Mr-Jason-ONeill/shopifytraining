@@ -11,9 +11,11 @@
 
 .product-image {
   object-fit: cover;
+  padding-top: 2rem;
 }
 
 .product-context-container {
+    position: relative;
     width: 50%;
     display: flex;
     padding: 2rem;
@@ -22,6 +24,18 @@
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.product-context {
+    transform: translateY(100%);
+    top: 0;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .quantity-accordion {
