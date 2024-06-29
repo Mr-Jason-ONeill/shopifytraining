@@ -8,14 +8,37 @@
         <h2 class="product-title">{{ section.settings.productInfoTitle }}</h2>
         <h4 class="product-info">{{ section.settings.productInfo }}</h4>
         <div class="quantity-accordion">
-          <div class="+">+</div>
+          <button class="increment-btn">+</button>
           <div class="product-quantity">0</div>
-          <div class="-">-</div>
-        </div
+          <button class="decrement-btn">-</button>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const incrementButton = document.querySelector('.increment-btn');
+    const decrementButton = document.querySelector('.decrement-btn');
+    const quantityDisplay = document.querySelector('.product-quantity');
+
+    incrementButton.addEventListener('click', function() {
+      let quantity = parseInt(quantityDisplay.textContent, 10);
+      quantity++;
+      quantityDisplay.textContent = quantity;
+    });
+
+    decrementButton.addEventListener('click', function() {
+      let quantity = parseInt(quantityDisplay.textContent, 10);
+      if (quantity > 0) {
+        quantity--;
+        quantityDisplay.textContent = quantity;
+      }
+    });
+  });
+</script>
+
 
 
 
