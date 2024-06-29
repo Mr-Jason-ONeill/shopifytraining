@@ -15,6 +15,7 @@
 }
 
 .product-context-container {
+  max-width: 500px;
   position: relative;
   width: 50%;
   display: flex;
@@ -39,7 +40,7 @@
 }
 
 .product-title {
-  max-width: 250px;
+  max-width: 500px;
   background-color: var(--button-color);
   width: 100%;
   border-radius: 6px;
