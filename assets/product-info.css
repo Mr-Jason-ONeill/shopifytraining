@@ -50,6 +50,7 @@
   padding-top: 2rem;
 }
 
+/* Accordion */ 
 .quantity-accordion {
   display: flex;
   padding-top: 2rem;
@@ -60,6 +61,8 @@
   align-content: center;
   flex-wrap: wrap;
 }
+
+/* Add To Cart Button */
 
 .atc-button {
   border: none;
@@ -86,6 +89,8 @@
   color: blue;
 }
 
+
+/* Alert */
 .alert-message {
   position: fixed;
   top: 20px;
