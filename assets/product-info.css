@@ -17,6 +17,7 @@
 
 .product-image img {
   max-width: 500px;
+  height: auto;
 }
 
 .product-context-container {
