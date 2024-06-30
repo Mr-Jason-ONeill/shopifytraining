@@ -31,7 +31,6 @@
   transform: translateY(100%);
   top: 0;
   display: flex;
-  position: absolute;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -101,5 +100,11 @@
   border-radius: 5px;
   z-index: 1000;
   display: none;
+}
+
+/* ---- Media Queries ---- */
+@media screen and (min-width: 230px) and (max-width: 767px) {
+
+
 }
 
