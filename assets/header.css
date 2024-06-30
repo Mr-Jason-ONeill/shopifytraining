@@ -188,10 +188,6 @@ header {
     width: calc(100% - 50px);
   }
 
-  .search-button {
-    padding: 1rem 1.5rem;
-  }
-
   .amazon-header-right {
     justify-content: center;
     align-content: center;
