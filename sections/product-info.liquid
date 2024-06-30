@@ -44,15 +44,15 @@
     addToCartButton.addEventListener('click', function() {
       let quantity = parseInt(quantityInput.value, 10);
       if (quantity > 0) {
-        showAlert('Your items have been added to the cart');
+        showAlert('Your items have been added to the cart', 'success');
       } else {
-        showAlert('Items have been removed from the cart');
+        showAlert('Items have been removed from the cart', 'error');
       }
     });
 
-    function showAlert(message) {
+    function showAlert(message, type) {
       let alert = document.createElement('div');
-      alert.className = 'alert-message';
+      alert.className = `alert-message ${type}`;
       alert.textContent = message;
       document.body.appendChild(alert);
       alert.style.display = 'block';
@@ -64,6 +64,7 @@
     }
   });
 </script>
+
 
 {% schema %}
 {
