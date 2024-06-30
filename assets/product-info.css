@@ -15,6 +15,10 @@
   padding-top: 2rem;
 }
 
+.product-image img {
+  max-width: 500px;
+}
+
 .product-context-container {
   max-width: 500px;
   width: 100%;
