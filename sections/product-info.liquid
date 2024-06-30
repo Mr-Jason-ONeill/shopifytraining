@@ -1,8 +1,11 @@
 <div class="product-info-container">
   <div class="product-info-wrapper">
-    <div class="product-image">
-      {{ section.settings.productImage | image_url: width: 500 | image_tag }}
-    </div>
+  <div class="product-image">
+    {% for image in product.images %}
+      <img src="{{ image.src | image_url: width: 500, height: 500 | image_tag }}">
+    {% endfor %}
+  </div>
+
     <div class="product-context-container">
       <div class="product-context">
         <h2 class="product-title">{{ section.settings.productInfoTitle }}</h2>
