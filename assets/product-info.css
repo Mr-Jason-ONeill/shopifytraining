@@ -94,7 +94,7 @@
 
 /* Alert */
 .alert-message {
-  position: sticky;
+  position: fixed;
   top: 200px;
   right: 200px;
   background-color: #4caf50;
