@@ -95,8 +95,8 @@
 /* Alert */
 .alert-message {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 200px;
+  right: 200px;
   background-color: #4caf50;
   color: white;
   padding: 15px;
