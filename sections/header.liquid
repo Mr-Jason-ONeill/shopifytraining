@@ -10,44 +10,43 @@
 
         <div class="amazon-header-middle">
           <div class="container">
-  <div class="row">    
-   <div class="col-xs-8 col-xs-offset-2">
-    <div class="input-group">
-     <div class="input-group-btn search-panel">
-      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-        <span id="search_concept">All</span> <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu scrollable-dropdown" role="menu">
-        <li><a href="#">Automotive Accesories</a></li>
-        <li><a href="#">Cell Phone Accesories</a></li>
-        <li><a href="#">Computer Accesories</a></li>
-        <li><a href="#">Health and Personal Care</a></li>
-        <li><a href="#">Automotive Accesories</a></li>
-        <li><a href="#">Cell Phone Accesories</a></li>
-        <li><a href="#">Computer Accesories</a></li>
-        <li><a href="#">Health and Personal Care</a></li>
-        <li><a href="#">Automotive Accesories</a></li>
-        <li><a href="#">Cell Phone Accesories</a></li>
-        <li><a href="#">Computer Accesories</a></li>
-        <li><a href="#">Health and Personal Care</a></li>
-        <li><a href="#">Automotive Accesories</a></li>
-        <li><a href="#">Cell Phone Accesories</a></li>
-        <li><a href="#">Computer Accesories</a></li>
-        <li><a href="#">Health and Personal Care</a></li>
-      </ul>
-     </div>
-     <input type="hidden" name="search_param" value="all" id="search_param">
-     <input type="text" class="form-control" name="x" id="search" placeholder="Search">
-     <span class="input-group-btn">
-       <button class="btn btn-default" type="button">
-         <span class="glyphicon glyphicon-search"></span>
-       </button>
-   </span>
-    </div>
-   </div>
-  </div>
-</div>
-         
+            <div class="row">
+              <div class="col-xs-8 col-xs-offset-2">
+                <div class="input-group">
+                  <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                      <span id="search_concept">All</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu scrollable-dropdown" role="menu">
+                      <li><a href="#">Automotive Accesories</a></li>
+                      <li><a href="#">Cell Phone Accesories</a></li>
+                      <li><a href="#">Computer Accesories</a></li>
+                      <li><a href="#">Health and Personal Care</a></li>
+                      <li><a href="#">Automotive Accesories</a></li>
+                      <li><a href="#">Cell Phone Accesories</a></li>
+                      <li><a href="#">Computer Accesories</a></li>
+                      <li><a href="#">Health and Personal Care</a></li>
+                      <li><a href="#">Automotive Accesories</a></li>
+                      <li><a href="#">Cell Phone Accesories</a></li>
+                      <li><a href="#">Computer Accesories</a></li>
+                      <li><a href="#">Health and Personal Care</a></li>
+                      <li><a href="#">Automotive Accesories</a></li>
+                      <li><a href="#">Cell Phone Accesories</a></li>
+                      <li><a href="#">Computer Accesories</a></li>
+                      <li><a href="#">Health and Personal Care</a></li>
+                    </ul>
+                  </div>
+                  <input type="hidden" name="search_param" value="all" id="search_param">
+                  <input type="text" class="form-control" name="x" id="search" placeholder="Search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="amazon-header-right">
@@ -117,23 +116,23 @@
 </header>
 
 <script>
-  $(document).ready(function(e){
-        $('.search-panel .dropdown-menu').find('a').click(function(e) {
-        e.preventDefault();
-        var param = $(this).attr("href").replace("#","");
-        var concept = $(this).text();
-        $('.search-panel span#search_concept').text(concept);
-        $('.input-group #search_param').val(param);
-        });
-        });
-var a = document.getElementByTagName('a').item(0);
-$(a).on('keyup', function(evt){
-  console.log(evt);
-  if(evt.keycode === 13){
-    
-    alert('search?');
-  } 
-}); 
+    $(document).ready(function(e){
+          $('.search-panel .dropdown-menu').find('a').click(function(e) {
+          e.preventDefault();
+          var param = $(this).attr("href").replace("#","");
+          var concept = $(this).text();
+          $('.search-panel span#search_concept').text(concept);
+          $('.input-group #search_param').val(param);
+          });
+          });
+  var a = document.getElementByTagName('a').item(0);
+  $(a).on('keyup', function(evt){
+    console.log(evt);
+    if(evt.keycode === 13){
+
+      alert('search?');
+    }
+  });
 </script>
 
 {% schema %}
