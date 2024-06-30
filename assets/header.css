@@ -98,7 +98,6 @@ header {
     }
     .center-row {
       display: flex;
-      justify-content: center;
     }
     .main-column {
       flex: 0 0 66.6667%;
