@@ -177,6 +177,10 @@ header {
   content: "\1F50D"; /* Unicode character for magnifying glass */
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Media Queries */
 @media screen and (min-width: 20px) and (max-width: 768px) {
   .amazon-header {
