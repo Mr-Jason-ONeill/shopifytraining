@@ -89,7 +89,7 @@
 
 /* Alert */
 .alert-message {
-  /* position: fixed; */
+  position: static;
   top: 200px;
   right: 200px;
   background-color: #4caf50;
