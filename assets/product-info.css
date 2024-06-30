@@ -28,8 +28,6 @@
 }
 
 .product-context {
-  transform: translateY(100%);
-  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
