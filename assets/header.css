@@ -203,7 +203,7 @@ header {
   }
 
   .search_concept {
-    display: hidden;
+    visibility: hidden;
 }
 
   
