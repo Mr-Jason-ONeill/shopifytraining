@@ -92,10 +92,6 @@ header {
     white-space: nowrap;
 }
 
-
-
-
-
 .main-nav {
   padding: 1rem;
   gap: 2rem;
@@ -115,6 +111,100 @@ header {
   text-decoration: none;
   color: var(--primary-color);
 }
+
+/* Search Bar */
+.container{
+  margin-top:5%;
+}
+
+.scrollable-dropdown{
+    height: auto;
+    max-height:320px;
+    overflow-x: hidden;
+}
+
+ .container {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+    .col-xs-8 {
+      flex: 0 0 66.6667%;
+      max-width: 66.6667%;
+    }
+    .col-xs-offset-2 {
+      margin-left: 16.6667%;
+    }
+    .input-group {
+      display: flex;
+      width: 100%;
+    }
+    .search-panel {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .search-panel button {
+      background-color: #f8f8f8;
+      border: 1px solid #ccc;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+    .search-panel .caret {
+      margin-left: 5px;
+    }
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      display: block;
+      float: left;
+      min-width: 160px;
+      padding: 5px 0;
+      margin: 2px 0 0;
+      font-size: 14px;
+      color: #333;
+      text-align: left;
+      list-style: none;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0,0,0,.15);
+      border-radius: 4px;
+      box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    }
+    .search-panel button:hover + .dropdown-menu {
+      display: block;
+    }
+    .dropdown-menu li {
+      padding: 3px 20px;
+    }
+    .dropdown-menu li:hover {
+      background-color: #f5f5f5;
+    }
+    .form-control {
+      flex: 1;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .input-group-btn {
+      display: flex;
+    }
+    .input-group-btn button {
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-left: none;
+      cursor: pointer;
+    }
+    .glyphicon-search::before {
+      content: "\1F50D"; /* Unicode character for magnifying glass */
+    }
 
 /* Media Queries */
 @media screen and (min-width: 20px) and (max-width: 768px) {
