@@ -166,7 +166,8 @@ header {
       display: flex;
     }
     .search-button {
-      padding: 6px 12px;
+      transform: translateX(-25%);
+      padding: 4px 12px;
       border: 1px solid #ccc;
       border-left: none;
       cursor: pointer;
@@ -200,4 +201,10 @@ header {
   .login-button {
     visibility: hidden;
   }
+
+  #search_concept {
+    display: hidden;
+}
+
+  
 }
