@@ -1,16 +1,12 @@
 <div class="product-info-container">
   <div class="product-info-wrapper">
-  <div class="product-image">
-    {% for image in product.images %}
-      <img src="{{ image.src | image_url: width: 500, height: 500 | image_tag }}">
-    {% endfor %}
-  </div>
-
+    <div class="product-image">
+      {{ section.settings.productImage | image_url: width: 500 | image_tag }}
+    </div>
     <div class="product-context-container">
       <div class="product-context">
-        <h2 class="product-title">{{ product.title }}</h2>
-        <h4 class="product-info">{{ product.description }}</h4>
-        <p class="product-price">{{ product.price | money }}</p>
+        <h2 class="product-title">{{ section.settings.productInfoTitle }}</h2>
+        <h4 class="product-info">{{ section.settings.productInfo }}</h4>
         <div class="quantity-accordion">
           <button class="increment-btn">+</button>
           <input type="text" class="product-quantity" value="0">
