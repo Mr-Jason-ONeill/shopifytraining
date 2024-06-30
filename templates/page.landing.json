@@ -14,9 +14,22 @@
       "settings": {
         "headerLogo": "shopify:\/\/shop_images\/amazon-logo-white_c89d729a-37d0-4d01-ae01-5c195d48df91.png"
       }
+    },
+    "landing_rbqGD4": {
+      "type": "landing",
+      "settings": {
+        "landing": ""
+      }
+    },
+    "footer_qeAaeC": {
+      "type": "footer",
+      "settings": {
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "landing_rbqGD4",
+    "footer_qeAaeC"
   ]
 }
