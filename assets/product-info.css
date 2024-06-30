@@ -7,6 +7,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  position: relative;
 }
 
 .product-image {
@@ -16,7 +17,6 @@
 
 .product-context-container {
   max-width: 500px;
-  position: relative;
   width: 100%;
   display: flex;
   padding: 2rem;
