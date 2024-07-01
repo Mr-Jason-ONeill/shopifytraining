@@ -23,6 +23,13 @@
                       <li><a href="#">Computer Accessories</a></li>
                       <li><a href="#">Health and Personal Care</a></li>
                     </ul>
+                    <input type="hidden" name="search_param" value="all" id="search_param">
+                    <input type="text" class="search-input" name="x" id="search" placeholder="Search">
+                    <span class="button-wrapper">
+                      <button class="search-button" type="button">
+                        <span class="search-icon"></span>
+                      </button>
+                    </span>
                   </div>
                   <input type="hidden" name="search_param" value="all" id="search_param">
                   <input type="text" class="search-input" name="x" id="search" placeholder="Search">
@@ -102,25 +109,24 @@
       </ul>
     </div>
   </div>
-                
 </header>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const dropdownButton = document.querySelector('.dropdown-button');
-  const dropdownMenu = document.querySelector('.dropdown-menu');
+  document.addEventListener('DOMContentLoaded', function() {
+    const dropdownButton = document.querySelector('.dropdown-button');
+    const dropdownMenu = document.querySelector('.dropdown-menu');
 
-  dropdownButton.addEventListener('click', function() {
-    dropdownMenu.style.display = dropdownMenu.style.display === 'flex' ? 'none' : 'flex';
-  });
+    dropdownButton.addEventListener('click', function() {
+      dropdownMenu.style.display = dropdownMenu.style.display === 'flex' ? 'none' : 'flex';
+    });
 
-  // Optional: Close the dropdown if the user clicks outside of it
-  window.addEventListener('click', function(event) {
-    if (!dropdownButton.contains(event.target)) {
-      dropdownMenu.style.display = 'none';
-    }
+    // Optional: Close the dropdown if the user clicks outside of it
+    window.addEventListener('click', function(event) {
+      if (!dropdownButton.contains(event.target)) {
+        dropdownMenu.style.display = 'none';
+      }
+    });
   });
-});
 </script>
 
 {% schema %}
