@@ -117,12 +117,16 @@
     const dropdownMenu = document.querySelector('.dropdown-menu');
 
     dropdownButton.addEventListener('click', function() {
-      dropdownMenu.style.display = dropdownMenu.style.display === 'flex' ? 'none' : 'flex';
+      if (dropdownMenu.style.display === 'flex') {
+        dropdownMenu.style.display = 'none';
+      } else {
+        dropdownMenu.style.display = 'flex';
+      }
     });
 
     // Optional: Close the dropdown if the user clicks outside of it
     window.addEventListener('click', function(event) {
-      if (!dropdownButton.contains(event.target)) {
+      if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
         dropdownMenu.style.display = 'none';
       }
     });
