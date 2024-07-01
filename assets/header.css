@@ -163,6 +163,11 @@ header {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+.search-input:focus {
+  border: none;
+  outline: none;
+}
+
 .button-wrapper {
   display: flex;
 }
