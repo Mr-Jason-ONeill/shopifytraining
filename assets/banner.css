@@ -1,5 +1,5 @@
 .banner-container {
-  width: 100%
+  width: 100%;
 }
 
 .banner-wrapper {
@@ -11,4 +11,9 @@
 .banner-item {
   padding-top: 3rem;
   padding-bottom: 2rem;
+}
+
+.banner-item img {
+  height: auto;
+  max-width: 500px;
 }
