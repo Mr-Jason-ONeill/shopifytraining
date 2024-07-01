@@ -130,12 +130,12 @@ header {
 }
 
 .dropdown-menu {
-  display: none;
+  display: none; /* Ensure menu is hidden by default */
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 2;
-  min-width: 160px;
+  z-index: 1000;
+  min-width: 100%;
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
@@ -148,8 +148,7 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  display: flex;
-  flex-direction: row; 
+  flex-direction: row; /* Prepare for flex layout */
 }
 
 .dropdown-menu li {
@@ -164,6 +163,7 @@ header {
 .dropdown-menu li a:hover {
   background-color: #f1f1f1;
 }
+
 .search-input {
   flex: 1;
   padding: 6px 12px;
