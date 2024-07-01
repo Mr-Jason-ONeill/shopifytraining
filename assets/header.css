@@ -186,6 +186,11 @@ a {
   text-decoration: none;
 }
 
+.a-signup {
+  display: flex;
+  align-items: center;
+}
+
 /* Media Queries */
 @media screen and (min-width: 20px) and (max-width: 768px) {
   .amazon-header {
