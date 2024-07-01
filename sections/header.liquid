@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const dropdownMenu = document.querySelector('.dropdown-menu');
 
   dropdownButton.addEventListener('click', function() {
-    dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+    dropdownMenu.style.display = dropdownMenu.style.display === 'flex' ? 'none' : 'flex';
   });
 
   // Optional: Close the dropdown if the user clicks outside of it
@@ -121,7 +121,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-
 </script>
 
 {% schema %}
