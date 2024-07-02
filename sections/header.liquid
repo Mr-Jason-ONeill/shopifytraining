@@ -96,6 +96,62 @@
     });
   });
 </script>
+<script>
+  // script.js
+
+// This event listener waits for the DOM content to be fully loaded before running the function
+document.addEventListener('DOMContentLoaded', function() {
+  // Select the cart thumbnail element using its ID
+  const cartThumbnail = document.getElementById('cart-thumbnail');
+  // Select the cart button element
+  const cartButton = document.querySelector('.icon-button');
+
+  // Example cart items, typically these would be fetched from a backend or stored in local storage
+  const cartItems = [
+    { name: 'Item 1', price: 10, quantity: 1, image: 'item1.jpg' },
+    { name: 'Item 2', price: 15, quantity: 2, image: 'item2.jpg' }
+  ];
+
+  // Function to generate the cart thumbnail content
+  function generateCartThumbnail() {
+    // Initialize total cost of items in the cart
+    let total = 0;
+    // Create a <ul> element to contain the list of cart items
+    const ul = document.createElement('ul');
+
+    // Loop through each item in the cartItems array
+    cartItems.forEach(item => {
+      // Calculate the total price by adding the cost of each item (price * quantity)
+      total += item.price * item.quantity;
+      // Create a <li> element for each item in the cart
+      const li = document.createElement('li');
+      // Set the inner HTML of the <li> to include the item's image, name, price, and quantity
+      li.innerHTML = `
+        <img src="${item.image}" alt="${item.name}" style="width: 30px; height: 30px;">
+        ${item.name} - $${item.price} x ${item.quantity}
+      `;
+      // Append the <li> element to the <ul>
+      ul.appendChild(li);
+    });
+
+    // Create a <p> element to display the total cost
+    const totalElement = document.createElement('p');
+    // Set the text of the <p> element to show the total price
+    totalElement.innerText = `Total: $${total}`;
+
+    // Clear the existing content of the cart-thumbnail element
+    cartThumbnail.innerHTML = '';
+
+    // Append the <ul> and <p> (total) elements to the cart-thumbnail
+    cartThumbnail.appendChild(ul);
+    cartThumbnail.appendChild(totalElement);
+  }
+
+  // Generate the cart thumbnail content when the page loads
+  generateCartThumbnail();
+});
+
+</script>
 
 {% schema %}
 {
