@@ -45,6 +45,32 @@ header {
   align-content: center;
   flex-wrap: wrap;
 }
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button:focus {
+  outline: none;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button .icon {
+  width: 50px;
+  height: auto;
+}
+
+.icon-button .icon svg {
+  fill: var(--primary-color);
+}
 
 .login-button {
   background-image: linear-gradient(#ebeb28, #ff5b02);
@@ -148,7 +174,7 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  flex-direction: row; 
+  flex-direction: row;
 }
 
 .dropdown-menu li {
