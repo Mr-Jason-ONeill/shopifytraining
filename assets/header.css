@@ -130,7 +130,7 @@ header {
 }
 
 .dropdown-menu {
-  display: none; /* Ensure menu is hidden by default */
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -147,7 +147,7 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  flex-direction: row; /* Prepare for flex layout */
+  flex-direction: row; 
 }
 
 .dropdown-menu li {
