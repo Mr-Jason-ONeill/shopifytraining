@@ -68,10 +68,10 @@
 
 .atc-button {
   border: none;
-  border-radius: 6px;
 }
 
 .atc-link {
+  border-radius: 6px;
   padding-left: 1rem;
   padding-right: 1rem;
   cursor: pointer;
