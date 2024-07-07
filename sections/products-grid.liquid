@@ -1,96 +1,107 @@
-  <div class="product-grid-container">
-    <div class="product-grid-wrapper">
-      <div class="product-grid-content">
-        <div class="grid">
-          <span class="grid-slot">
-            <div class="grid-image">
-              {{ section.settings.grid | image_url: width: 250, height: 250 | image_tag }} 
-            </div>
+<div class="product-grid-container">
+  <div class="product-grid-wrapper">
+    <div class="product-grid-content">
+      <div class="grid">
+        <span class="grid-slot">
+          {% if section.settings.products %}
+            {% assign product = all_products[section.settings.products] %}
+            {% if product %}
+              <div class="grid-image">
+                {{ product.featured_image | image_url: width: 500 | image_tag }}
+              </div>
+            {% else %}
+              <p>Selected product not found.</p>
+            {% endif %}
+          {% else %}
+            <p>No product selected.</p>
+          {% endif %}
+          <!-- <div class="grid-image">
+            {{ section.settings.grid | image_url: width: 250, height: 250 | image_tag }}
+          </div> -->
           <div class="grid-details">
-              <h3 class="grid-title">Great Product of something</h3>
-              <div class="grid-description">
-                <p>Product information section</p>
-              </div>
-              <button class="grid-link-button">
-                  <a href="/pages/products" class="grid-link">View Product</a>
-              </button>
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
             </div>
-          </span>
-          <span class="grid-slot">
-            <div class="grid-image">
-              {{ section.settings.grid2 | image_url: width: 250, height: 250 | image_tag }} 
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid2 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
             </div>
-            <div class="grid-details">
-              <h3 class="grid-title">Great Product of something</h3>
-              <div class="grid-description">
-                <p>Product information section</p>
-              </div>
-              <button class="grid-link-button">
-                  <a href="/pages/products" class="grid-link">View Product</a>
-              </button>
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid3 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
             </div>
-          </span>
-          <span class="grid-slot">
-            <div class="grid-image">
-              {{ section.settings.grid3 | image_url: width: 250, height: 250 | image_tag }} 
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid4 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
             </div>
-            <div class="grid-details">
-              <h3 class="grid-title">Great Product of something</h3>
-              <div class="grid-description">
-                <p>Product information section</p>
-              </div>
-              <button class="grid-link-button">
-                  <a href="/pages/products" class="grid-link">View Product</a>
-              </button>
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid5 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
             </div>
-          </span>
-          <span class="grid-slot">
-            <div class="grid-image">
-              {{ section.settings.grid4 | image_url: width: 250, height: 250 | image_tag }} 
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid6 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
             </div>
-            <div class="grid-details">
-              <h3 class="grid-title">Great Product of something</h3>
-              <div class="grid-description">
-                <p>Product information section</p>
-              </div>
-                <button class="grid-link-button">
-                  <a href="/pages/products" class="grid-link">View Product</a>
-                </button>
-            </div>
-          </span>
-          <span class="grid-slot">
-            <div class="grid-image">
-              {{ section.settings.grid5 | image_url: width: 250, height: 250 | image_tag }} 
-            </div>
-            <div class="grid-details">
-              <h3 class="grid-title">Great Product of something</h3>
-              <div class="grid-description">
-                <p>Product information section</p>
-              </div>
-                <button class="grid-link-button">
-                  <a href="/pages/products" class="grid-link">View Product</a>
-                </button>
-            </div>
-          </span>
-          <span class="grid-slot">
-            <div class="grid-image">
-              {{ section.settings.grid6 | image_url: width: 250, height: 250 | image_tag }} 
-            </div>
-            <div class="grid-details">
-              <h3 class="grid-title">Great Product of something</h3>
-              <div class="grid-description">
-                <p>Product information section</p>
-              </div>
-                <button class="grid-link-button">
-                  <a href="/pages/products" class="grid-link">View Product</a>
-                </button>
-            </div>
-          </span>
-        </div>
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
       </div>
     </div>
   </div>
-
+</div>
 
 {% schema %}
 {
