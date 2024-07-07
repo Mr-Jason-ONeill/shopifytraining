@@ -68,6 +68,7 @@
 
 .atc-button {
   border: none;
+  border-radius: 6px;
 }
 
 .atc-link {
