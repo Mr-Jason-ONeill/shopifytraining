@@ -7,7 +7,7 @@
             {% assign product = all_products[section.settings.products] %}
             {% if product %}
               <div class="grid-image">
-                {{ product.featured_image | image_url: width: 500 | image_tag }}
+                {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
               </div>
             {% else %}
               <p>Selected product not found.</p>
