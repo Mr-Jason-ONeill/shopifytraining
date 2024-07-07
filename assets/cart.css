@@ -21,27 +21,27 @@
 }
 .checkout-button {
   display: inline-block;
-    background-image: linear-gradient(#ebeb28, #ff5b02);
-    border: 1px solid #e55c12;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    direction: ltr;
-    display: block;
-    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    letter-spacing: -.022em;
-    line-height: 1.47059;
-    min-width: 30px;
-    overflow: visible;
-    padding: 4px 15px;
-    text-align: center;
-    vertical-align: baseline;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-}
+  background-image: linear-gradient(#ebeb28, #ff5b02);
+  border: 1px solid #e55c12;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
 }
