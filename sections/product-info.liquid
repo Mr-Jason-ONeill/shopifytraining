@@ -1,7 +1,7 @@
 <div class="product-info-container">
   <div class="product-info-wrapper">
-    {% if section.settings.featured_product %}
-      {% assign product = all_products[section.settings.featured_product] %}
+    {% if section.settings.products %}
+      {% assign product = all_products[section.settings.products] %}
       {% if product %}
         <div class="product-image">
           {{ product.featured_image | image_url: width: 500 | image_tag }}
@@ -86,7 +86,7 @@
   "settings": [
 {
     "type": "product",
-    "id": "featured_product",
+    "id": "products",
     "label": "product"
   }
   ]
