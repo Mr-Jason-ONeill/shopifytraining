@@ -43,12 +43,12 @@
     "products_grid_aT8VHy": {
       "type": "products-grid",
       "settings": {
-        "featured_product_1": "",
-        "featured_product_2": "",
-        "featured_product_3": "",
-        "featured_product_4": "",
-        "featured_product_5": "",
-        "featured_product_6": ""
+        "featured_product_1": "vehicle-cleaning",
+        "featured_product_2": "mobile",
+        "featured_product_3": "computer",
+        "featured_product_4": "bbq-grill",
+        "featured_product_5": "demon-slayer-toy",
+        "featured_product_6": "mobile"
       }
     },
     "signin": {
