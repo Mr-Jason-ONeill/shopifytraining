@@ -2,33 +2,104 @@
   <div class="product-grid-wrapper">
     <div class="product-grid-content">
       <div class="grid">
-        {% for i in (1..6) %}
-          <span class="grid-slot">
-            {% assign product_handle_key = 'featured_product_' | append: i %}
-            {% assign product_handle = section.settings[product_handle_key] %}
-            {% if product_handle %}
-              {% assign product = all_products[product_handle] %}
-              {% if product %}
-                <div class="grid-image">
-                  {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
-                </div>
-                <div class="grid-details">
-                  <h3 class="grid-title">{{ product.title }}</h3>
-                  <div class="grid-description">
-                    <p>{{ product.description | strip_html | truncate: 100 }}</p>
-                  </div>
-                  <button class="grid-link-button">
-                    <a href="{{ product.url }}" class="grid-link">View Product</a>
-                  </button>
-                </div>
-              {% else %}
-                <p>Selected product not found.</p>
-              {% endif %}
+        <span class="grid-slot">
+          {% if section.settings.featured_products %}
+            {% assign product = all_products[section.settings.featured_products] %}
+            {% if product %}
+              <div class="grid-image">
+                {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+              </div>
             {% else %}
-              <p>No product selected.</p>
+              <p>Selected product not found.</p>
             {% endif %}
-          </span>
-        {% endfor %}
+          {% else %}
+            <p>No product selected.</p>
+          {% endif %}
+          <!--
+            <div class="grid-image">
+              {{ section.settings.grid | image_url: width: 250, height: 250 | image_tag }}
+            </div>
+          -->
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
+            </div>
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid2 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
+            </div>
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid3 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
+            </div>
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid4 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
+            </div>
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid5 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
+            </div>
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
+        <span class="grid-slot">
+          <div class="grid-image">
+            {{ section.settings.grid6 | image_url: width: 250, height: 250 | image_tag }}
+          </div>
+          <div class="grid-details">
+            <h3 class="grid-title">Great Product of something</h3>
+            <div class="grid-description">
+              <p>Product information section</p>
+            </div>
+            <button class="grid-link-button">
+              <a href="/pages/products" class="grid-link">View Product</a>
+            </button>
+          </div>
+        </span>
       </div>
     </div>
   </div>
@@ -37,43 +108,41 @@
 {% schema %}
 {
   "name": "product-grid",
-  "settings": [
-    {
-      "type": "product",
-      "id": "featured_product_1",
-      "label": "Featured Product 1"
-    },
-    {
-      "type": "product",
-      "id": "featured_product_2",
-      "label": "Featured Product 2"
-    },
-    {
-      "type": "product",
-      "id": "featured_product_3",
-      "label": "Featured Product 3"
-    },
-    {
-      "type": "product",
-      "id": "featured_product_4",
-      "label": "Featured Product 4"
-    },
-    {
-      "type": "product",
-      "id": "featured_product_5",
-      "label": "Featured Product 5"
-    },
-    {
-      "type": "product",
-      "id": "featured_product_6",
-      "label": "Featured Product 6"
-    }
-  ],
   "presets": [
     {
       "name": "product-grid"
     }
+  ],
+  "settings": [
+    {
+    "type": "product",
+    "id": "featured_products",
+    "label": "product"
+  }, {
+      "type": "image_picker",
+      "id": "grid",
+      "label": "Image 1 for the Product Grid"
+    }, {
+      "type": "image_picker",
+      "id": "grid2",
+      "label": "Image 2 for the Product Grid"
+    }, {
+      "type": "image_picker",
+      "id": "grid3",
+      "label": "Image 3 for the Product Grid"
+    }, {
+      "type": "image_picker",
+      "id": "grid4",
+      "label": "Image 4 for the Product Grid"
+    }, {
+      "type": "image_picker",
+      "id": "grid5",
+      "label": "Image 5 for the Product Grid"
+    }, {
+      "type": "image_picker",
+      "id": "grid6",
+      "label": "Image 6 for the Product Grid"
+    }
   ]
 }
-
 {% endschema %}
