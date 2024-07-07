@@ -3,8 +3,8 @@
     <div class="product-grid-content">
       <div class="grid">
         <span class="grid-slot">
-          {% if section.settings.products %}
-            {% assign product = all_products[section.settings.products] %}
+          {% if section.settings.featured_products %}
+            {% assign product = all_products[section.settings.featured_products] %}
             {% if product %}
               <div class="grid-image">
                 {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
@@ -15,9 +15,11 @@
           {% else %}
             <p>No product selected.</p>
           {% endif %}
-          <!-- <div class="grid-image">
-            {{ section.settings.grid | image_url: width: 250, height: 250 | image_tag }}
-          </div> -->
+          <!--
+            <div class="grid-image">
+              {{ section.settings.grid | image_url: width: 250, height: 250 | image_tag }}
+            </div>
+          -->
           <div class="grid-details">
             <h3 class="grid-title">Great Product of something</h3>
             <div class="grid-description">
@@ -113,6 +115,10 @@
   ],
   "settings": [
     {
+    "type": "product",
+    "id": "featured_products",
+    "label": "product"
+  }, {
       "type": "image_picker",
       "id": "grid",
       "label": "Image 1 for the Product Grid"
