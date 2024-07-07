@@ -26,12 +26,12 @@
     "products_grid_ddhpze": {
       "type": "products-grid",
       "settings": {
-        "featured_products": "bbq-grill",
-        "grid2": "shopify:\/\/shop_images\/book.jpg",
-        "grid3": "shopify:\/\/shop_images\/car.jpg",
-        "grid4": "shopify:\/\/shop_images\/toy.jpg",
-        "grid5": "shopify:\/\/shop_images\/iphone.jpg",
-        "grid6": "shopify:\/\/shop_images\/computer.jpg"
+        "featured_product_1": "bbq-grill",
+        "featured_product_2": "books",
+        "featured_product_3": "computer",
+        "featured_product_4": "demon-slayer-toy",
+        "featured_product_5": "luxury-watch",
+        "featured_product_6": "mobile"
       }
     },
     "banner_4PyMb3": {
@@ -43,13 +43,12 @@
     "products_grid_aT8VHy": {
       "type": "products-grid",
       "settings": {
-        "featured_products": "",
-        "grid": "shopify:\/\/shop_images\/watch1.jpg",
-        "grid2": "shopify:\/\/shop_images\/watch4.jpg",
-        "grid3": "shopify:\/\/shop_images\/watch2_dcce69a8-acd6-4631-a107-27bfe3693d0b.jpg",
-        "grid4": "shopify:\/\/shop_images\/watch3.jpg",
-        "grid5": "shopify:\/\/shop_images\/train.jpg",
-        "grid6": "shopify:\/\/shop_images\/Avatar.png"
+        "featured_product_1": "",
+        "featured_product_2": "",
+        "featured_product_3": "",
+        "featured_product_4": "",
+        "featured_product_5": "",
+        "featured_product_6": ""
       }
     },
     "signin": {
