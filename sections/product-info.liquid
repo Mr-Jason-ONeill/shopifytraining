@@ -1,8 +1,23 @@
 <div class="product-info-container">
   <div class="product-info-wrapper">
-    <div class="product-image">
-      {{ section.settings.productImage | image_url: width: 500 | image_tag }}
-    </div>
+    {% if section.settings.featured_product %}
+      {% assign product = all_products[section.settings.featured_product] %}
+      {% if product %}
+        <div class="product-image">
+          {{ product.featured_image | image_url: width: 500 | image_tag }}
+        </div>
+      {% else %}
+        <p>Selected product not found.</p>
+      {% endif %}
+    {% else %}
+      <p>No product selected.</p>
+    {% endif %}
+
+    <!--
+      <div class="product-image">
+       {{ section.settings.productImage | image_url: width: 500 | image_tag }}
+      </div>
+    -->
     <div class="product-context-container">
       <div class="product-context">
         <h2 class="product-title">{{ section.settings.productInfoTitle }}</h2>
@@ -64,7 +79,6 @@
     }
   });
 </script>
-
 
 {% schema %}
 {
