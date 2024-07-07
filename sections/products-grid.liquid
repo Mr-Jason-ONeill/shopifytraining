@@ -26,70 +26,110 @@
             </button>
           </div>
         </span>
-        <span class="grid-slot">
-          <div class="grid-image">
-            {{ section.settings.grid2 | image_url: width: 250, height: 250 | image_tag }}
-          </div>
+         <span class="grid-slot">
+          {% if section.settings.featured_products %}
+            {% if product %}
+              <div class="grid-image">
+                {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+              </div>
+            {% else %}
+              <p>Selected product not found.</p>
+            {% endif %}
+          {% else %}
+            <p>No product selected.</p>
+          {% endif %}
           <div class="grid-details">
-            <h3 class="grid-title">Great Product of something</h3>
+            <h3 class="grid-title">{{ product.title }}</h3>
             <div class="grid-description">
-              <p>Product information section</p>
+              <p>{{ product.description }}</p>
             </div>
             <button class="grid-link-button">
               <a href="/pages/products" class="grid-link">View Product</a>
             </button>
           </div>
         </span>
-        <span class="grid-slot">
-          <div class="grid-image">
-            {{ section.settings.grid3 | image_url: width: 250, height: 250 | image_tag }}
-          </div>
+         <span class="grid-slot">
+          {% if section.settings.featured_products %}
+            {% if product %}
+              <div class="grid-image">
+                {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+              </div>
+            {% else %}
+              <p>Selected product not found.</p>
+            {% endif %}
+          {% else %}
+            <p>No product selected.</p>
+          {% endif %}
           <div class="grid-details">
-            <h3 class="grid-title">Great Product of something</h3>
+            <h3 class="grid-title">{{ product.title }}</h3>
             <div class="grid-description">
-              <p>Product information section</p>
+              <p>{{ product.description }}</p>
             </div>
             <button class="grid-link-button">
               <a href="/pages/products" class="grid-link">View Product</a>
             </button>
           </div>
         </span>
-        <span class="grid-slot">
-          <div class="grid-image">
-            {{ section.settings.grid4 | image_url: width: 250, height: 250 | image_tag }}
-          </div>
+         <span class="grid-slot">
+          {% if section.settings.featured_products %}
+            {% if product %}
+              <div class="grid-image">
+                {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+              </div>
+            {% else %}
+              <p>Selected product not found.</p>
+            {% endif %}
+          {% else %}
+            <p>No product selected.</p>
+          {% endif %}
           <div class="grid-details">
-            <h3 class="grid-title">Great Product of something</h3>
+            <h3 class="grid-title">{{ product.title }}</h3>
             <div class="grid-description">
-              <p>Product information section</p>
+              <p>{{ product.description }}</p>
             </div>
             <button class="grid-link-button">
               <a href="/pages/products" class="grid-link">View Product</a>
             </button>
           </div>
         </span>
-        <span class="grid-slot">
-          <div class="grid-image">
-            {{ section.settings.grid5 | image_url: width: 250, height: 250 | image_tag }}
-          </div>
+         <span class="grid-slot">
+          {% if section.settings.featured_products %}
+            {% if product %}
+              <div class="grid-image">
+                {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+              </div>
+            {% else %}
+              <p>Selected product not found.</p>
+            {% endif %}
+          {% else %}
+            <p>No product selected.</p>
+          {% endif %}
           <div class="grid-details">
-            <h3 class="grid-title">Great Product of something</h3>
+            <h3 class="grid-title">{{ product.title }}</h3>
             <div class="grid-description">
-              <p>Product information section</p>
+              <p>{{ product.description }}</p>
             </div>
             <button class="grid-link-button">
               <a href="/pages/products" class="grid-link">View Product</a>
             </button>
           </div>
         </span>
-        <span class="grid-slot">
-          <div class="grid-image">
-            {{ section.settings.grid6 | image_url: width: 250, height: 250 | image_tag }}
-          </div>
+         <span class="grid-slot">
+          {% if section.settings.featured_products %}
+            {% if product %}
+              <div class="grid-image">
+                {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+              </div>
+            {% else %}
+              <p>Selected product not found.</p>
+            {% endif %}
+          {% else %}
+            <p>No product selected.</p>
+          {% endif %}
           <div class="grid-details">
-            <h3 class="grid-title">Great Product of something</h3>
+            <h3 class="grid-title">{{ product.title }}</h3>
             <div class="grid-description">
-              <p>Product information section</p>
+              <p>{{ product.description }}</p>
             </div>
             <button class="grid-link-button">
               <a href="/pages/products" class="grid-link">View Product</a>
