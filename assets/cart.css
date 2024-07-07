@@ -45,3 +45,7 @@
   touch-action: manipulation;
   white-space: nowrap;
 }
+
+.cart-checkout {
+  padding-top: 2rem;
+}
