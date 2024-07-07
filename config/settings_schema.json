@@ -4,8 +4,8 @@
     "settings": [
       {
         "type": "product",
-        "id": "products",
-        "label": "Product"
+        "id": "featured_product",
+        "label": "Featured Product"
       }
     ]
   }
