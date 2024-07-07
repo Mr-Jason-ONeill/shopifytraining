@@ -13,11 +13,6 @@
       <p>No product selected.</p>
     {% endif %}
 
-    <!--
-      <div class="product-image">
-       {{ section.settings.productImage | image_url: width: 500 | image_tag }}
-      </div>
-    -->
     <div class="product-context-container">
       <div class="product-context">
         <h2 class="product-title">{{ section.settings.productInfoTitle }}</h2>
@@ -97,10 +92,6 @@
     "type": "textarea",
     "id": "productInfo",
     "label": "Additional Information About the Product"
-  }, {
-    "type": "image_picker",
-    "id": "productImage",
-    "label": "Product Image"
   }, {
     "type": "product",
     "id": "featured_product",
