@@ -18,11 +18,11 @@
 </div>
 
 {% if section.settings.heroProductGrid %}
-  <div class="product-grid-container">
-    <div class="product-grid-wrapper">
-      <div class="product-grid-content">
+  <div class="hero-grid-container">
+    <div class="hero-grid-wrapper">
+      <div class="hero-grid-content">
         <div class="grid">
-          {% for i in (1..6) %}
+          {% for i in (1..3) %}
             <span class="grid-slot">
               {% assign product_handle_key = 'featured_product_' | append: i %}
               {% assign product_handle = section.settings[product_handle_key] %}
