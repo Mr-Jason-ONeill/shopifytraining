@@ -17,11 +17,6 @@
       <div class="product-context">
         <h2 class="product-title">{{ product.title }}</h2>
         <h4 class="product-info">{{ product.description }}</h4>
-        <div class="quantity-accordion">
-          <button class="increment-btn">+</button>
-          <input type="text" class="product-quantity" value="0">
-          <button class="decrement-btn">-</button>
-        </div>
         <div class="variant-list">
           {% form 'product', product %}
             <select name="id">
@@ -32,6 +27,11 @@
               {% endfor %}
             </select>
           {% endform %}
+        </div>
+        <div class="quantity-accordion">
+          <button class="increment-btn">+</button>
+          <input type="text" class="product-quantity" value="0">
+          <button class="decrement-btn">-</button>
         </div>
         <button class="atc-button">
           <a href="#" class="atc-link">Add To Cart</a>
