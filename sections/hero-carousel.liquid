@@ -1,4 +1,38 @@
 <div class="hero-carousel-container">
+  {% if section.settings.heroProductGrid %}
+    <div class="featured-grid-container">
+      <div class="featured-grid-wrapper">
+        <div class="featured-grid-content">
+          <div class="grid">
+            {% for i in (1..3) %}
+              <span class="fproduct-grid-slot">
+                {% assign product_handle_key = 'featured_product_' | append: i %}
+                {% assign product_handle = section.settings[product_handle_key] %}
+                {% if product_handle %}
+                  {% assign product = all_products[product_handle] %}
+                  {% if product %}
+                    <div class="grid-image">
+                      {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+                    </div>
+                    <div class="grid-details">
+                      <h3 class="grid-title">{{ product.title }}</h3>
+                      <div class="grid-description">
+                        <p>{{ product.description | strip_html | truncate: 100 }}</p>
+                      </div>
+                      <button class="grid-link-button">
+                        <a href="/pages/products" class="grid-link">View Product</a>
+                      </button>
+                    </div>
+                  {% endif %}
+                {% endif %}
+              </span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <!-- Slides -->
@@ -16,40 +50,6 @@
     <div class="swiper-pagination"></div>
   </div>
 </div>
-
-{% if section.settings.heroProductGrid %}
-  <div class="featured-grid-container">
-    <div class="featured-grid-wrapper">
-      <div class="featured-grid-content">
-        <div class="grid">
-          {% for i in (1..3) %}
-            <span class="fproduct-grid-slot">
-              {% assign product_handle_key = 'featured_product_' | append: i %}
-              {% assign product_handle = section.settings[product_handle_key] %}
-              {% if product_handle %}
-                {% assign product = all_products[product_handle] %}
-                {% if product %}
-                  <div class="grid-image">
-                    {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
-                  </div>
-                  <div class="grid-details">
-                    <h3 class="grid-title">{{ product.title }}</h3>
-                    <div class="grid-description">
-                      <p>{{ product.description | strip_html | truncate: 100 }}</p>
-                    </div>
-                    <button class="grid-link-button">
-                      <a href="/pages/products" class="grid-link">View Product</a>
-                    </button>
-                  </div>
-                {% endif %}
-              {% endif %}
-            </span>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-{% endif %}
 
 <!-- Scripts -->
 <!-- Swiper JS -->
