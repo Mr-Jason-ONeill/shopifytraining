@@ -13,6 +13,16 @@
       <p>No product selected.</p>
     {% endif %}
 
+    {% form 'product', product %}
+      <select name="id">
+        {% for variant in product.variants %}
+          <option value="{{ variant.id }}">
+            {{ variant.title }}
+          </option>
+        {% endfor %}
+      </select>
+    {% endform %}
+
     <div class="product-context-container">
       <div class="product-context">
         <h2 class="product-title">{{ product.title }}</h2>
