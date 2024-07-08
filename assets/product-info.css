@@ -52,6 +52,11 @@
   padding-top: 2rem;
 }
 
+.variant-list {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 /* Accordion */ 
 .quantity-accordion {
   display: flex;
@@ -63,6 +68,8 @@
   align-content: center;
   flex-wrap: wrap;
 }
+
+
 
 /* Add To Cart Button */
 
