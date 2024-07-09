@@ -21,7 +21,7 @@
         "hero": "shopify:\/\/shop_images\/gaming_4f71d4f3-6485-4f89-91a9-bf538c5c14f8.jpg",
         "hero2": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset_559b3718-7b42-4f38-8d24-130cb113e836.jpg",
         "hero3": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog_4c3b1ea4-9368-47a4-bb50-a3368524c6f9.jpg",
-        "heroProductGrid": true,
+        "heroProductGrid": false,
         "featured_product_1": "",
         "featured_product_2": "",
         "featured_product_3": ""
