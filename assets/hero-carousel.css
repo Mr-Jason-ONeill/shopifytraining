@@ -29,30 +29,3 @@
   background-size: cover;
   background-position: center;
 }
-
-.featured-grid-container {
-  width: 100%;
-}
-
-.featured-grid-wrapper {
-  padding: 12px;
-}
-
-.featured-grid-content {
-  display: flex;
-  justify-content: center;
-}
-
-.fgrid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.fproduct-grid-slot {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
