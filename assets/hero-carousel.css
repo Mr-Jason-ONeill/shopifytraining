@@ -45,6 +45,13 @@
   margin: -12px;
 }
 
+.fgrid {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .fproduct-grid-slot {
   padding: 1rem;
   flex: 1 1 100%;
