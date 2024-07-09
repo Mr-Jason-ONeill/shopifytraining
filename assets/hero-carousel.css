@@ -45,8 +45,6 @@
 
 .fgrid {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .fproduct-grid-slot {
