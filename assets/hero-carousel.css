@@ -29,3 +29,18 @@
   background-size: cover;
   background-position: center;
 }
+
+.featured-grid-container {
+  width: 100%;
+}
+
+.featured-grid-wrapper {
+  padding: 12px;
+}
+
+.featured-grid-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: -12px;
+}
