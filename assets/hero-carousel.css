@@ -44,3 +44,8 @@
   flex-wrap: wrap;
   margin: -12px;
 }
+
+.fproduct-grid-slot {
+  padding: 1rem;
+  flex: 1 1 100%;
+}
