@@ -45,6 +45,8 @@
 
 .fgrid {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fproduct-grid-slot {
