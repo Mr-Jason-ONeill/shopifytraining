@@ -31,15 +31,6 @@
                     <div class="grid-image">
                       {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
                     </div>
-                    <div class="grid-details">
-                      <h3 class="grid-title">{{ product.title }}</h3>
-                      <div class="grid-description">
-                        <p>{{ product.description | strip_html | truncate: 100 }}</p>
-                      </div>
-                      <button class="grid-link-button">
-                        <a href="/pages/products" class="grid-link">View Product</a>
-                      </button>
-                    </div>
                   {% endif %}
                 {% endif %}
               </span>
@@ -52,26 +43,25 @@
 </div>
 
 <style>
-.hero-carousel-container {
-  position: relative;
-}
+  .hero-carousel-container {
+    position: relative;
+  }
 
-{% if section.settings.heroProductGrid %}
-.product-grid-container.featured-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-{% endif %}
+  {% if section.settings.heroProductGrid %}
+  .product-grid-container.featured-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  {% endif %}
 </style>
-
 
 <!-- Scripts -->
 <!-- Swiper JS -->
