@@ -30,6 +30,6 @@
   background-position: center;
 }
 
-.grid-image featured-image img {
+#featured-image img {
   border-radius: 10px;
 }

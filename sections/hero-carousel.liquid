@@ -28,7 +28,7 @@
                 {% if product_handle %}
                   {% assign product = all_products[product_handle] %}
                   {% if product %}
-                    <div class="grid-image featured-image">
+                    <div class="grid-image" id="featured-image">
                       {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
                     </div>
                   {% endif %}
