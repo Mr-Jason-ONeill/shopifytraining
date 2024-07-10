@@ -32,4 +32,6 @@
 
 #featured-image img {
   border-radius: 10px;
+  max-width: 275px;
+  object-fit: ;
 }
